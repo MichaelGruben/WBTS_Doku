@@ -1,0 +1,120 @@
+%%**************************************************************
+%% Vorlage fuer Bachelorarbeiten (o.ä.) der DHBW
+%%
+%% Autor: Tobias Dreher, Yves Fischer
+%% Datum: 06.07.2011
+%%**************************************************************
+
+\newcommand{\pdftitel}{Entwicklung eines Web Based Training Systems nach einem Lernmodell}
+\newcommand{\autor}{Michael Gruben \& Julian Babics \& Benjamin Merkle}
+\newcommand{\arbeit}{Studienarbeit}
+
+\input{ads/header} 
+
+% Ab jetzt können auch Umlaute verwendet werden
+\newcommand{\titel}{\pdftitel}
+\newcommand{\martrikelnr}{2788654}
+\newcommand{\kurs}{TAI10B1}
+\newcommand{\datumAbgabe}{Mai 2013}
+\newcommand{\firma}{M+M, Medical Solutions, SAP AG}
+\newcommand{\firmenort}{Pforzheim, Karlsruhe, Roth}
+\newcommand{\abgabeort}{Karlsruhe}
+\newcommand{\abschluss}{Bachelor of Science}
+\newcommand{\studiengang}{Studienganges Angewandte Informatik}
+\newcommand{\dhbw}{Karlsruhe}
+\newcommand{\betreuer}{Prof. Dr. Johannes Freudenmann}
+\newcommand{\gutachter}{Dr. Kay Margareth Berkling}
+\newcommand{\zeitraum}{2,5 Monate}
+\newcommand{\arbeitsart}{\arbeit}
+
+\makeglossaries
+\input{ads/glossary}
+
+\begin{document}
+
+	% Deckblatt
+	\begin{spacing}{1}
+		\input{ads/deckblatt}
+	\end{spacing}
+	\newpage
+
+\renewcommand{\thepage}{\Roman{page}}
+	\setcounter{page}{1}
+	
+	% Sperrvermerk
+% 	\input{ads/sperrvermerk}
+% 	\newpage
+	
+	% Erklärung
+	\input{ads/erklaerung}
+	\newpage
+
+	% Abstract
+	\input{ads/abstract}
+	\newpage
+
+	\pagestyle{plain}
+
+	% Inhaltsverzeichnis
+	\begin{spacing}{1.1}
+		\setcounter{tocdepth}{1}
+		\tableofcontents
+	\end{spacing}
+	\newpage
+
+	\setglossarysection{chapter}
+	% Abkürzungsverzeichnis
+	% vorher in Konsole folgendes aufrufen: 
+	%	makeglossaries makeglossaries dokumentation.acn && makeglossaries dokumentation.glo
+	%\printglossary[type=\acronymtype,title=Abkürzungsverzeichnis,toctitle=Abkürzungsverzeichnis]
+	\cleardoublepage
+	\phantomsection \label{listofacs}
+	\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+	\input{ads/acronyms}
+
+	% Glossar
+	\printglossary[style=altlist,title=Glossar]
+	
+	\newpage
+		
+	\renewcommand{\thepage}{\arabic{page}}
+	\setcounter{page}{1}
+	
+	% Inhalt
+	\input{content/introduction}
+	\input{content/project}
+	\input{content/concept}
+	\input{content/script}
+	\input{content/implementation}
+	\input{content/conclusion}
+	\input{content/summary}
+	
+	% Anhang
+	\clearpage
+	\pagenumbering{roman}
+
+	% Abbildungsverzeichnis
+	\cleardoublepage
+	\phantomsection \label{listoffig}
+	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+	\listoffigures
+
+	%Tabellenverzeichnis
+	\cleardoublepage
+	\phantomsection \label{listoftab}
+	\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+	\listoftables
+
+	% Quellcodeverzeichnis
+	\cleardoublepage
+	\phantomsection \label{listoflist}
+	\addcontentsline{toc}{chapter}{Listings}
+	\lstlistoflistings
+
+	% Literaturverzeichnis
+	\cleardoublepage
+	\phantomsection \label{listoflit}
+	\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+	\bibliographystyle{agsm}
+	\bibliography{studArb2Bib}
+\end{document}

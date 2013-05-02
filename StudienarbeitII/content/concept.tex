@@ -1,0 +1,176 @@
+% Da zu erwarten ist, dass nicht das komplette Konzept in dieser Studienarbeit
+% realisiert werden kann, erfolgt die Entwicklung und Publikation mit einer
+% OpenSource-Lizenz. Um die Weiterentwicklung für eine Community attraktiv zu
+% machen, wurde mit Ruby on Rails ein Framework verwendet, welches sich im
+% OpenSource-Bereich einer großen Beliebtheit erfreut.
+
+% Meister, also Mitglieder mit bester didaktischer
+% Qualifikation, werden Autoren von WBTs. Dadurch soll Qualität 
+
+\chapter{Konzeption der Plattform}\label{ref:chaptConcept}
+Ziel des Systems ist die Vermittlung von Lerninhalten in einer sich gegenseitig
+Unterstützenden Gemeinschaft. Zu diesem Zweck folgt das Konzept einer Mischung
+aus Lern- und Datingplattform -- es werden Lerninhalte bereitgestellt, zu denen
+Tutoren vermittelt werden.
+
+\section{Namensgebung}
+Der Name "`Masterly Mate"' entstand aus dem höchsten Rang im Dreyfus-Modell
+(siehe Abschnitt \ref{ref:dreyfus}) und einem beliebten Getränk im
+Informatikerkreis, beziehungsweise dem englischen Begriff für Kumpel/Kamerad.
+
+So lässt sich der Name frei als meisterlicher Kamerad übersetzen, was die
+erwünschte offene und freundliche Kommunikation auf der Plattform ausdrücken
+soll.
+
+\section{Das Dreyfus-Modell mentaler Aktivitäten}\label{ref:dreyfus}
+Inhalt des Dreyfus-Modells ist das Hinterfragen, welche Person einer anderen
+einen bestimmten Sachverhalt erklären sollte. Dabei wird insbesondere
+berücksichtigt, wie groß der Unterschied der Fachkompetenz zwischen Lernenden
+und Lehrenden ist. Dazu wurden insgesamt fünf Ränge\footnote{Novice, Competence,
+Proficiency, Expertise, Mastery} definiert. 
+
+Allgemein formuliert sollte kein Experte einem Neuling etwas erklären. Steigt
+man neu in ein Fachgebiet ein, so sind zunächst simple und einfache Beispiele
+verbunden mit einem engen Betrachtungswinkel des Sachverhalts sehr hilfreich.
+Ein Experte würde den Neuling mit unnötigen Details überhäufen. Weitere
+detailliertere Erklärungen zu den Rängen finden sich in \cite{gruben:2012}.
+
+Für das Produkt der vorliegenden Studienarbeit wird das Modell angepasst. So
+ergeben sich vier fachliche Ränge. Hinzu kommen Ränge für Tutoren, welche einem
+Nutzer den fünften Rang nach dem Dreyfus-Modell erreichen lässt. Hinzu kommt,
+dass der fachliche Rang regelmäßig vom Nutzer bestätigt werden muss. Nach einem
+Jahr im selben Rang wird der Nutzer aufgefordert einen Test zu absolvieren.
+Besteht er den Test nicht, oder ignoriert er diesen, so fällt der Nutzer
+automatisch um einen Rang. Da es keinen Rang unterhalb von "`novice"' gibt,
+werden Nutzer automatisch gelöscht, die den Test für den untersten Rang nicht
+bestehen. Diese Vorgehensweise wird so umgesetzt, da davon ausgegangen werden
+kann, dass ein aktiver Nutzer innerhalb eines Jahres den nächst höheren Rang
+erreicht. Weiterhin werden so inaktive und nicht interessierte Nutzer
+automatisch entfernt, was in einer regen Gemeinschaft resultiert. Dem Problem
+von Accounts, hinter dem kein aktiver Nutzer\footnote{sogenannten Zombies} mehr
+steht, wird somit vorgebeugt. 
+
+\subsection{Fachlicher Rang}\label{ref:rankTopic}
+Mit dem Durcharbeiten von WBTs kann ein Nutzer im fachlichen Rang aufsteigen.
+Der Hintergrund ist, dass er mit korrekten Antworten im Prüfungsteil der WBTs
+seine fachliche Kompetenz unter Beweis stellt. Demgegenüber werden bei falschen
+Antworten im Quiz keine negativen Punkte angerechtnet. Je nachdem, wie gut ein
+Test ausfällt, erhält er eine bestimmte Anzahl an Punkten. Abhängig vom Grad des
+aktuellen fachlichen Rangs wird auch die notwendige Punktzahl für den nächsten
+Rang erhöht. Der Aufbau folgt also analog einer Exponentialfunktion. Wie in
+Abbildung \ref{ref:vertPunkt} zu sehen ist, benötigt man im Vergleich mit den
+didaktischen Rängen im fachlichen Level mehr Punkte für den nächsten Rang. Im
+Gegensatz dazu wird hier maximal der Experten-Rang erreicht. In der Abbildung
+ist der Rang des Experten nicht zu sehen, da dieser das Erreichen der
+notwendigen kompletten Punktzahl symbolisiert.
+
+Selbstverständlich können weitere WBTs durchgearbeitet werden, diese bessern
+jedoch nicht das Punktekonto für den fachlichen Rang auf. Dem Anwender ist
+freigestellt, ob er sich nun, wo er Experte in einem Fachgebiet ist, einem
+anderen Wissensgebiet widmet, um dort als Neuling von Vorn anzufangen.
+
+\subsection{Ränge für Tutoren}\label{ref:rankTeach}
+Als Tutor wird man von den Lernenden beurteilt, die man in einem gewissen
+Fachgebiet unterstützt hat. Im Gegensatz zu den fachlichen Rängen sind die
+didaktischen Ränge vom Fach unabhängig. Auch bleiben sie über alle fachlichen
+Ränge hinweg erhalten. Ein weiterer Unterschied ist, dass man als Tutor nicht
+Punkte, sondern Sterne sammelt. Jede gute Bewertung (daumen rauf) gibt einen
+Schritt in Richtung weiteren Stern. Eine schlechte Bewertung (daumen runter)
+stellt dazu einen direkten Gegensatz dar. Beide Bewertungsrichtungen verhalten
+sich ausgeglichen und es kristallisieren sich Tutoren heraus, die fachliche
+Inhalte für jedermann verständlich zu erklären wissen. So ist auch
+gewährleistet, dass sich meisterliche Tutoren nicht auf ihren vier Sternen
+"`ausruhen"'. 
+
+Meisterliche Tutoren verfügen auch über das Privileg eigene WBTs in die
+Plattform einbringen zu können. Den niederen Rängen ist dies verwehrt, da diese
+unter Umständen Sachverhalte nicht allgemeinverständlich zu erläutern wissen.
+Auch sind meisterliche Tutoren dazu privilegiert sämtliche fachliche Ränge
+unterrichten zu können, während für gewöhnlich Lernende nur von Tutoren
+unterwiesen werden, die maximal zwei fachliche Ränge über ihnen stehen.
+
+Gegenüber den fachlichen Rängen ist in Abbildung \ref{ref:vertPunkt} zu sehen,
+dass für den nächsten Rang bzw. Stern vergleichsweise weniger Punkte zu
+erreichen sind. Demgegenüber lässt sich nur als Tutor der Rang des Meisters, der
+vier Sternen entspricht, erreichen. Dieser Rang ist in der Abbildung nicht zu
+sehen, da er analog zum fachlichen Rang den Erhalt aller möglichen Punkte
+symbolisiert. Ein Meister hat durch das Erhalten der höchsten Wertung für die
+didaktische Fähigkeit bereits bewiesen, dass er Spaß an der Vermittlung von
+Wissen hat. Demnach bedarf er keiner weiteren Motivation eines höheren Ranges.
+Vielmehr möchte er keine negativen Bewertungen seiner Lernenden erhalten und
+bemüht sich der weiteren hochwertigen Qualität seiner Lerneinheiten.
+
+\begin{figure}[H]
+\includegraphics[width=1\textwidth]{verteilungDerPunkte.png}
+\caption{Verteilung der Punkte}\label{ref:vertPunkt}
+\end{figure}
+
+\section{Rollen für Anwender}
+Passend zum zuvor beschriebenen Konzept werden drei Rollen für Anwender
+definiert. Dabei ist das Innehaben mehrerer Rollen zur gleichen Zeit ein Teil
+des Modells. Zusammenfassend sind die Rechte und Pflichten eines Nutzers in den
+verschieden Rollen in Tabelle \ref{tab:privilegesRoles} am Ende des
+Kapitels aufgeführt.
+
+\subsection{Administrator}
+Der Administrator ist der Verwalter der Plattform und damit für den
+reibungslosen Ablauf seitens der Nutzer verantwortlich. Dazu kontrolliert er den
+Zusammenhalt des Systems und greift bei inkonsistenzen oder Fehlern ein. Auch
+bildet er die Schnittstelle zur Community, die sich in der Weiterentwicklung von
+Masterly Mate engagiert.
+
+\subsection{Lernender}
+Der Lernende bildet die Hauptzielgruppe des Systems. Er soll WBTs finden, diese
+durcharbeiten können und sich an Tutoren wenden, falls er auf ein Problem oder
+Unklarheiten stößt. Dazu bietet Masterly Mate ihm das auffinden eines an sein
+Fachwissen angepasstes Training. Weiterhin kann er Tutoren kontaktieren, die in
+seinem Umkreis wohnen und passend zu seinem Rang Inhalte zu erläutern verstehen.
+Die Lokation wird anhand der Postleitzahl festgemacht.
+
+Ein Lernender kann in seinem fachlichen Level bis zum Experten aufsteigen.
+Nähere Erläuterungen zu den fachlichen Rängen wurden in Abschnitt
+\ref{ref:rankTopic} aufgeführt.
+
+\subsection{Tutor}
+Ein Lernender kann ab dem zweiten fachlichen Rang des Dreyfus-Modells (siehe
+\ref{ref:dreyfus}) in seinem Profil die Einstellung "`Tutor"' anwählen. Damit
+erscheint er unter den Suchergebnissen für Lernende, die einen Tutor suchen. Als
+Tutor wird man von Lernenden gefunden, die Unterstützung in einem Fachgebiet
+suchen.
+
+\begin{table}[ht] \centering \caption{Rechte und Pflichten der verschiedenen
+Rollen}\label{tab:privilegesRoles}
+\begin{tabular}{|p{3.2cm}|p{1.7cm}|p{2,5cm}|p{2.7cm}|p{2.5cm}|}\hline
+&\textbf{Ad\-mi\-nis\-tra\-tor}&\textbf{Lernender}&\textbf{Lehrender
+(Tutor)}&\textbf{meis\-ter\-lich\-er Tutor}\\\hline\hline
+ 
+WBTs lesen&\ding{51}&\ding{51}&\ding{51}&\ding{51}\\\hline
+ 
+Punkte aus Quiz in WBTs ziehen&\ding{55}&\ding{51}
+(bis Experte) &\ding{55}&\ding{55}\\\hline
+
+WBTs erstellen \& löschen &\ding{51}&\ding{55}&\ding{55}&\ding{51}
+\mbox{(nur eigene)}\\\hline
+
+WBTs bearbeiten &\ding{51}&\ding{55}&\ding{55}&\ding{51}\\\hline\hline
+
+Im Rang steigen &\ding{55}&\ding{51} (bis Experte)&\ding{51}
+(bis Meister)&\ding{55}\\\hline
+
+Im Rang fallen &\ding{55}&\ding{51} (bei
+nicht bestehen oder ignorieren eines
+jährlichen Tests)&\ding{51} (bei zu vielen negativen
+Bewertungen)&\ding{51} (bei zu vielen negativen
+Bewertungen)\\\hline\hline
+
+Lernende unterweisen&\ding{55}&\ding{55}&\ding{51} (maximal 2
+fachliche Ränge unter dem eigenen)&\ding{51} (jeder unterhalb des
+eigenen fachlichen Rangs)\\\hline
+
+von Lernenden bewertet
+werden&\ding{55}&\ding{55}&\ding{51}&\ding{51}\\\hline\hline
+
+Forum moderieren&\ding{51}&\ding{55}&\ding{55}&\ding{55}\\\hline
+zum Forum beitragen&\ding{51}&\ding{51}&\ding{51}&\ding{51}\\\hline
+\end{tabular}
+\end{table}

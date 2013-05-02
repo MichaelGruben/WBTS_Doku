@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Wed Feb 20 15:41:57 CET 2013
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=StudienarbeitII.tex
+outputFile=StudienarbeitII.pdf
+langSpell=de
+markDer=true
+srcDir=
