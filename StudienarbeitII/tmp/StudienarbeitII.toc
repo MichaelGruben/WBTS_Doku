@@ -17,33 +17,42 @@
 \contentsline {subsection}{\numberline {3.3.1}Das Dreyfus f\IeC {\"u}nf Etappen Modell mentaler Aktivit\IeC {\"a}ten}{8}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Blended Learning}{9}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}eLearning}{10}{section.3.4}
-\contentsline {section}{\numberline {3.5}Gamification}{10}{section.3.5}
-\contentsline {chapter}{\numberline {4}Konzeption der Plattform}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Namensgebung}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Aufbereiten des Dreyfus-Modells}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{12}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{12}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{13}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Administrator}{14}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Lernender}{14}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Tutor}{14}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Dokumentation der API}{14}{section.4.4}
-\contentsline {chapter}{\numberline {5}Entwurf}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verwendetes Framework}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}Internationalisierung}{16}{section.5.2}
-\contentsline {section}{\numberline {5.3}Aufbau}{16}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Bearbeiten von WBTs}{16}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Tutorensuche}{17}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {6}Umsetzung}{18}{chapter.6}
-\contentsline {section}{\numberline {6.1}Nutzerverwaltung}{18}{section.6.1}
-\contentsline {section}{\numberline {6.2}Lokationen}{18}{section.6.2}
-\contentsline {section}{\numberline {6.3}Suche}{18}{section.6.3}
-\contentsline {section}{\numberline {6.4}SCORM}{18}{section.6.4}
-\contentsline {section}{\numberline {6.5}Lizensierung}{18}{section.6.5}
-\contentsline {section}{\numberline {6.6}Dokumentation}{18}{section.6.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{19}{chapter.7}
-\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{20}{chapter.8}
-\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.12}
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.14}
-\contentsline {chapter}{Listings}{iii}{section*.16}
-\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.18}
+\contentsline {subsection}{\numberline {3.4.1}Vorteile}{10}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Nachteile}{11}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Gamification}{11}{section.3.5}
+\contentsline {section}{\numberline {3.6}Learning Management System}{12}{section.3.6}
+\contentsline {section}{\numberline {3.7}Autorenwerkzeug}{12}{section.3.7}
+\contentsline {section}{\numberline {3.8}SCORM}{12}{section.3.8}
+\contentsline {section}{\numberline {3.9}WBT}{13}{section.3.9}
+\contentsline {section}{\numberline {3.10}Gestaltungskonzepte}{13}{section.3.10}
+\contentsline {chapter}{\numberline {4}Konzeption der Plattform}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Namensgebung}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Aufbereiten des Dreyfus-Modells}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{15}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{15}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{16}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Administrator}{17}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Lernender}{17}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Tutor}{17}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Dokumentation der API}{17}{section.4.4}
+\contentsline {section}{\numberline {4.5}Gamification}{18}{section.4.5}
+\contentsline {chapter}{\numberline {5}Entwurf}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verwendetes Framework}{20}{section.5.1}
+\contentsline {section}{\numberline {5.2}Internationalisierung}{20}{section.5.2}
+\contentsline {section}{\numberline {5.3}Aufbau}{20}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Bearbeiten von WBTs}{20}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Tutorensuche}{21}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Umsetzung}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}Nutzerverwaltung}{22}{section.6.1}
+\contentsline {section}{\numberline {6.2}Lokationen}{22}{section.6.2}
+\contentsline {section}{\numberline {6.3}Suche}{22}{section.6.3}
+\contentsline {section}{\numberline {6.4}SCORM}{22}{section.6.4}
+\contentsline {section}{\numberline {6.5}Lizensierung}{22}{section.6.5}
+\contentsline {section}{\numberline {6.6}Dokumentation}{23}{section.6.6}
+\contentsline {section}{\numberline {6.7}Gestaltung}{23}{section.6.7}
+\contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{24}{chapter.7}
+\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{25}{chapter.8}
+\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.15}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.17}
+\contentsline {chapter}{Listings}{iii}{section*.19}
+\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.21}

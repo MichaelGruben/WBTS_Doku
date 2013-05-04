@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: StudienarbeitII.aux
 The style file: agsm.bst
 Database file #1: studArb2Bib.bib
-You've used 8 entries,
+Warning--empty school in thome:1989
+You've used 13 entries,
             2909 wiz_defined-function locations,
-            686 strings with 5878 characters,
-and the built_in function-call counts, 24059 in all, are:
-= -- 3903
-> -- 265
+            717 strings with 6609 characters,
+and the built_in function-call counts, 37256 in all, are:
+= -- 5995
+> -- 431
 < -- 0
-+ -- 1794
-- -- 77
-* -- 1956
-:= -- 5036
-add.period$ -- 10
-call.type$ -- 8
-change.case$ -- 110
-chr.to.int$ -- 8
-cite$ -- 8
-duplicate$ -- 111
-empty$ -- 213
-format.name$ -- 105
-if$ -- 4290
++ -- 2754
+- -- 126
+* -- 3012
+:= -- 7848
+add.period$ -- 15
+call.type$ -- 13
+change.case$ -- 175
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 186
+empty$ -- 349
+format.name$ -- 165
+if$ -- 6629
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 29
-num.names$ -- 84
-pop$ -- 44
+missing$ -- 17
+newline$ -- 44
+num.names$ -- 135
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 195
 quote$ -- 0
-skip$ -- 81
+skip$ -- 130
 stack$ -- 0
-substring$ -- 5372
-swap$ -- 6
-text.length$ -- 112
+substring$ -- 8247
+swap$ -- 10
+text.length$ -- 182
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
-warning$ -- 0
-while$ -- 168
+type$ -- 34
+warning$ -- 1
+while$ -- 273
 width$ -- 0
-write$ -- 112
+write$ -- 180
+(There was 1 warning)

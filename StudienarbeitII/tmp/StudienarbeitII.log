@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  4 MAY 2013 19:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  4 MAY 2013 21:31
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1144,7 +1144,7 @@ l.1 \chapter{
 
 ]
 Kapitel 2.
-<images/MasterlyMateWolke.png, id=168, 605.26125pt x 345.54094pt>
+<images/MasterlyMateWolke.png, id=189, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
@@ -1172,7 +1172,7 @@ Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
 ) (./content/theory.tex [5]
 Kapitel 3.
-<images/SPIsynapseS50.png, id=201, 481.8pt x 295.1025pt>
+<images/SPIsynapseS50.png, id=222, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
@@ -1194,17 +1194,38 @@ Package acronym Info: Label `acro:DE' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:OE' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
- [9]) (./content/concept.tex [10]
-Kapitel 4.
-[11
+ [9] [10]
+\openout6 = `comment.cut'.
 
-] [12] <images/verteilungDerPunkte.png, id=249, 364.42148pt x 116.17403pt>
+ (./comment.cut) [11]
+Package acronym Info: Label `acro:WYSIWYG' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 204.
+Package acronym Info: Label `acro:SCORM' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 215.
+Package acronym Info: Label `acro:ADL' newly defined as it shall be overridden
+although it is yet undefined on input line 215.
+\openout6 = `comment.cut'.
+
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut [12])
+\openout6 = `comment.cut'.
+
+
+(./comment.cut)) (./content/concept.tex [13]
+Kapitel 4.
+[14
+
+] [15] <images/verteilungDerPunkte.png, id=294, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
 Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 93.
 (pdftex.def)             Requested size: 452.96796pt x 144.40706pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1292,9 +1313,12 @@ Overfull \hbox (7.93642pt too wide) in paragraph at lines 132--165
 
 \openout6 = `comment.cut'.
 
-(./comment.cut)) (./content/script.tex [14] [15pdfTeX warning (ext4): destinati
-on with the same identifier (name{table.4.1}) has been already used, duplicate 
-ignored
+(./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut [17])) (./content/script.tex [18] [19pdfTeX warning (ext4): des
+tination with the same identifier (name{table.4.1}) has been already used, dupl
+icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1306,26 +1330,45 @@ Kapitel 5.
 (./comment.cut)
 \openout6 = `comment.cut'.
 
- (./comment.cut)) (./content/implementation.tex [16
+ (./comment.cut)
+\openout6 = `comment.cut'.
 
-] [17]
+ (./comment.cut [20
+
+]))
+(./content/implementation.tex [21]
 Kapitel 6.
 \openout6 = `comment.cut'.
 
 (./comment.cut)
 \openout6 = `comment.cut'.
 
- (./comment.cut)) (./content/conclusion.tex [18
+ (./comment.cut)
+\openout6 = `comment.cut'.
 
-]
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+(./comment.cut [22
+
+])
+\openout6 = `comment.cut'.
+
+ (./comment.cut)) (./content/conclusion.tex [23]
 Kapitel 7.
-) (./content/summary.tex [19
+) (./content/summary.tex [24
 
 ]
 Kapitel 8.
 \openout6 = `comment.cut'.
 
-(./comment.cut)) [20
+(./comment.cut)) [25
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
@@ -1369,7 +1412,7 @@ e 113.
 
 
 ] (./StudienarbeitII.bbl
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 9.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1379,29 +1422,29 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1297) in paragraph at lines 3--10
+Underfull \hbox (badness 1297) in paragraph at lines 10--17
 \T1/ppl/m/n/12 (+20) ti-vi-ties in-vol-ved in di-rec-ted skill ac-qui-si-ti-on,
  Tech-ni-cal re-port, Uni-ver-si-ty
  []
 
-)
+[4
+
+
+
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
- [4
-
-
-
-]
+ [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (./StudienarbeitII.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 17159 strings out of 493499
- 256639 string characters out of 3143792
+ 17262 strings out of 493499
+ 257909 string characters out of 3143792
  652328 words of memory out of 3000000
- 19768 multiletter control sequences out of 15000+200000
- 44309 words of font info for 160 fonts, out of 3000000 for 9000
+ 19819 multiletter control sequences out of 15000+200000
+ 44778 words of font info for 166 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
  59i,11n,72p,1469b,709s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1410,10 +1453,10 @@ fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (32 pages, 735858 bytes).
+Output written on StudienarbeitII.pdf (38 pages, 746873 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 462 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 25493 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 25565 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -1,5 +1,12 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Baumgartner et~al.]{Baumgartner, Häfele \harvardand\
+  Maier-Häfele}{2002}{baumgartner:2002}
+Baumgartner, P., Häfele, H. \harvardand\ Maier-Häfele, K.  \harvardyearleft
+  2002\harvardyearright , {\em E-Learning Praxishandbuch : Auswahl von
+  Lernplattformen; Marktübersicht, Funktionen, Fachbegriffe}, StudienVerl.,
+  Innsbruck.
+
 \harvarditem{Dreyfus \harvardand\ Dreyfus}{1980}{dreyfus:1980}
 Dreyfus, S.~E. \harvardand\ Dreyfus, H.~L.  \harvardyearleft
   1980\harvardyearright , A five-stage model of the mental activities involved
@@ -23,6 +30,15 @@ Jacobs, P. \harvardand\ Preuße, M.  \harvardyearleft 2010\harvardyearright ,
   {\em Kompaktwissen AEVO in vier Handlungsfeldern}, 1. aufl. edn,
   Bildungsverl. EINS - Stam, Troisdorf.
 
+\harvarditem{Keller}{2000}{keller:2000}
+Keller, H.~B.  \harvardyearleft 2000\harvardyearright , {\em Maschinelle
+  Intelligenz : Grundlagen, Lernverfahren, Bausteine intelligenter Systeme},
+  Computational intelligence, Vieweg, Braunschweig.
+
+\harvarditem{Koster}{c2005}{koster:2005}
+Koster, R.  \harvardyearleft c2005\harvardyearright , {\em A theory of fun for
+  game design}, Paraglyph Press, Scottsdale, AZ.
+
 \harvarditem{Kröger \harvardand\ Reisky}{2004}{kroeger:2004}
 Kröger, H. \harvardand\ Reisky, A.  \harvardyearleft 2004\harvardyearright ,
   {\em Blended Learning - Erfolgsfaktor Wissen}, Wissen und Bildung im Internet
@@ -40,5 +56,14 @@ Spitzer, M.  \harvardyearleft 2012\harvardyearright , {\em Digitale Demenz :
 Stampfl, N.~S.  \harvardyearleft 2012\harvardyearright , {\em Die verspielte
   Gesellschaft : Gamification oder Leben im Zeitalter des Computerspiels},
   Telepolis, 1. aufl. edn, Heise, Hannover.
+
+\harvarditem{Thomé}{1989}{thome:1989}
+Thomé, D.  \harvardyearleft 1989\harvardyearright , Kriterien zur Bewertung
+  von Lernsoftware : mit einer exemplarischen Beurteilung von
+  Deutsch-Lernprogrammen, PhD thesis, Heidelberg.
+
+\harvarditem{Wendt}{2003}{wendt:2003}
+Wendt, M.  \harvardyearleft 2003\harvardyearright , {\em Praxisbuch CBT und WBT
+  : konzipieren, entwickeln, gestalten}, Hanser, München.
 
 \end{thebibliography}
