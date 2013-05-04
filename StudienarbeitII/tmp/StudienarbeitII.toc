@@ -1,7 +1,7 @@
 \select@language {ngerman}
-\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{VI}{section*.3}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{VII}{section*.3}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Projektbeschreibung}{2}{chapter.2}
+\contentsline {chapter}{\numberline {2}Projektplanung}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Motivation und Notwendigkeit}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Abgrenzung}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Zielsetzung}{4}{section.2.3}
@@ -9,29 +9,41 @@
 \contentsline {subsection}{\numberline {2.3.2}Strategische Ziele}{5}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Lizensierung}{5}{section.2.4}
 \contentsline {chapter}{\numberline {3}Theoretische Grundlagen}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Konzeption der Plattform}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Namensgebung}{7}{section.4.1}
-\contentsline {section}{\numberline {4.2}Das Dreyfus-Modell mentaler Aktivit\IeC {\"a}ten}{7}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{8}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{9}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{10}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Administrator}{10}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Lernender}{10}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Tutor}{11}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Entwurf}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verwendetes Framework}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Internationalisierung}{13}{section.5.2}
-\contentsline {section}{\numberline {5.3}Aufbau}{13}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Bearbeiten von WBTs}{13}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Tutorensuche}{14}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {6}Implementierung}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Nutzerverwaltung}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}Lokationen}{15}{section.6.2}
-\contentsline {section}{\numberline {6.3}Suche}{15}{section.6.3}
-\contentsline {section}{\numberline {6.4}SCORM}{15}{section.6.4}
-\contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{16}{chapter.7}
-\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{17}{chapter.8}
-\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.9}
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.11}
-\contentsline {chapter}{Listings}{iii}{section*.13}
-\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.15}
+\contentsline {section}{\numberline {3.1}Lernen}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}Motivation}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Intrinsische Motivation}{7}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Extrinsische Motivation}{8}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Lernmodelle}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Das Dreyfus f\IeC {\"u}nf Etappen Modell mentaler Aktivit\IeC {\"a}ten}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Blended Learning}{9}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}eLearning}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Gamification}{10}{section.3.5}
+\contentsline {chapter}{\numberline {4}Konzeption der Plattform}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Namensgebung}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Aufbereiten des Dreyfus-Modells}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{12}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{12}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Administrator}{14}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Lernender}{14}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Tutor}{14}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Dokumentation der API}{14}{section.4.4}
+\contentsline {chapter}{\numberline {5}Entwurf}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verwendetes Framework}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Internationalisierung}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Aufbau}{16}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Bearbeiten von WBTs}{16}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Tutorensuche}{17}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Umsetzung}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Nutzerverwaltung}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Lokationen}{18}{section.6.2}
+\contentsline {section}{\numberline {6.3}Suche}{18}{section.6.3}
+\contentsline {section}{\numberline {6.4}SCORM}{18}{section.6.4}
+\contentsline {section}{\numberline {6.5}Lizensierung}{18}{section.6.5}
+\contentsline {section}{\numberline {6.6}Dokumentation}{18}{section.6.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{19}{chapter.7}
+\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{20}{chapter.8}
+\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.12}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.14}
+\contentsline {chapter}{Listings}{iii}{section*.16}
+\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.18}

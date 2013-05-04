@@ -1,5 +1,13 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Dreyfus \harvardand\ Dreyfus}{1980}{dreyfus:1980}
+Dreyfus, S.~E. \harvardand\ Dreyfus, H.~L.  \harvardyearleft
+  1980\harvardyearright , A five-stage model of the mental activities involved
+  in directed skill acquisition, Technical report, University of California,
+  Berkley.
+\newblock
+  \url{http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf}.
+
 \harvarditem{{Free Software Foundation}}{2007}{fsf:2007}
 {Free Software Foundation}  \harvardyearleft 2007\harvardyearright , `{GNU
   AFFERO GENERAL PUBLIC LICENSE}',
@@ -9,5 +17,28 @@
 Gruben, M.  \harvardyearleft 2012\harvardyearright , Analyse und vergleich von
   autorensystemen für ein wbt zu vorlesungsinhalten.
 \newblock Studienarbeit.
+
+\harvarditem{Jacobs \harvardand\ Preuße}{2010}{jacobs:2010}
+Jacobs, P. \harvardand\ Preuße, M.  \harvardyearleft 2010\harvardyearright ,
+  {\em Kompaktwissen AEVO in vier Handlungsfeldern}, 1. aufl. edn,
+  Bildungsverl. EINS - Stam, Troisdorf.
+
+\harvarditem{Kröger \harvardand\ Reisky}{2004}{kroeger:2004}
+Kröger, H. \harvardand\ Reisky, A.  \harvardyearleft 2004\harvardyearright ,
+  {\em Blended Learning - Erfolgsfaktor Wissen}, Wissen und Bildung im Internet
+  ; 6, Bertelsmann, Bielefeld.
+
+\harvarditem{Niegemann}{2004}{niegemann:2004}
+Niegemann, H.~M., ed.  \harvardyearleft 2004\harvardyearright , {\em Kompendium
+  E-Learning}, X.media.press, Springer, Berlin.
+
+\harvarditem{Spitzer}{2012}{spitzer:2012}
+Spitzer, M.  \harvardyearleft 2012\harvardyearright , {\em Digitale Demenz :
+  wie wir uns und unsere Kinder um den Verstand bringen}, Droemer, München.
+
+\harvarditem{Stampfl}{2012}{stampfl:2012}
+Stampfl, N.~S.  \harvardyearleft 2012\harvardyearright , {\em Die verspielte
+  Gesellschaft : Gamification oder Leben im Zeitalter des Computerspiels},
+  Telepolis, 1. aufl. edn, Heise, Hannover.
 
 \end{thebibliography}
