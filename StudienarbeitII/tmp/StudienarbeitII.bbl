@@ -1,5 +1,11 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{ADL}{2009}{adl:2009}
+ADL  \harvardyearleft 2009\harvardyearright , Sharable content object reference
+  model (r) 2004 4th edition run-time environment version 1.0, Technical
+  report, ADL, USA.
+\newblock \url{http://www.moschorus.com/centre/?b0c2e7}.
+
 \harvarditem{ADL}{2011}{adl:2011}
 ADL  \harvardyearleft 2011\harvardyearright , Scorm users guide for
   programmers, Technical report, ADL, USA.
@@ -31,6 +37,11 @@ Gruben, M.  \harvardyearleft 2012\harvardyearright , Analyse und vergleich von
   autorensystemen für ein wbt zu vorlesungsinhalten.
 \newblock Studienarbeit.
 
+\harvarditem{Horton}{2000}{horton:2000}
+Horton, W.~K.  \harvardyearleft 2000\harvardyearright , {\em Designing Web
+  based training : how to teach anyone anything anywhere anytime}, Wiley, New
+  York.
+
 \harvarditem{Jacobs \harvardand\ Preuße}{2010}{jacobs:2010}
 Jacobs, P. \harvardand\ Preuße, M.  \harvardyearleft 2010\harvardyearright ,
   {\em Kompaktwissen AEVO in vier Handlungsfeldern}, 1. aufl. edn,
@@ -53,6 +64,11 @@ Kröger, H. \harvardand\ Reisky, A.  \harvardyearleft 2004\harvardyearright ,
 \harvarditem{Niegemann}{2004}{niegemann:2004}
 Niegemann, H.~M., ed.  \harvardyearleft 2004\harvardyearright , {\em Kompendium
   E-Learning}, X.media.press, Springer, Berlin.
+
+\harvarditem{Schleifer}{2003}{schleifer:2003}
+Schleifer, H.-J.  \harvardyearleft 2003\harvardyearright , e-learning an der
+  lvg -- neue formen des unterrichts an der lvg heidelberg, Technical report,
+  LVG Heidelberg.
 
 \harvarditem{Spitzer}{2012}{spitzer:2012}
 Spitzer, M.  \harvardyearleft 2012\harvardyearright , {\em Digitale Demenz :

@@ -211,28 +211,149 @@ klassifizieren \cite{niegemann:2004}. MasterlyMate unterstützt mit der
 Einbindung von SCORM (siehe Abschnitt \ref{ref:scorm}) alle Varianten und bietet
 demgegenüber kein eigenes Werkzeug zum Erstellen von Inhalten an.
 
+\section{WBT}
+Beim Begriff des WBTs handelt es sich um eine Softare, die Web-Technologien
+nutzt, um eLearning zu realisieren. Blickt man tiefer in die Definition, so
+gehen die Meinungen heute auseinander. Eine Variante ist eine Erklärung von
+Peter Baumgartner: "`WBT umfasst die internetgestützte Form des Fernlernens mit
+und ohne Betreuung durch Tutoren"'\cite{baumgartner:2002}. Dem hinzuzufügen ist,
+dass Web-Applikationen im Allgemeinen auch ohne eine Anbindung an das Internet,
+beispielsweise lokal oder in einem kleinen Firmennetzwerk, brauchbar sind. 
+
+In einer weiteren Definition taucht das WBT in einer Klassifikation zwischen
+virtuellem Klassenzimmer und \ac{CBT} auf. Es kann damit auf eine tutorielle
+Betreuung verzichten und ist stark an die Verfügbarkeit in einem
+Computernetzwerk gebunden \cite{schleifer:2003}.
+
+Historisch ist WBT aus \ac{DE}, "`Computer-conveyed education"' und diversen
+Internet Technologien entstanden, deren Technologien, Traditionen und Techniken
+den Grundstein bilden. Daraus wurden bei der Konzeption von WBT die Vorteile
+extrahiert und die Nachteile versucht zu vermeiden \cite{horton:2000}.
+
 \section{SCORM}\label{ref:scorm}
 \ac{SCORM} ist eine Entwicklung der \ac{ADL}-Initiative. Es soll möglich sein,
 auf einfache Art und Weise Trainingseinheiten in LMS einzubinden. Zweck von
-SCORM ist demach das Schaffen einer Ebene zwischen einem WBT und einem LMS.
-Beide kommunizieren über eine standardisierte Schnittstelle, der SCORM-API,
-miteinander.
+SCORM und der damit in Verbindung stehenden \ac{API} ist demach das Schaffen einer
+Ebene zwischen einem WBT und einem LMS.
 
-\ac{API}
+\subsection{Aufbau}
+Dazu ist SCORM zunächst als ein Paket zu verstehen. Für gewöhnlich erfolgt die
+Einbindung in das LMS durch einen Import als ZIP-Datei, welche als Container
+fungiert. In Abbildung \ref{pic:scormComponents} ist die Hierarchie von
+Verschachtelungen von links nach rechts dargestellt.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\textwidth]{SCORM-Components}
+\caption{Komponenten eines
+SCORM-Paketes\footnotemark}\label{pic:scormComponents}
+\end{figure}\footnotetext{aus \cite{adl:2011}}
 
-Abbildung \ref{pic:scormApi} zeigt die Anbindung der SCORM-API an das LMS und
-WBT.
+\subsubsection{Asset}
+Assets sind elektronische Ressourcen für die Verwendung in SCOs. Beispiele sind
+Medien, Texte, Bilder, Klänge und Töne, HTML-Seiten, Assessment Objekte und
+andere elementare Teile. Sie kommunizieren nicht direkt mit dem LMS und werden
+in einem SCO nur verlinkt, nicht direkt eingebunden. Assets befinden sich quasi
+in einem Lager, in dem Ressourcen für den Einsatz in einem SCO bereit liegen.
+Aufgrund der Verlinkungen hat das Editieren eines Assets Auswirkung auf
+sämtliche Stellen, an denen es eingesetzt ist \cite{adl:2011}.
 
-\begin{figure}
+\subsubsection{SCO}
+Ein \ac{SCO} ist die kleinste logische Einheit von SCORM. Aus Sicht
+der Designer von Lerneinheiten beinhalten SCOs das eigentliche
+lehrreiche Material. Programmierer würden sie eher als
+Web-Applikation sehen, welche über Schnittstellen für die
+Kommunikation mit einem LMS verfügt \cite{adl:2011}.
+
+\subsubsection{Aggregation}
+Eine Aggregation oder ein Cluster ist ein Verbund von zusammengehörigen
+Aktivitäten. Sie kann SCOs oder andere Aggregationen enthalten. Eine Aggregation
+ist keine physische Datei, vielmehr ist sie eine Struktur mit der die Planung
+einer Reihenfolge zur Abarbeitung von SCOs und Aggregationen möglich wird. In
+der SCORM Manifest Datei kann eine Aggregation zusammengesetzt werden
+\cite{adl:2011}.
+
+\subsubsection{Organization}
+Jede SCORM-Datei enthällt eine Organisation. Diese hat gegenüber Aggregationen
+keine inhaltlichen Unterschiede. Organisationen zeichnen sich dadurch aus, dass
+sie die Wurzel eines jeden SCORM-Paketes bilden, sie enthalten sämtliche Regeln
+zur Abarbeitung des WBTs. Daher werden sie auch Root-Aggregation genannt.
+\cite{adl:2011}
+
+\subsubsection{Curriculum}
+Curricula gehen über die Definition von SCORM hinaus und gehören demnach nicht
+mehr zum Standard. Sie werden eher von einem LMS zusammengestellt und überwacht
+\cite{adl:2011}. Ohne SCORM wäre die Zusammenstellung Curricula jedoch stark
+erschwert, es mangelte an einer Schnittstelle, welche die Kommunikation zwischen
+WBT und LMS bereitstellt und damit einer Komponente zur Auswertung der
+Etappen.
+
+\subsection{Manifest-Datei}
+\begin{wrapfigure}{r}{0.5\textwidth}
+\vspace{-50pt} 
+\includegraphics[width=0.5\textwidth]{SCORM-Manifest}
+\caption{Schema der SCORM-Manifest Datei\footnotemark}\label{pic:scormManifest}
+\vspace{-65pt} 
+\end{wrapfigure}\footnotetext{aus \cite{adl:2011}}
+Jedes SCORM-Paket ist laut Standard dazu angehalten eine Manifest-Datei mit dem
+namen \textit{imsmanifest.xml} zu enthalten. Darin sind wesentliche
+Informationen der Lerninhalte für das LMS enthalten. Es kommuniziert welche
+Inhalte wann, wie eingebunden werden sollen.
+
+Die Metadaten am Kopf der Datei enthalten zusätzliche Informationen zum WBT, die
+nach dem \ac{CAM} aufgebaut sind. Da die Unterschiede zwischen
+SCORM-Versionen sehr groß ausfallen, wird im Header neben dem
+eigentlichen Schema\footnote{meistens "`ADL SCORM"'} weiterhin die Version
+mit angegeben\footnote{zum Beispiel "`2004 4th Edition"'}, um Kompatibilität zu
+gewährleisten. 
+
+Darunter finden sich die im vorigen Abschnitt erläuterten Komponenten eines
+SCORM-Paktes wieder. Unter dem Tag \textit{organizations} wird die
+Root-Aggregation mit ihren Regelungen und der Reihenfolge der SCOs aufgeführt. Ein
+Item steht dabei jeweils für ein SCO. Ursprünglich war die Unterstützung
+mehrerer Organisationen geplant, heute wird jedoch nur eine einzige unterstützt.
+
+Unter \textit{resources} werden sämtliche Assets aufgezählt, die ein SCO oder
+Asset benötigt. Eine Ressource ist als eine Gruppierung von Assets zu
+verstehen. So werden nur die Assets geladen, die für das aktuelle Modul
+benötigt werden. Der Identifier kann in einer Organization oder in einer anderen
+Ressource als Abhängigkeit aufgenommen werden.
+
+\subsection{SCORM-API}
+Die SCORM-API ist notwendig, um die Kommunikation zwischen LMS und WBT zu
+vereinheitlichen. So können WBTs eingebunden werden, die aus dem Autorenwerkzeug
+als SCORM-Datei exportiert wurden. Abbildung \ref{pic:scormApi} zeigt, wie die
+SCORM-API zwischen dem LMS und dem WBT steht. Der Client verfügt über einen
+Web-Browser zum betrachten und Durcharbeiten des WBTs, der in einer Aggregation
+angeordneten SCOs. Das LMS stellt als Server die WBTs bereit. Es verfügt über
+Nutzerinformationen und Informationen über Lerninhalte. Daneben bietet es dem
+Lernenden einen Weg für das Erlangen von Wissen in einem Fachgebiet -- ein
+Curriculum -- an.
+
+\begin{figure}[ht]
 \centering
 \includegraphics{SCORM-API}
 \caption{SCORM-API Anbindung\footnotemark}\label{pic:scormApi}
 \end{figure}\footnotetext{aus \cite{adl:2011}}
 
-\section{WBT}
-\begin{k}
-Macht Micha!
-\end{k}
+Technisch realisiert ist die SCORM-API mit JavaScript, einer populären
+Programmiersprache für Webanwendungen auf Clientseite. Sie besteht aus
+zwei Teilen, einen auf der Client- und einen auf der Serverseite.
+
+\subsubsection{API-Wrapper}
+Der Client bindet für jedes SCO einen API-Wrapper ein, der die Zugehörigkeit zu
+einem SCORM-Paket sichert. Dieser enthällt darüber hinaus alle Funktionen, die
+für die Kommunikation der Inhalte mit dem LMS erforderlich sind.
+Ein SCO muss dabei mindestens zwei Aufrufe tätigen. Die Funktion
+\textit{doInitialize()} initiiert die Verbindung zwischen dem LMS und dem SCO,
+\textit{doTerminate()} hingegen trennt die Verbindung noch vor dem Schließen
+eines SCO.
+
+\subsubsection{SCORM-RTE}
+Im Verantwortungsgebiet für das \ac{RTE} von SCORM liegt das Starten von
+Inhaltsobjekten, das Herstellen einer Kommunikation zwischen LMS und SCO und das
+Verwalten von Informationen über den Lernfortschritt eines Anwenders. Das RTE
+definiert ein Modell, welches seine Arbeit aufnimmt wenn ein spezifisches
+Inhaltsobjekt zum starten identifiziert wird \cite{adl:2009}.
 
 \section{Gestaltungskonzepte}
 \begin{k}

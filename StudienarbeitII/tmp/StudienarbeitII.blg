@@ -4,45 +4,45 @@ The top-level auxiliary file: StudienarbeitII.aux
 The style file: agsm.bst
 Database file #1: studArb2Bib.bib
 Warning--empty school in thome:1989
-You've used 14 entries,
+You've used 17 entries,
             2909 wiz_defined-function locations,
-            723 strings with 6757 characters,
-and the built_in function-call counts, 38309 in all, are:
-= -- 6136
-> -- 455
+            736 strings with 7147 characters,
+and the built_in function-call counts, 43780 in all, are:
+= -- 6973
+> -- 527
 < -- 0
-+ -- 2803
-- -- 133
-* -- 3075
-:= -- 8125
-add.period$ -- 17
-call.type$ -- 14
-change.case$ -- 190
-chr.to.int$ -- 14
-cite$ -- 15
-duplicate$ -- 197
-empty$ -- 371
-format.name$ -- 174
-if$ -- 6806
++ -- 3160
+- -- 154
+* -- 3476
+:= -- 9371
+add.period$ -- 21
+call.type$ -- 17
+change.case$ -- 233
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 235
+empty$ -- 444
+format.name$ -- 201
+if$ -- 7760
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 48
-num.names$ -- 145
-pop$ -- 80
+missing$ -- 19
+newline$ -- 58
+num.names$ -- 175
+pop$ -- 95
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 255
 quote$ -- 0
-skip$ -- 140
+skip$ -- 169
 stack$ -- 0
-substring$ -- 8404
-swap$ -- 10
-text.length$ -- 196
+substring$ -- 9505
+swap$ -- 11
+text.length$ -- 238
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 38
+type$ -- 48
 warning$ -- 1
-while$ -- 294
+while$ -- 357
 width$ -- 0
-write$ -- 195
+write$ -- 236
 (There was 1 warning)
