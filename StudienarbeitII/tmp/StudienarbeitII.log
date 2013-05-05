@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  4 MAY 2013 21:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  5 MAY 2013 13:10
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -396,6 +396,12 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
@@ -1099,33 +1105,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [1] (./ads/abstract.tex
+
+Overfull \hbox (8.26149pt too wide) in paragraph at lines 15--17
+[][]\T1/ppl/m/n/12 (-20) dass die ein-gere-ichte elek-tro-n-is-che Fas-sung ex-
+akt mit der ein-gere-ichten schriftlichen
+ []
+
+[1]) [2] (./ads/abstract.tex
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2011/04/09 v2.1 microtype config. file: Computer Modern Roman 
 (RS)
-) [2
+) [3
 
 
-] [3])
-[4]
+] [4])
+[5]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 62.
 Package tocbasic Info: character protrusion at toc deactivated on input line 62
 .
- (./StudienarbeitII.toc [5
+ (./StudienarbeitII.toc [6
 
-])
+] [7]
+Overfull \hbox (1.3555pt too wide) detected at line 72
+ []\T1/ppl/m/n/12 xvii
+ []
+
+
+Overfull \hbox (1.3555pt too wide) detected at line 73
+ []\T1/ppl/m/n/12 xvii
+ []
+
+
+Overfull \hbox (4.84738pt too wide) detected at line 74
+ []\T1/ppl/m/n/12 xviii
+ []
+
+
+Overfull \hbox (4.84738pt too wide) detected at line 75
+ []\T1/ppl/m/n/12 xviii
+ []
+
+)
 \tf@toc=\write9
 \openout9 = `StudienarbeitII.toc'.
 
- [6] (./ads/acronyms.tex)
+ [8] (./ads/acronyms.tex)
 No file StudienarbeitII.gls.
-[7
+[9
 
 
 
 ] (./content/introduction.tex
-Kapitel 1.
+Chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              You should use the features of package `tocbasic'
@@ -1143,8 +1175,8 @@ l.1 \chapter{
              Projektplanung} [1
 
 ]
-Kapitel 2.
-<images/MasterlyMateWolke.png, id=189, 605.26125pt x 345.54094pt>
+Chapter 2.
+<images/MasterlyMateWolke.png, id=230, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
@@ -1171,8 +1203,8 @@ although it is yet undefined on input line 102.
 Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
 ) (./content/theory.tex [5]
-Kapitel 3.
-<images/SPIsynapseS50.png, id=222, 481.8pt x 295.1025pt>
+Chapter 3.
+<images/SPIsynapseS50.png, id=263, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
@@ -1188,13 +1220,18 @@ Package pdftex.def Info: images/SPIsynapseS50.png used on input line 32.
 l.59 \subsection{
                  Extrinsische Motivation} <./images/SPIsynapseS50.png (PNG copy
 )>] [8]
+Overfull \hbox (14.44095pt too wide) in paragraph at lines 98--103
+[][]\T1/ppl/m/n/12 (-20) Die Hand-lun-gen des Fort-geschrit-tene sind gegenüber
+ dem Novizen
+ []
+
 Package acronym Info: Label `acro:F2F' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:DE' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:OE' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
- [9] [10]
+[9] [10]
 \openout6 = `comment.cut'.
 
  (./comment.cut) [11]
@@ -1206,20 +1243,33 @@ n
 although it is yet undefined on input line 215.
 Package acronym Info: Label `acro:ADL' newly defined as it shall be overridden
 although it is yet undefined on input line 215.
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 221.
+ [12]
+<images/SCORM-API.png, id=320, 351.41287pt x 165.4983pt>
+File: images/SCORM-API.png Graphic file (type png)
+
+<use images/SCORM-API.png>
+Package pdftex.def Info: images/SCORM-API.png used on input line 228.
+(pdftex.def)             Requested size: 351.412pt x 165.49788pt.
 \openout6 = `comment.cut'.
 
  (./comment.cut)
 \openout6 = `comment.cut'.
 
- (./comment.cut [12])
-\openout6 = `comment.cut'.
+ (./comment.cut))
+(./content/concept.tex [13pdfTeX warning (ext4): destination with the same iden
+tifier (name{figure.3.2}) has been already used, duplicate ignored
 
-
-(./comment.cut)) (./content/concept.tex [13]
-Kapitel 4.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.10 \chapter{
+              Konzeption der Plattform}\label{ref:chaptConcept} <./images/SCORM
+-API.png>]
+Chapter 4.
 [14
 
-] [15] <images/verteilungDerPunkte.png, id=294, 364.42148pt x 116.17403pt>
+] [15] <images/verteilungDerPunkte.png, id=342, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
@@ -1230,8 +1280,8 @@ Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 93.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 
-       <./images/verteilungDerPunkte.png>]
+l.104 \subsection{
+                  Administrator} <./images/verteilungDerPunkte.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/ppl/b/n/12 Ad-mi-
  []
@@ -1247,8 +1297,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[]|\U/pzd/m/n/12 3 \T1/ppl/m/n/12 (+20) (bis Ex-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 []|\U/pzd/m/n/12 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\U/pzd/m/n/12 3 \T1/ppl/m/n/12 (+20) (bis Ex-
  []
 
 
@@ -1258,32 +1318,32 @@ Underfull \hbox (badness 1342) in paragraph at lines 149--151
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--151
-\T1/ppl/m/n/12 (+20) be-ste-hen
+\T1/ppl/m/n/12 (+20) beste-hen
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--151
-\T1/ppl/m/n/12 (+20) oder igno-
+\T1/ppl/m/n/12 (+20) oder ig-nori-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--151
-\T1/ppl/m/n/12 (+20) rie-ren ei-nes
+\T1/ppl/m/n/12 (+20) eren eines
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--151
-\T1/ppl/m/n/12 (+20) jähr-li-chen
+\T1/ppl/m/n/12 (+20) jährlichen
  []
 
 
 Underfull \hbox (badness 1019) in paragraph at lines 151--152
-\T1/ppl/m/n/12 (+20) len ne-ga-ti-ven
+\T1/ppl/m/n/12 (+20) len neg-a-tiven
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
-\T1/ppl/m/n/12 (+20) Be-wer-tun-
+\T1/ppl/m/n/12 (+20) Be-w-er-tun-
  []
 
 
@@ -1292,8 +1352,38 @@ Underfull \hbox (badness 2635) in paragraph at lines 155--155
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 156--157
-[]|[]\U/pzd/m/n/12 3 \T1/ppl/m/n/12 (+20) (je-der un-
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[]|\U/pzd/m/n/12 3 \T1/ppl/m/n/12 (+20) (max-i-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+\T1/ppl/m/n/12 (+20) 2 fach-liche
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+\T1/ppl/m/n/12 (+20) Ränge unter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]|[]\U/pzd/m/n/12 3 \T1/ppl/m/n/12 (+20) (jeder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\T1/ppl/m/n/12 (+20) un-ter-halb
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 156--157
+\T1/ppl/m/n/12 (+20) des eige-nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\T1/ppl/m/n/12 (+20) fach-lichen
  []
 
 
@@ -1302,8 +1392,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 162--162
-[]|[]\T1/ppl/m/n/12 (+20) Forum mo-de-rie-
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|[]\T1/ppl/m/n/12 (+20) Forum mod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|[]\T1/ppl/m/n/12 (+20) zum Fo-rum
  []
 
 
@@ -1313,18 +1408,18 @@ Overfull \hbox (7.93642pt too wide) in paragraph at lines 132--165
 
 \openout6 = `comment.cut'.
 
-(./comment.cut)
+(./comment.cut) [17]
 \openout6 = `comment.cut'.
 
- (./comment.cut [17])) (./content/script.tex [18] [19pdfTeX warning (ext4): des
-tination with the same identifier (name{table.4.1}) has been already used, dupl
-icate ignored
+ (./comment.cut)) (./content/script.tex [18] [19pdfTeX warning (ext4): destinat
+ion with the same identifier (name{table.4.1}) has been already used, duplicate
+ ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
              Entwurf}\label{ref:chaptScript}]
-Kapitel 5.
+Chapter 5.
 \openout6 = `comment.cut'.
 
 (./comment.cut)
@@ -1337,7 +1432,7 @@ Kapitel 5.
 
 ]))
 (./content/implementation.tex [21]
-Kapitel 6.
+Chapter 6.
 \openout6 = `comment.cut'.
 
 (./comment.cut)
@@ -1361,11 +1456,11 @@ Kapitel 6.
 \openout6 = `comment.cut'.
 
  (./comment.cut)) (./content/conclusion.tex [23]
-Kapitel 7.
+Chapter 7.
 ) (./content/summary.tex [24
 
 ]
-Kapitel 8.
+Chapter 8.
 \openout6 = `comment.cut'.
 
 (./comment.cut)) [25
@@ -1412,7 +1507,7 @@ e 113.
 
 
 ] (./StudienarbeitII.bbl
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 16.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1422,41 +1517,72 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1297) in paragraph at lines 10--17
-\T1/ppl/m/n/12 (+20) ti-vi-ties in-vol-ved in di-rec-ted skill ac-qui-si-ti-on,
- Tech-ni-cal re-port, Uni-ver-si-ty
+Underfull \hbox (badness 4492) in paragraph at lines 3--8
+[][]| | \T1/ppl/m/n/12 (+20) ADL (2011), Scorm users guide for pro-gram-mers, T
+ech-ni-cal re-port, ADL,
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 16--23
+\T1/ppl/m/n/12 (+20) tiv-i-ties in-volved in di-rected skill ac-qui-si-tion, Te
+ch-ni-cal re-port, Uni-ver-sity
  []
 
 [4
 
 
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+]) [5] (./ads/appendix.tex [6
+
+]
+Appendix A.
+[7
+
+]
+Appendix B.
+[8
+
+]
+Appendix C.
+(./ads/fdl-1.3.tex
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 14.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
+
+[9
+
+] [10] [11] [12] [13] [14] [15] [16] [17] [18]))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (./StudienarbeitII.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 17262 strings out of 493499
- 257909 string characters out of 3143792
- 652328 words of memory out of 3000000
- 19819 multiletter control sequences out of 15000+200000
- 44778 words of font info for 166 fonts, out of 3000000 for 9000
+ 17382 strings out of 493499
+ 259529 string characters out of 3143792
+ 652749 words of memory out of 3000000
+ 19891 multiletter control sequences out of 15000+200000
+ 47158 words of font info for 169 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
- 59i,11n,72p,1469b,709s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,11n,72p,1469b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
-/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (38 pages, 746873 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on StudienarbeitII.pdf (54 pages, 1194876 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
- 134 named destinations out of 1000 (max. 500000)
- 25565 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 773 PDF objects out of 1000 (max. 8388607)
+ 694 compressed objects within 7 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 26722 words of extra memory for PDF output out of 29859 (max. 10000000)
 
