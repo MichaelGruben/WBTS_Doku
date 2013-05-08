@@ -1,1 +1,8 @@
-wirklich nur in Ausnahmefällen eine DE? (siehe \ref{ref:blendedLearning})
+\begin{itemize}
+  \item Nutzer kann eine Liste aller WBTs sehen, die er absolviert hat
+  \item Forum
+  \item Durchführung von Refactorings für DRY KISS
+  \item Profilbild
+  \item SCORM RTE implementieren
+  \item Mailerfunktionalität
+\end{itemize}

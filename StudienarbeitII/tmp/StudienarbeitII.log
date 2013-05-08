@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  5 MAY 2013 16:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  8 MAY 2013 14:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1125,22 +1125,22 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 62
  (./StudienarbeitII.toc [6
 
 ] [7]
-Overfull \hbox (1.3555pt too wide) detected at line 83
+Overfull \hbox (1.3555pt too wide) detected at line 90
  []\T1/ppl/m/n/12 xvii
  []
 
 
-Overfull \hbox (1.3555pt too wide) detected at line 84
+Overfull \hbox (1.3555pt too wide) detected at line 91
  []\T1/ppl/m/n/12 xvii
  []
 
 
-Overfull \hbox (4.84738pt too wide) detected at line 85
+Overfull \hbox (4.84738pt too wide) detected at line 92
  []\T1/ppl/m/n/12 xviii
  []
 
 
-Overfull \hbox (4.84738pt too wide) detected at line 86
+Overfull \hbox (4.84738pt too wide) detected at line 93
  []\T1/ppl/m/n/12 xviii
  []
 
@@ -1174,7 +1174,7 @@ l.1 \chapter{
 
 ]
 Kapitel 2.
-<images/MasterlyMateWolke.png, id=240, 605.26125pt x 345.54094pt>
+<images/MasterlyMateWolke.png, id=258, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
@@ -1202,7 +1202,7 @@ Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
 ) (./content/theory.tex [5]
 Kapitel 3.
-<images/SPIsynapseS50.png, id=273, 481.8pt x 295.1025pt>
+<images/SPIsynapseS50.png, id=291, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
@@ -1242,7 +1242,7 @@ although it is yet undefined on input line 234.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 236.
 
-<images/SCORM-Components.png, id=330, 407.78348pt x 258.0039pt>
+<images/SCORM-Components.png, id=348, 407.78348pt x 258.0039pt>
 File: images/SCORM-Components.png Graphic file (type png)
 
 <use images/SCORM-Components.png>
@@ -1258,7 +1258,7 @@ although it is yet undefined on input line 261.
                                                   \fi \fi 
 l.281 
        <./images/SCORM-Components.png>]
-<images/SCORM-Manifest.png, id=350, 292.6935pt x 325.39568pt>
+<images/SCORM-Manifest.png, id=368, 292.6935pt x 325.39568pt>
 File: images/SCORM-Manifest.png Graphic file (type png)
 
 <use images/SCORM-Manifest.png>
@@ -1279,7 +1279,7 @@ although it is yet undefined on input line 303.
 l.309 D
        arunter finden sich die im vorigen Abschnitt erläuterten Komponenten...
  <./images/SCORM-Manifest.png>]
-<images/SCORM-API.png, id=363, 351.41287pt x 165.4983pt>
+<images/SCORM-API.png, id=381, 351.41287pt x 165.4983pt>
 File: images/SCORM-API.png Graphic file (type png)
 
 <use images/SCORM-API.png>
@@ -1290,9 +1290,12 @@ Package acronym Info: Label `acro:RTE' newly defined as it shall be overridden
 although it is yet undefined on input line 352.
 \openout6 = `comment.cut'.
 
- (./comment.cut)) (./content/concept.tex
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
-}) has been already used, duplicate ignored
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut))
+(./content/concept.tex [17pdfTeX warning (ext4): destination with the same iden
+tifier (name{figure.3.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1300,28 +1303,44 @@ l.10 \chapter{
               Konzeption der Plattform}\label{ref:chaptConcept} <./images/SCORM
 -API.png>]
 Kapitel 4.
+\openout6 = `comment.cut'.
+
+(./comment.cut
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+)
 [18
 
-] [19] <images/verteilungDerPunkte.png, id=391, 364.42148pt x 116.17403pt>
+] [19] <images/verteilungDerPunkte.png, id=411, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
-Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 93.
+Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 102.
+
 (pdftex.def)             Requested size: 452.96796pt x 144.40706pt.
  [20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 
+l.112 
        <./images/verteilungDerPunkte.png>]
+\openout6 = `comment.cut'.
+
+ (./comment.cut [21])
 \openout6 = `comment.cut'.
 
  (./comment.cut)
 \openout6 = `comment.cut'.
 
- (./comment.cut
-[21])) (./content/script.tex [22]
+(./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)) (./content/script.tex [22]
 Kapitel 5.
 \openout6 = `comment.cut'.
 
@@ -1331,10 +1350,23 @@ Kapitel 5.
  (./comment.cut)
 \openout6 = `comment.cut'.
 
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
  (./comment.cut [23
 
-]))
-(./content/implementation.tex [24]
+])
+\openout6 = `comment.cut'.
+
+
+(./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)) (./content/implementation.tex
+[24]
 Kapitel 6.
 \openout6 = `comment.cut'.
 
@@ -1358,15 +1390,27 @@ Kapitel 6.
 ])
 \openout6 = `comment.cut'.
 
- (./comment.cut)) (./content/conclusion.tex [26]
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut))
+(./content/conclusion.tex [26]
 Kapitel 7.
-) (./content/summary.tex [27
+\openout6 = `comment.cut'.
+
+(./comment.cut)) (./content/summary.tex [27
 
 ]
 Kapitel 8.
 \openout6 = `comment.cut'.
 
-(./comment.cut)) [28
+(./comment.cut)
+\openout6 = `comment.cut'.
+
+ (./comment.cut)) [28
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
@@ -1383,12 +1427,12 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 10
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 10
 7.
- (./StudienarbeitII.lot)
+
+(./StudienarbeitII.lot)
 \tf@lot=\write11
 \openout11 = `StudienarbeitII.lot'.
 
-
-[2
+ [2
 
 
 
@@ -1519,45 +1563,39 @@ Underfull \hbox (badness 1515) in paragraph at lines 35--35
  []
 
 
-Overfull \hbox (7.93642pt too wide) in paragraph at lines 5--38
+Overfull \hbox (7.93642pt too wide) in paragraph at lines 5--40
  [][][] 
  []
 
 [8
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.B.1}) h
-as been already used, duplicate ignored
+] [9pdfTeX warning (ext4): destination with the same identifier (name{table.B.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.40 \chapter{
+l.42 \chapter{
               GNU Free Documentation License}]
 Anhang C.
 (./ads/fdl-1.3.tex
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
+ [10
 
-[9
-
-] [10] [11] [12] [13] [14] [15] [16] [17] [18]))
+] [11] [12] [13] [14] [15] [16] [17] [18] [19]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
- [19]
+ [20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
- (./StudienarbeitII.aux)
+
+(./StudienarbeitII.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 17532 strings out of 493499
- 261637 string characters out of 3143792
+ 17576 strings out of 493499
+ 262109 string characters out of 3143792
  653057 words of memory out of 3000000
- 20008 multiletter control sequences out of 15000+200000
+ 20018 multiletter control sequences out of 15000+200000
  47468 words of font info for 173 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
  59i,11n,72p,1469b,711s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1568,10 +1606,10 @@ type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (57 pages, 3266540 bytes).
+Output written on StudienarbeitII.pdf (58 pages, 3269651 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 750 compressed objects within 8 object streams
- 192 named destinations out of 1000 (max. 500000)
- 26756 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 800 compressed objects within 8 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 26828 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -36,23 +36,29 @@
 \contentsline {subsubsection}{API-Wrapper}{16}{section*.24}
 \contentsline {subsubsection}{SCORM-RTE}{17}{section*.25}
 \contentsline {section}{\numberline {3.10}Gestaltungskonzepte}{17}{section.3.10}
+\contentsline {section}{\numberline {3.11}Autorisierung und Authentifikation}{17}{section.3.11}
 \contentsline {chapter}{\numberline {4}Konzeption der Plattform}{18}{chapter.4}
 \contentsline {section}{\numberline {4.1}Namensgebung}{18}{section.4.1}
 \contentsline {section}{\numberline {4.2}Aufbereiten des Dreyfus-Modells}{18}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{19}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{19}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{20}{section.4.3}
+\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{21}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Administrator}{21}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Lernender}{21}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Tutor}{21}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Dokumentation der API}{21}{section.4.4}
+\contentsline {section}{\numberline {4.4}Dokumentation der API}{22}{section.4.4}
 \contentsline {section}{\numberline {4.5}Gamification}{22}{section.4.5}
+\contentsline {section}{\numberline {4.6}Automatisch generierte Filterung von Ergebnissen}{22}{section.4.6}
+\contentsline {section}{\numberline {4.7}Themen}{22}{section.4.7}
 \contentsline {chapter}{\numberline {5}Entwurf}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}Verwendetes Framework}{23}{section.5.1}
 \contentsline {section}{\numberline {5.2}Internationalisierung}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Aufbau}{23}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Bearbeiten von WBTs}{23}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Tutorensuche}{24}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Aufbau}{23}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Bearbeiten von WBTs}{24}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Tutorensuche}{24}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Navigation, Impressum, Kontakt}{24}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Themen}{24}{subsection.5.4.4}
 \contentsline {chapter}{\numberline {6}Umsetzung}{25}{chapter.6}
 \contentsline {section}{\numberline {6.1}Nutzerverwaltung}{25}{section.6.1}
 \contentsline {section}{\numberline {6.2}Lokationen}{25}{section.6.2}
@@ -61,8 +67,11 @@
 \contentsline {section}{\numberline {6.5}Lizensierung}{25}{section.6.5}
 \contentsline {section}{\numberline {6.6}Dokumentation}{26}{section.6.6}
 \contentsline {section}{\numberline {6.7}Gestaltung}{26}{section.6.7}
+\contentsline {section}{\numberline {6.8}Authentifizierung}{26}{section.6.8}
+\contentsline {section}{\numberline {6.9}Themen}{26}{section.6.9}
 \contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{27}{chapter.7}
 \contentsline {chapter}{\numberline {8}Fazit und Ausblick}{28}{chapter.8}
+\contentsline {section}{\numberline {8.1}Ideen f\IeC {\"u}r weitere Versionen}{28}{section.8.1}
 \contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.27}
 \contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.29}
 \contentsline {chapter}{Listings}{iii}{section*.31}
@@ -70,17 +79,17 @@
 \contentsline {chapter}{Anhang}{vi}{appendix*.35}
 \contentsline {chapter}{\numberline {A}Abbildungen}{vii}{appendix.A}
 \contentsline {chapter}{\numberline {B}Tabellen}{viii}{appendix.B}
-\contentsline {chapter}{\numberline {C}GNU Free Documentation License}{ix}{appendix.C}
+\contentsline {chapter}{\numberline {C}GNU Free Documentation License}{x}{appendix.C}
 \select@language {english}
-\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{ix}{section*.36}
-\contentsline {section}{2. VERBATIM COPYING}{xi}{section*.37}
-\contentsline {section}{3. COPYING IN QUANTITY}{xii}{section*.38}
-\contentsline {section}{4. MODIFICATIONS}{xiii}{section*.39}
-\contentsline {section}{5. COMBINING DOCUMENTS}{xv}{section*.40}
-\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xv}{section*.41}
-\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xvi}{section*.42}
-\contentsline {section}{8. TRANSLATION}{xvi}{section*.43}
-\contentsline {section}{9. TERMINATION}{xvii}{section*.44}
-\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xvii}{section*.45}
-\contentsline {section}{11. RELICENSING}{xviii}{section*.46}
-\contentsline {section}{ADDENDUM: How to use this License for your documents}{xviii}{section*.47}
+\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{x}{section*.36}
+\contentsline {section}{2. VERBATIM COPYING}{xii}{section*.37}
+\contentsline {section}{3. COPYING IN QUANTITY}{xiii}{section*.38}
+\contentsline {section}{4. MODIFICATIONS}{xiv}{section*.39}
+\contentsline {section}{5. COMBINING DOCUMENTS}{xvi}{section*.40}
+\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvi}{section*.41}
+\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xvii}{section*.42}
+\contentsline {section}{8. TRANSLATION}{xvii}{section*.43}
+\contentsline {section}{9. TERMINATION}{xviii}{section*.44}
+\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xviii}{section*.45}
+\contentsline {section}{11. RELICENSING}{xix}{section*.46}
+\contentsline {section}{ADDENDUM: How to use this License for your documents}{xix}{section*.47}
