@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.2)  16 MAY 2013 13:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.2)  16 MAY 2013 18:11
 entering extended mode
 **StudienarbeitII.tex
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.tex
@@ -981,33 +981,36 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 Package tocbasic Info: character protrusion at toc deactivated on input line 61
 .
  (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.toc
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
+
 [6
 
-] [7]
-Overfull \hbox (1.3555pt too wide) detected at line 96
+] [7] [8]
+Overfull \hbox (1.3555pt too wide) detected at line 116
  []\T1/ppl/m/n/12 xvii
  []
 
 
-Overfull \hbox (1.3555pt too wide) detected at line 97
+Overfull \hbox (1.3555pt too wide) detected at line 117
  []\T1/ppl/m/n/12 xvii
  []
 
 
-Overfull \hbox (4.84738pt too wide) detected at line 98
+Overfull \hbox (4.84738pt too wide) detected at line 118
  []\T1/ppl/m/n/12 xviii
  []
 
 
-Overfull \hbox (4.84738pt too wide) detected at line 99
+Overfull \hbox (4.84738pt too wide) detected at line 119
  []\T1/ppl/m/n/12 xviii
  []
 
 )
 \tf@toc=\write9
- [8] (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\ads/acronyms.tex)
+ [9] (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\ads/acronyms.tex)
 No file StudienarbeitII.gls.
-[9
+[10
 
 
 
@@ -1022,23 +1025,25 @@ Class scrreprt Warning: \float@addtolists detected!
 
 Package acronym Info: Label `acro:WBT' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
-) (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/project.texpdfTeX war
-ning (ext4): destination with the same identifier (name{page.1}) has been alrea
-dy used, duplicate ignored
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter{
-             Projektplanung} [1
+l.85 	\part{
+            Vorbereitungen} [1
+
+] [2
 
 ]
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/project.tex
 Kapitel 2.
-<images/MasterlyMateWolke.png, id=264, 605.26125pt x 345.54094pt>
+<images/MasterlyMateWolke.png, id=309, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
 Package pdftex.def Info: images/MasterlyMateWolke.png used on input line 7.
 (pdftex.def)             Requested size: 452.96796pt x 258.60144pt.
- [2
+ [3
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
@@ -1050,184 +1055,198 @@ l.23
 png>]
 Package acronym Info: Label `acro:LMS' newly defined as it shall be overridden
 although it is yet undefined on input line 56.
- [3]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
- [4]
+ [4] [5]
 Package acronym Info: Label `acro:AGPL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 102.
 Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
 )
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/theory.tex [5]
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/theory.tex [6]
 Kapitel 3.
-<images/SPIsynapseS50.png, id=297, 481.8pt x 295.1025pt>
+<images/SPIsynapseS50.png, id=341, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
 Package pdftex.def Info: images/SPIsynapseS50.png used on input line 32.
 (pdftex.def)             Requested size: 317.07619pt x 194.21439pt.
- [6
+ [7
 
-] [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.59 \subsection{
-                 Extrinsische Motivation} <C:/Users/mgruben/git/WBTS_Doku/Studi
-enarbeitII/images/SPIsynapseS50.png (PNG copy)>] [8]
+                 Extrinsische Motivation}\label{ref:extrinsischeMotivation} <C:
+/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/SPIsynapseS50.png (PNG copy
+)>] [9]
 Package acronym Info: Label `acro:F2F' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:DE' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:OE' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
- [9] [10]
+ [10] [11]
 Overfull \hbox (7.28256pt too wide) in paragraph at lines 191--194
 [][]\T1/ppl/m/n/12 (-20) sorgt
  []
 
-[11] [12]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 231.
+[12] [13]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 234.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 234.
+ [14]
 Package acronym Info: Label `acro:WYSIWYG' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 266.
- [13]
+although it is yet undefined on input line 269.
 Package acronym Info: Label `acro:CBT' newly defined as it shall be overridden
-although it is yet undefined on input line 286.
+although it is yet undefined on input line 289.
+
+[15]
 Package acronym Info: Label `acro:SCORM' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 296.
+although it is yet undefined on input line 299.
 Package acronym Info: Label `acro:ADL' newly defined as it shall be overridden
-although it is yet undefined on input line 296.
+although it is yet undefined on input line 299.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 298.
-
-[14] <images/SCORM-Components.png, id=364, 407.78348pt x 258.0039pt>
+although it is yet undefined on input line 301.
+ <images/SCORM-Components.png, id=409, 407.78348pt x 258.0039pt>
 File: images/SCORM-Components.png Graphic file (type png)
 
 <use images/SCORM-Components.png>
-Package pdftex.def Info: images/SCORM-Components.png used on input line 308.
+Package pdftex.def Info: images/SCORM-Components.png used on input line 311.
 (pdftex.def)             Requested size: 317.07619pt x 200.61234pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.321 
-       <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/SCORM-Components.
-png>]
+l.316 \subsubsection{
+                     Asset} <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/ima
+ges/SCORM-Components.png>]
 Package acronym Info: Label `acro:SCO' newly defined as it shall be overridden
-although it is yet undefined on input line 323.
- [16] <images/SCORM-Manifest.png, id=386, 292.6935pt x 325.39568pt>
+although it is yet undefined on input line 326.
+ [17]
+<images/SCORM-Manifest.png, id=429, 292.6935pt x 325.39568pt>
 File: images/SCORM-Manifest.png Graphic file (type png)
 
 <use images/SCORM-Manifest.png>
-Package pdftex.def Info: images/SCORM-Manifest.png used on input line 355.
+Package pdftex.def Info: images/SCORM-Manifest.png used on input line 358.
 (pdftex.def)             Requested size: 226.48398pt x 251.79176pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 [][]\T1/ppl/m/n/12 (+20) Schema der SCORM-
  []
 
 Package acronym Info: Label `acro:CAM' newly defined as it shall be overridden
-although it is yet undefined on input line 366.
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+although it is yet undefined on input line 369.
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.384 \subsection{
-                  SCORM-API} <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/im
-ages/SCORM-Manifest.png>]
-<images/SCORM-API.png, id=396, 351.41287pt x 165.4983pt>
+l.386 
+       <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/SCORM-Manifest.pn
+g>] <images/SCORM-API.png, id=440, 351.41287pt x 165.4983pt>
 File: images/SCORM-API.png Graphic file (type png)
 
 <use images/SCORM-API.png>
-Package pdftex.def Info: images/SCORM-API.png used on input line 397.
+Package pdftex.def Info: images/SCORM-API.png used on input line 400.
 (pdftex.def)             Requested size: 351.412pt x 165.49788pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.413 
+l.416 
        <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/SCORM-API.png>]
 Package acronym Info: Label `acro:RTE' newly defined as it shall be overridden
-although it is yet undefined on input line 415.
+although it is yet undefined on input line 418.
 
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/concept.tex [19]
-Kapitel 4.
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut) [20
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)) [20] [21
 
-] [21]
-<images/verteilungDerPunkte.png, id=425, 364.42148pt x 116.17403pt>
+]
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/basicPrinciple.tex
+Kapitel 4.
+) (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/architecture.tex
+[22
+
+]
+Kapitel 5.
+[23
+
+] (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut) [24]
+<images/verteilungDerPunkte.png, id=478, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
-Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 102.
-
+Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 79.
 (pdftex.def)             Requested size: 452.96796pt x 144.40706pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 
+l.101 
        <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/verteilungDerPunk
-te.png>] (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [23])
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [24])
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [25])
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
+te.png>] (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [26])
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/script.tex [26]
-Kapitel 5.
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [27
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/usersView.tex [27]
+Kapitel 6.
+Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+[28
 
-])
+] [29] [30]) [31] [32
+
+]
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/script.tex
+Kapitel 7.
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut) [33
+
+]
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/implementation.tex
-[28]
-Kapitel 6.
+[34]
+Kapitel 8.
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [29
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [35
 
 ])
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/conclusion.tex [30]
-Kapitel 7.
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/summary.tex [31
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)) [36] [37
 
 ]
-Kapitel 8.
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)) [32
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/conclusion.tex
+Kapitel 9.
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/summary.tex [38
 
 ]
+Kapitel 10.
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [39
+
+])
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)) [40] [41]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
-1.
+9.
 
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.lof)
 \tf@lof=\write10
@@ -1237,8 +1256,8 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 10
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 10
-7.
+Package tocbasic Info: character protrusion at lot deactivated on input line 11
+5.
 
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.lot)
 \tf@lot=\write11
@@ -1253,7 +1272,7 @@ Class scrreprt Warning: Usage of deprecated \float@listhead!
 (scrreprt)              instead of \float@listhead.
 (scrreprt)              Definition of \float@listhead my be removed from
 (scrreprt)              `scrreprt' soon, so it should not be used  on input lin
-e 113.
+e 121.
 
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.lol)
 \tf@lol=\write12
@@ -1271,6 +1290,24 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 Underfull \hbox (badness 2503) in paragraph at lines 9--14
 [][]| | \T1/ppl/m/n/12 (+20) ADL (2011), SCORM Users Gui-de for Pro-gram-mers, 
 Tech-ni-cal re-port, ADL,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+[][]| | \T1/ppl/m/n/12 (+20) Breit-lauch, L. (2013), `Lin-da Breit-lauch über S
+e-rious Ga-mes --
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\T1/ppl/m/n/12 (+20) Quo Va-dis 2013', [][]$\T1/pcr/m/n/12 http : / / video . g
+olem . de / games / 10714 /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+$\T1/pcr/m/n/12 linda-[]breitlauch-[]ueber-[]serious-[]games-[]quo-[]vadis-[]20
+13 . html$[][]\T1/ppl/m/n/12 (+20) .
  []
 
 [4
@@ -1383,20 +1420,20 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 
 ] [11]
 [12] [13] [14] [15] [16] [17] [18] [19]))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 15409 strings out of 494045
- 236908 string characters out of 3148382
- 647851 words of memory out of 3000000
- 17900 multiletter control sequences out of 15000+200000
- 46340 words of font info for 168 fonts, out of 3000000 for 9000
+ 15487 strings out of 494045
+ 237930 string characters out of 3148382
+ 648851 words of memory out of 3000000
+ 17943 multiletter control sequences out of 15000+200000
+ 46418 words of font info for 169 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  40i,11n,72p,1330b,687s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
@@ -1406,9 +1443,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
 /uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (62 pages, 3359196 bytes).
+Output written on StudienarbeitII.pdf (72 pages, 3385771 bytes).
 PDF statistics:
- 918 PDF objects out of 1000 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
- 26860 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1069 PDF objects out of 1200 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
+ 26996 words of extra memory for PDF output out of 29859 (max. 10000000)
 
