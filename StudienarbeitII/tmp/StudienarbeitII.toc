@@ -1,5 +1,7 @@
 \select@language {german}
 \select@language {german}
+\select@language {english}
+\select@language {ngerman}
 \contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{IX}{section*.3}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Projektplanung}{2}{chapter.2}
@@ -20,58 +22,62 @@
 \contentsline {section}{\numberline {3.4}eLearning}{10}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Vorteile}{10}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Nachteile}{11}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Gamification}{11}{section.3.5}
-\contentsline {section}{\numberline {3.6}Learning Management System}{12}{section.3.6}
-\contentsline {section}{\numberline {3.7}Autorenwerkzeug}{12}{section.3.7}
-\contentsline {section}{\numberline {3.8}WBT}{12}{section.3.8}
-\contentsline {section}{\numberline {3.9}SCORM}{13}{section.3.9}
-\contentsline {subsection}{\numberline {3.9.1}Aufbau}{13}{subsection.3.9.1}
-\contentsline {subsubsection}{Asset}{13}{section*.17}
-\contentsline {subsubsection}{SCO}{14}{section*.18}
-\contentsline {subsubsection}{Aggregation}{14}{section*.20}
-\contentsline {subsubsection}{Organization}{15}{section*.21}
-\contentsline {subsubsection}{Curriculum}{15}{section*.22}
-\contentsline {subsection}{\numberline {3.9.2}Manifest-Datei}{15}{subsection.3.9.2}
-\contentsline {subsection}{\numberline {3.9.3}SCORM-API}{16}{subsection.3.9.3}
-\contentsline {subsubsection}{API-Wrapper}{16}{section*.24}
-\contentsline {subsubsection}{SCORM-RTE}{17}{section*.25}
-\contentsline {section}{\numberline {3.10}Gestaltungskonzepte}{17}{section.3.10}
-\contentsline {section}{\numberline {3.11}Autorisierung und Authentifikation}{17}{section.3.11}
-\contentsline {chapter}{\numberline {4}Konzeption der Plattform}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Namensgebung}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}Aufbereiten des Dreyfus-Modells}{18}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{19}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{19}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{21}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Administrator}{21}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Lernender}{21}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Tutor}{21}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Dokumentation der API}{22}{section.4.4}
-\contentsline {section}{\numberline {4.5}Gamification}{22}{section.4.5}
-\contentsline {section}{\numberline {4.6}Automatisch generierte Filterung von Ergebnissen}{22}{section.4.6}
-\contentsline {section}{\numberline {4.7}Themen}{22}{section.4.7}
-\contentsline {chapter}{\numberline {5}Entwurf}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verwendetes Framework}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Internationalisierung}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}Aufbau}{23}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Bearbeiten von WBTs}{24}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Tutorensuche}{24}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Navigation, Impressum, Kontakt}{24}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Themen}{24}{subsection.5.4.4}
-\contentsline {chapter}{\numberline {6}Umsetzung}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}Nutzerverwaltung}{25}{section.6.1}
-\contentsline {section}{\numberline {6.2}Lokationen}{25}{section.6.2}
-\contentsline {section}{\numberline {6.3}Suche}{25}{section.6.3}
-\contentsline {section}{\numberline {6.4}SCORM}{25}{section.6.4}
-\contentsline {section}{\numberline {6.5}Lizensierung}{25}{section.6.5}
-\contentsline {section}{\numberline {6.6}Dokumentation}{26}{section.6.6}
-\contentsline {section}{\numberline {6.7}Gestaltung}{26}{section.6.7}
-\contentsline {section}{\numberline {6.8}Authentifizierung}{26}{section.6.8}
-\contentsline {section}{\numberline {6.9}Themen}{26}{section.6.9}
-\contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{27}{chapter.7}
-\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{28}{chapter.8}
-\contentsline {section}{\numberline {8.1}Ideen f\IeC {\"u}r weitere Versionen}{28}{section.8.1}
+\contentsline {section}{\numberline {3.5}Flow}{11}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Komponenten}{11}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Bedingungen}{12}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Gamification}{12}{section.3.6}
+\contentsline {section}{\numberline {3.7}Learning Management System}{13}{section.3.7}
+\contentsline {section}{\numberline {3.8}Autorenwerkzeug}{14}{section.3.8}
+\contentsline {section}{\numberline {3.9}WBT}{14}{section.3.9}
+\contentsline {section}{\numberline {3.10}SCORM}{15}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Aufbau}{15}{subsection.3.10.1}
+\contentsline {subsubsection}{Asset}{15}{section*.17}
+\contentsline {subsubsection}{SCO}{16}{section*.18}
+\contentsline {subsubsection}{Aggregation}{16}{section*.20}
+\contentsline {subsubsection}{Organization}{16}{section*.21}
+\contentsline {subsubsection}{Curriculum}{16}{section*.22}
+\contentsline {subsection}{\numberline {3.10.2}Manifest-Datei}{17}{subsection.3.10.2}
+\contentsline {subsection}{\numberline {3.10.3}SCORM-API}{18}{subsection.3.10.3}
+\contentsline {subsubsection}{API-Wrapper}{18}{section*.24}
+\contentsline {subsubsection}{SCORM-RTE}{19}{section*.25}
+\contentsline {section}{\numberline {3.11}Gestaltungskonzepte}{19}{section.3.11}
+\contentsline {section}{\numberline {3.12}Autorisierung und Authentifikation}{19}{section.3.12}
+\contentsline {chapter}{\numberline {4}Konzeption der Plattform}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Namensgebung}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}Aufbereiten des Dreyfus-Modells}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Fachlicher Rang}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{21}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Rollen f\IeC {\"u}r Anwender}{23}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Administrator}{23}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Lernender}{23}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Tutor}{23}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Dokumentation der API}{24}{section.4.4}
+\contentsline {section}{\numberline {4.5}Gamification}{24}{section.4.5}
+\contentsline {section}{\numberline {4.6}Generieren von Motivation}{25}{section.4.6}
+\contentsline {section}{\numberline {4.7}Automatisch generierte Filterung von Ergebnissen}{26}{section.4.7}
+\contentsline {section}{\numberline {4.8}Themen}{26}{section.4.8}
+\contentsline {chapter}{\numberline {5}Entwurf}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verwendetes Framework}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Internationalisierung}{27}{section.5.2}
+\contentsline {section}{\numberline {5.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{27}{section.5.3}
+\contentsline {section}{\numberline {5.4}Aufbau}{27}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Bearbeiten von WBTs}{28}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Tutorensuche}{28}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Navigation, Impressum, Kontakt}{28}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Themen}{28}{subsection.5.4.4}
+\contentsline {chapter}{\numberline {6}Umsetzung}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Nutzerverwaltung}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Lokationen}{29}{section.6.2}
+\contentsline {section}{\numberline {6.3}Suche}{29}{section.6.3}
+\contentsline {section}{\numberline {6.4}SCORM}{29}{section.6.4}
+\contentsline {section}{\numberline {6.5}Lizensierung}{29}{section.6.5}
+\contentsline {section}{\numberline {6.6}Dokumentation}{30}{section.6.6}
+\contentsline {section}{\numberline {6.7}Gestaltung}{30}{section.6.7}
+\contentsline {section}{\numberline {6.8}Authentifizierung}{30}{section.6.8}
+\contentsline {section}{\numberline {6.9}Themen}{30}{section.6.9}
+\contentsline {chapter}{\numberline {7}Zusammenfassung der Ergebnisse}{31}{chapter.7}
+\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{32}{chapter.8}
+\contentsline {section}{\numberline {8.1}Ideen f\IeC {\"u}r weitere Versionen}{32}{section.8.1}
 \contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.27}
 \contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.29}
 \contentsline {chapter}{Listings}{iii}{section*.31}
@@ -93,3 +99,4 @@
 \contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xviii}{section*.45}
 \contentsline {section}{11. RELICENSING}{xix}{section*.46}
 \contentsline {section}{ADDENDUM: How to use this License for your documents}{xix}{section*.47}
+\select@language {ngerman}

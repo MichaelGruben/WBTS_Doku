@@ -1,15 +1,17 @@
 \select@language {german}
 \select@language {german}
+\select@language {english}
+\select@language {ngerman}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Wortwolke \IeC {\"u}ber die "`Masterly Mate"'-Idee}}{2}{figure.2.1}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Umstrukturierung von Synapsen \FN@sf@gobble@optonly }}{7}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Komponenten eines SCORM-Paketes\FN@sf@gobble@optonly }}{14}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Schema der SCORM-Manifest Datei\FN@sf@gobble@optonly }}{15}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces SCORM-API Anbindung\FN@sf@gobble@optonly }}{17}{figure.3.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Komponenten eines SCORM-Paketes\FN@sf@gobble@optonly }}{15}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schema der SCORM-Manifest Datei\FN@sf@gobble@optonly }}{17}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces SCORM-API Anbindung\FN@sf@gobble@optonly }}{18}{figure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Verteilung der Punkte}}{20}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Verteilung der Punkte}}{22}{figure.4.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -18,3 +20,4 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \select@language {english}
+\select@language {ngerman}
