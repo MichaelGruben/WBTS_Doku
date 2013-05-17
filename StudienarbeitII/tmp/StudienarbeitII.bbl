@@ -1,28 +1,40 @@
 \begin{thebibliography}{xx}
 
 \harvarditem{ADL}{2009}{adl:2009}
-ADL  \harvardyearleft 2009\harvardyearright , Sharable content object reference
-  model (r) 2004 4th edition run-time environment version 1.0, Technical
-  report, ADL, USA.
+ADL  \harvardyearleft 2009\harvardyearright , {Sharable Content Object
+  Reference Model (R) 2004 4th Edition Run-Time Environment Version 1.0},
+  Technical report, ADL, USA.
 \newblock \url{http://www.moschorus.com/centre/?b0c2e7}.
 
 \harvarditem{ADL}{2011}{adl:2011}
-ADL  \harvardyearleft 2011\harvardyearright , Scorm users guide for
-  programmers, Technical report, ADL, USA.
+ADL  \harvardyearleft 2011\harvardyearright , {SCORM Users Guide for
+  Programmers}, Technical report, ADL, USA.
 \newblock
   \url{http://www.adlnet.gov/wp-content/uploads/2011/12/SCORM_Users_Guide_for_Programmers.pdf}.
 
 \harvarditem[Baumgartner et~al.]{Baumgartner, Häfele \harvardand\
   Maier-Häfele}{2002}{baumgartner:2002}
 Baumgartner, P., Häfele, H. \harvardand\ Maier-Häfele, K.  \harvardyearleft
-  2002\harvardyearright , {\em E-Learning Praxishandbuch : Auswahl von
-  Lernplattformen; Marktübersicht, Funktionen, Fachbegriffe}, StudienVerl.,
+  2002\harvardyearright , {\em {E-Learning Praxishandbuch : Auswahl von
+  Lernplattformen; Marktübersicht, Funktionen, Fachbegriffe}}, StudienVerl.,
   Innsbruck.
+
+\harvarditem{Breitlauch}{2013}{breitlauch:2013}
+Breitlauch, L.  \harvardyearleft 2013\harvardyearright , `{Linda Breitlauch
+  über Serious Games -- Quo Vadis 2013}',
+  \url{http://video.golem.de/games/10714/linda-breitlauch-ueber-serious-games-quo-vadis-2013.html}.
+\newblock Video.
+
+\harvarditem{Csikszentmihalyi \harvardand\
+  Schiefele}{1993}{csikszentmihalyi:1993}
+Csikszentmihalyi, M. \harvardand\ Schiefele, U.  \harvardyearleft
+  1993\harvardyearright , `{Die Qualität des Erlebens und der Prozeß des
+  Lernens}', {\em Zeitschrift für Pädagogik} .
 
 \harvarditem{Dreyfus \harvardand\ Dreyfus}{1980}{dreyfus:1980}
 Dreyfus, S.~E. \harvardand\ Dreyfus, H.~L.  \harvardyearleft
-  1980\harvardyearright , A five-stage model of the mental activities involved
-  in directed skill acquisition, Technical report, University of California,
+  1980\harvardyearright , {A Five-Stage Model Of The Mental Activities Involved
+  In Directed Skill Acquisition}, Technical report, University of California,
   Berkley.
 \newblock
   \url{http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf}.
@@ -33,59 +45,69 @@ Dreyfus, S.~E. \harvardand\ Dreyfus, H.~L.  \harvardyearleft
   \url{http://www.gnu.org/licenses/agpl-3.0.de.html}.
 
 \harvarditem{Gruben}{2012}{gruben:2012}
-Gruben, M.  \harvardyearleft 2012\harvardyearright , Analyse und vergleich von
-  autorensystemen für ein wbt zu vorlesungsinhalten.
+Gruben, M.  \harvardyearleft 2012\harvardyearright , {Analyse und Vergleich von
+  Autorensystemen für ein WBT zu Vorlesungsinhalten}.
 \newblock Studienarbeit.
 
+\harvarditem[Gruben et~al.]{Gruben, Merkle \harvardand\
+  Babics}{2012}{grubenMerkeBabics:2012}
+Gruben, M., Merkle, B. \harvardand\ Babics, J.  \harvardyearleft
+  2012\harvardyearright , {Web Based Training and the Dreyfus-Model}.
+\newblock Präsentation.
+
 \harvarditem{Horton}{2000}{horton:2000}
-Horton, W.~K.  \harvardyearleft 2000\harvardyearright , {\em Designing Web
-  based training : how to teach anyone anything anywhere anytime}, Wiley, New
+Horton, W.~K.  \harvardyearleft 2000\harvardyearright , {\em {Designing Web
+  based training : how to teach anyone anything anywhere anytime}}, Wiley, New
   York.
 
 \harvarditem{Jacobs \harvardand\ Preuße}{2010}{jacobs:2010}
 Jacobs, P. \harvardand\ Preuße, M.  \harvardyearleft 2010\harvardyearright ,
-  {\em Kompaktwissen AEVO in vier Handlungsfeldern}, 1. aufl. edn,
+  {\em {Kompaktwissen AEVO in vier Handlungsfeldern}}, 1. aufl. edn,
   Bildungsverl. EINS - Stam, Troisdorf.
 
 \harvarditem{Keller}{2000}{keller:2000}
-Keller, H.~B.  \harvardyearleft 2000\harvardyearright , {\em Maschinelle
-  Intelligenz : Grundlagen, Lernverfahren, Bausteine intelligenter Systeme},
+Keller, H.~B.  \harvardyearleft 2000\harvardyearright , {\em {Maschinelle
+  Intelligenz : Grundlagen, Lernverfahren, Bausteine intelligenter Systeme}},
   Computational intelligence, Vieweg, Braunschweig.
 
 \harvarditem{Koster}{c2005}{koster:2005}
-Koster, R.  \harvardyearleft c2005\harvardyearright , {\em A theory of fun for
-  game design}, Paraglyph Press, Scottsdale, AZ.
+Koster, R.  \harvardyearleft c2005\harvardyearright , {\em {A theory of fun for
+  game design}}, Paraglyph Press, Scottsdale, AZ.
 
 \harvarditem{Kröger \harvardand\ Reisky}{2004}{kroeger:2004}
 Kröger, H. \harvardand\ Reisky, A.  \harvardyearleft 2004\harvardyearright ,
-  {\em Blended Learning - Erfolgsfaktor Wissen}, Wissen und Bildung im Internet
-  ; 6, Bertelsmann, Bielefeld.
+  {\em {Blended Learning - Erfolgsfaktor Wissen}}, Wissen und Bildung im
+  Internet ; 6, Bertelsmann, Bielefeld.
 
 \harvarditem{Niegemann}{2004}{niegemann:2004}
-Niegemann, H.~M., ed.  \harvardyearleft 2004\harvardyearright , {\em Kompendium
-  E-Learning}, X.media.press, Springer, Berlin.
+Niegemann, H.~M., ed.  \harvardyearleft 2004\harvardyearright , {\em
+  {Kompendium E-Learning}}, X.media.press, Springer, Berlin.
+
+\harvarditem{Raymer}{2011}{raymer:2011}
+Raymer, R.  \harvardyearleft 2011\harvardyearright , `{Gamification: Using Game
+  Mechanics to Enhance eLearning}', {\em eLearn Magazine} .
 
 \harvarditem{Schleifer}{2003}{schleifer:2003}
-Schleifer, H.-J.  \harvardyearleft 2003\harvardyearright , e-learning an der
-  lvg -- neue formen des unterrichts an der lvg heidelberg, Technical report,
+Schleifer, H.-J.  \harvardyearleft 2003\harvardyearright , {e-Learning an der
+  LVG -- Neue Formen des Unterrichts an der LVG Heidelberg}, Technical report,
   LVG Heidelberg.
 
 \harvarditem{Spitzer}{2012}{spitzer:2012}
-Spitzer, M.  \harvardyearleft 2012\harvardyearright , {\em Digitale Demenz :
-  wie wir uns und unsere Kinder um den Verstand bringen}, Droemer, München.
+Spitzer, M.  \harvardyearleft 2012\harvardyearright , {\em {Digitale Demenz :
+  wie wir uns und unsere Kinder um den Verstand bringen}}, Droemer, München.
 
 \harvarditem{Stampfl}{2012}{stampfl:2012}
-Stampfl, N.~S.  \harvardyearleft 2012\harvardyearright , {\em Die verspielte
-  Gesellschaft : Gamification oder Leben im Zeitalter des Computerspiels},
+Stampfl, N.~S.  \harvardyearleft 2012\harvardyearright , {\em {Die verspielte
+  Gesellschaft : Gamification oder Leben im Zeitalter des Computerspiels}},
   Telepolis, 1. aufl. edn, Heise, Hannover.
 
 \harvarditem{Thomé}{1989}{thome:1989}
-Thomé, D.  \harvardyearleft 1989\harvardyearright , Kriterien zur Bewertung
+Thomé, D.  \harvardyearleft 1989\harvardyearright , {Kriterien zur Bewertung
   von Lernsoftware : mit einer exemplarischen Beurteilung von
-  Deutsch-Lernprogrammen, PhD thesis, Heidelberg.
+  Deutsch-Lernprogrammen}, PhD thesis, Universität Heidelberg, Heidelberg.
 
 \harvarditem{Wendt}{2003}{wendt:2003}
-Wendt, M.  \harvardyearleft 2003\harvardyearright , {\em Praxisbuch CBT und WBT
-  : konzipieren, entwickeln, gestalten}, Hanser, München.
+Wendt, M.  \harvardyearleft 2003\harvardyearright , {\em {Praxisbuch CBT und
+  WBT : konzipieren, entwickeln, gestalten}}, Hanser, München.
 
 \end{thebibliography}

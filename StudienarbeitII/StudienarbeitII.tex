@@ -82,14 +82,22 @@
 	
 	% Inhalt
 	\input{content/introduction}
+	\part{Vorbereitungen}
 	\input{content/project}
 	\input{content/theory}
-	\input{content/concept}
+	\part{Konzeption der Plattform}\label{ref:chaptConcept}
+	\input{content/basicPrinciple}
+	\input{content/architecture}
+	\input{content/usersView}
+	\part{Implementierung}
 	\input{content/script}
 	\input{content/implementation}
+	\part{Reflexion}
 	\input{content/conclusion}
 	\input{content/summary}
 	
+	\phantomsection
+ 	\addcontentsline{toc}{part}{Verzeichnisse}
 	% Anhang
 	\clearpage
 	\pagenumbering{roman}
@@ -121,6 +129,6 @@
 	
 	\appendix
 	\chapter*{Anhang}
-	\addcontentsline{toc}{chapter}{Anhang}
+	\addcontentsline{toc}{part}{Anhang}
 	\input{ads/appendix}
 \end{document}
