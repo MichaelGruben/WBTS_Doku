@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.2)  17 MAY 2013 14:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.2)  17 MAY 2013 15:10
 entering extended mode
 **StudienarbeitII.tex
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\StudienarbeitII.tex
@@ -1037,7 +1037,7 @@ l.85 	\part{
 ]
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/project.tex
 Kapitel 2.
-<images/MasterlyMateWolke.png, id=300, 605.26125pt x 345.54094pt>
+<images/MasterlyMateWolke.png, id=299, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
@@ -1058,7 +1058,7 @@ although it is yet undefined on input line 56.
  [4] [5])
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/theory.tex [6]
 Kapitel 3.
-<images/SPIsynapseS50.png, id=329, 481.8pt x 295.1025pt>
+<images/SPIsynapseS50.png, id=328, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
@@ -1110,7 +1110,7 @@ although it is yet undefined on input line 306.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 308.
 
-<images/SCORM-Components.png, id=403, 407.78348pt x 258.0039pt>
+<images/SCORM-Components.png, id=402, 407.78348pt x 258.0039pt>
 File: images/SCORM-Components.png Graphic file (type png)
 
 <use images/SCORM-Components.png>
@@ -1126,7 +1126,7 @@ although it is yet undefined on input line 333.
                                                   \fi \fi 
 l.361 
        <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/SCORM-Components.
-png>] <images/SCORM-Manifest.png, id=425, 292.6935pt x 325.39568pt>
+png>] <images/SCORM-Manifest.png, id=424, 292.6935pt x 325.39568pt>
 File: images/SCORM-Manifest.png Graphic file (type png)
 
 <use images/SCORM-Manifest.png>
@@ -1146,7 +1146,7 @@ although it is yet undefined on input line 376.
                                                   \fi \fi 
 l.393 
        <C:/Users/mgruben/git/WBTS_Doku/StudienarbeitII/images/SCORM-Manifest.pn
-g>] <images/SCORM-API.png, id=437, 351.41287pt x 165.4983pt>
+g>] <images/SCORM-API.png, id=436, 351.41287pt x 165.4983pt>
 File: images/SCORM-API.png Graphic file (type png)
 
 <use images/SCORM-API.png>
@@ -1164,7 +1164,10 @@ although it is yet undefined on input line 425.
 
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)) [20] [21
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut
+Package acronym Info: Label `acro:RoR' newly defined as it shall be overridden
+although it is yet undefined on input line 1.
+)) [20] [21
 
 ]
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/basicPrinciple.tex
@@ -1178,7 +1181,7 @@ Kapitel 5.
 [23
 
 ] (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut) [24]
-<images/verteilungDerPunkte.png, id=477, 364.42148pt x 116.17403pt>
+<images/verteilungDerPunkte.png, id=478, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
@@ -1255,7 +1258,6 @@ although it is yet undefined on input line 46.
 ]
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/conclusion.tex
 Kapitel 9.
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut))
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\content/summary.tex [40
 
@@ -1264,7 +1266,7 @@ Kapitel 10.
 (C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [41
 
 ])
-(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut)) [42] [43]
+(C:\Users\mgruben\git\WBTS_Doku\StudienarbeitII\comment.cut [42])) [43]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
 9.
 
@@ -1448,10 +1450,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15548 strings out of 494045
- 238651 string characters out of 3148382
+ 15562 strings out of 494045
+ 238755 string characters out of 3148382
  648851 words of memory out of 3000000
- 17984 multiletter control sequences out of 15000+200000
+ 17998 multiletter control sequences out of 15000+200000
  47194 words of font info for 173 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  40i,11n,72p,1330b,687s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1462,9 +1464,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
 /uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (74 pages, 3393192 bytes).
+Output written on StudienarbeitII.pdf (74 pages, 3395282 bytes).
 PDF statistics:
- 1080 PDF objects out of 1200 (max. 8388607)
- 258 named destinations out of 1000 (max. 500000)
- 27452 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1085 PDF objects out of 1200 (max. 8388607)
+ 260 named destinations out of 1000 (max. 500000)
+ 27444 words of extra memory for PDF output out of 29859 (max. 10000000)
 
