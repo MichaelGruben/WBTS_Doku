@@ -15,16 +15,43 @@ Uebernimmt Julian?
 Uebernimmt Julian/Benni?
 \end{k}
 
-\section{SCORM}
-\begin{k}
-Macht Micha!
-\end{k}
+\section{SCORM}\label{ref:implSCORM}
+Die SCORM-Funktionalität wird in dem Objekt "`wbt"' realisiert, welches in
+Abschnitt \ref{ref:objectWBT} beschrieben wurde. 
+
+Die darin enthaltene Upload-Methode, die beim Einfügen und Ändern eines WBTs
+aufgerufen wird, speichert das WBT auf dem lokalen Speicher des Servers. Dabei
+wird das \ac{PIF} mithilfe der Funktionen aus einem
+scorm-gem\footnote{Ressource: \url{https://rubygems.org/gems/scorm}} direkt
+entpackt. Dabei ist mit der Berücksichtigung der Validierung stets ein Fehler
+aufgetreten. Für die erste Version wird daher keine Validierung unterstützt, das
+PIF wird ohne Prüfung entpackt (siehe \ref{ref:problems}). Die Fehlerursache
+liegt unter Umständen an dem Alter des gems. Eine genauere Betrachtung ist für
+spätere Versionen von Masterly Mate angedacht. 
+
+Mit dem Hochladen und Entpacken werden die nötigen Attibute für den Start des
+WBT gepflegt. Dies ist zum einen der Paketname selbst und zum anderen der Pfad
+zur Start-Datei des Root SCO. In einer start-Methode werden diese Attribute
+ausgelesen und das WBT wird in einem neuen Fenster geöffnet. So kann das WBT den
+Raum einnehmen, den es braucht. Masterly Mate bleibt damit unabhängig vom Stil
+des Autorenwerkzeugs. Für die erste produktive Version fehlt es noch an einem
+geeigneten RTE, da dessen Implementierung den Rahmen der vorliegenden Arbeit
+sprengen würde. Daher erfolgt die Registrierung des Ergebnisses zunächst durch
+eine manuelle Eingabe des Nutzers.
 
 \section{Lizensierung}
-\begin{k}
-alle Dateien wurde ein Lizenztext vorran gestellt und im Footer wurde ein
-Verweis auf Git hinzugefügt.
-\end{k}
+Nach den in Abschnitt \ref{ref:freeLicenses} beschriebenen freien Lizenzen und
+dem Einbringen der Idee in das Konzept (siehe Abschnitt
+\ref{freeLicensesConcept}) wurde für die Zwecke von Masterly Mate auf die
+\ac{AGPL} zurückgegriffen. Da diese mit der \ac{GPL} kompatibel ist, wird
+eine eventuelle Verbreitung der Software im Sinne von OpenSource möglich.
+Darüber hinaus kann das Projekt unter anderen kompatiblen Lizenten verbreitet
+werden \cite{fsf:2007}.
+
+Mit der Nutzung der AGPL entsteht die Pflicht, den Quelltext der Anwendung
+direkt als Download anzubieten. Dazu wird im Interface Masterly Mate
+ein Link auf die GIT-Ressource im Footer angeboten. Zusätzlich wurde, wie bei
+allen Lizenzen nötig, in jeder Datei ein Lizenztext vorrangestellt.
 
 \section{Dokumentation}
 \begin{k}

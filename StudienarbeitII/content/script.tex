@@ -1,13 +1,30 @@
 \chapter{Entwurf}\label{ref:chaptScript}
-\begin{k}
-Anwenden von DRY, KISS, YAGNI
-\end{k}
-\section{Verwendetes Framework}
-Als Framework verwenden wir Ruby on Rails. Dieses bietet viele interessante
-Features, die dank einer regen Community stets aktualisiert und erweitert
-werden. Weiterhin ist dieses Framework für die Weiterentwicklung im
-OpenSource-Bereich prädistiniert, da damit bisher einige populäre Webanwendungen
-realisiert wurden.
+Der in diesem Kapitel beschriebene Entwurf zeigt konkret, wie das Konzept von
+Masterly Mate umgesetzt werden wird. Hier werden Schemata und Architekturen
+entwickelt, die im Kapitel \ref{ref:chaptImplementation} in Programmcode
+umgesetzt werden.
+
+\section{Realisierungsmethodik}
+Nachdem in den vorangegangenen Kapiteln das Konzept von Masterly Mate erläutert
+wurde, stellt sich die Frage nach einer geeigneten Möglichkeit zur Umsetzung. Da
+die Anwendung stets verfügbar, leicht erreichbar, modular und einfach zu
+verwalten sein soll, ist \ac{RoR} das Mittel der Wahl. Dieses bietet viele
+interessante Features in Form von sogenannten gems, die dank einer regen
+Community stets aktualisiert und erweitert werden. Zudem unterstützt es moderne
+Programmierparadigmen, wie \ac{DRY} und \ac{KISS}. Dadurch bleibt die Anwendung
+aus Sicht der Programmierer übersichtlich und erscheint sehr strukturiert. Das
+das Framework der \ac{MVC}-Architektur folgt, schafft einen weiteren Grundstein
+zur Trennung von Zuständigkeiten\footnote{bekannter unter "`separation of
+concerns"'} und sorgt auch damit für Übersichtlichkeit. 
+
+Weiterhin ist dieses Framework für die Weiterentwicklung im
+OpenSource-Bereich prädistiniert, da damit bisher populäre
+Webanwendungen, wie Twitter, realisiert wurden.
+
+Darüber hinaus wird darauf geachtet, die Komponenten nach und nach nur dann zu
+entwickeln, wenn sie tatsächlich gebraucht werden. Diese Vorgehensweise nach dem
+\ac{YAGNI}-Prinzip beugt ein überlaufenes, unübersichtliches und schwer
+zu wartendes Produkt vor.
 
 \section{Internationalisierung}\label{ref:internationalisierung}
 \begin{k}
@@ -22,27 +39,23 @@ Uebernimmt Julian?
 Use-Case}\label{ref:classModel}
 \begin{k}
 Uebernimmt Benni
+
+bitte irgendwo den Anker \verb+\label{ref:objectWBT}+\label{ref:objectWBT}
+anbringen (dort, wo die Klasse WBT erläutert wird)
 \end{k}
 
-\section{Aufbau}
+\section{Komponenten}
+\begin{k}
+Struktur hier unklar\ldots noch warten auf die anderen Inhalte von JeyB und
+Benni.
+\end{k}
 Prinzipiell ist Masterly Mate aus zwei Komplexen aufgebaut. Zum einen kann sich
 ein Nutzer fachlich weiterbilden. Zum Anderen bietet ein Nutzer als Tutor seine
 Hilfe für ein bestimmtes Fachgebiet an.
 
-\subsection{Bearbeiten von WBTs}
-Ein Anwender, der eine fachliche Herausforderung sucht oder sich in einem Fach
-weiterbilden möchte, wird sich dem Bearbeiten von WBTs widmen.
+\subsection{Durcharbeiten von WBTs}
 
-\begin{k}
-, indem er WBTs durcharbeitet und mit Bestehen
-der darin enthaltenen Quizes Punkte für seinen fachlichen Rang sammelt. Unter
-Umständen nimmer er Hilfe von einem Tutor in Anspruch
-\end{k}
 \subsection{Tutorensuche}
-\begin{k}
-Er erhält gegebenenfalls eine gute Bewertung und
-bessert damit seinen didaktischen Rang auf.
-\end{k}
 
 \subsection{Navigation, Impressum, Kontakt}
 \begin{k}

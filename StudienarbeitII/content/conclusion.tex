@@ -1,8 +1,23 @@
 \chapter{Zusammenfassung der Ergebnisse}\label{ref:chaptConclusion}
+Es hat sich gezeigt, dass \ac{RoR} sehr mächtig ist. Innerhalb kürzester Zeit
+entstehen Webapplikationen mit umfangreichen Funktionen. Für Masterly Mate
+reichten vorhandene gems aus und es musste kein proprietärer Ruby-Code
+geschrieben werden.
+
+\paragraph{Aufgetretene Probleme}\label{ref:problems}
+Sehr problematisch war hingegen der Umgang mit SCORM. Diese, recht komplexe,
+Spezifikation konnte längst nicht in vollem Umfang implementiert werden. Es
+steht auch zur Diskussion, ob das gewählte scorm-gem die gewünschten Ziele in
+Kommunikation mit einer SCORM-RTE fehlerfrei erfüllt. Derzeit entstehen, wie
+bereits in Abschnitt \ref{ref:implSCORM} erwähnt, Fehler bei der Validierung von
+PIFs.
+
+Es war für die erste produktive Version angedacht, eine Kommunikation zwischen
+\ac{LMS} und \ac{WBT} bereitzustellen. Nach Recherchen hat sich gezeigt, dass
+dieses Vorhaben den Umfang eines eigenen Projektes beansprucht. Alternativ ist
+die Verwendung des SCORM-Players, wie in \cite{mitter:2005} und
+\cite{knall:2005} zu überdenken.
+
 \begin{k}
-\begin{itemize}
-  \item Rails unheimlich mächtig, wir sind sehr begeistert
-  \item schwierig wird es bei speziellen Dingen, die dann in Ruby programmiert
-  werden müssen
-\end{itemize}
+ist das alles?
 \end{k}
