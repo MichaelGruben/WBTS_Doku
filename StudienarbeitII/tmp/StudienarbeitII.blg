@@ -1,3 +1,46 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: StudienarbeitII.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/dev)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: StudienarbeitII.aux
 The style file: agsm.bst
 Database file #1: studArb2Bib.bib
+You've used 24 entries,
+            2909 wiz_defined-function locations,
+            774 strings with 8233 characters,
+and the built_in function-call counts, 62612 in all, are:
+= -- 9986
+> -- 764
+< -- 0
++ -- 4526
+- -- 224
+* -- 4997
+:= -- 13381
+add.period$ -- 30
+call.type$ -- 24
+change.case$ -- 331
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 323
+empty$ -- 615
+format.name$ -- 290
+if$ -- 11096
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 22
+newline$ -- 81
+num.names$ -- 246
+pop$ -- 122
+preamble$ -- 1
+purify$ -- 360
+quote$ -- 0
+skip$ -- 251
+stack$ -- 0
+substring$ -- 13623
+swap$ -- 19
+text.length$ -- 336
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 76
+warning$ -- 0
+while$ -- 505
+width$ -- 0
+write$ -- 330
