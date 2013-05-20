@@ -429,9 +429,125 @@ definiert ein Modell, welches seine Arbeit aufnimmt wenn ein spezifisches
 Inhaltsobjekt zum starten identifiziert wird \cite{adl:2009}.
 
 \subsection{Gestaltungskonzepte}
-\begin{k}
-Uebernimmt Benni?
-\end{k}
+Da die Arbeit mit Maschinen nicht dem natürlichen Verhalten von Menschen entspricht, 
+ist es notwendig Oberflächen von Software zu gestalten, welche von Menschen verstanden und benutzt werden können. 
+Es ist dabei besonders wichtig die Menschen, welche mit der Software arbeiten
+nicht mit zu vielen Informationen oder 4kompliziertem Verhalten zu überfordern und somit zu frustrieren.
+Daher haben sich im Laufe der Zeit einige Gestaltungskonzepte herausgebildet auf die im Folgenden eingegangen werden soll. 
+
+\subsubsection{Die Sinne des Menschen}
+
+Der Mensch verfügt über ein breite Spektrum an Sinnesorganen. Mit diesen kann er 
+sich in seiner Umwelt zurechtfinden um mit ihr interagieren zu können. Im Bezug auf die 
+Arbeit mit Software wird jedoch meist nur ein Teil der zur Verfügung stehenden Sinne genutzt. 
+Zu diesen zählt neben dem Hören vor allem das Sehen, da heutzutage die Kommunikation 
+der Maschine zum Menschnen über einen Bildschirm realisiert wird. 
+
+Wie bereits erwähnt erhält der Mensch die Informationen, welche eine Maschine ihm 
+zur Verfügung stellt meist über seinen Visuellen Sinn. Damit Menschen diese Informationen ohne 
+größere Schwierigkeiten verarbeiten können, ist es wichtig die einzelnen Objekte sinnvoll anzuordnen. 
+Hierfür gibt es einige Grundsätze.
+
+\subsubsection{Gesetz der Nähe}  
+
+Das Menschliche Gehirn erkennt Gruppen von Objekten bereits ohne ihre eigentlichen Eigenschaften zu kennen. 
+Dies liegt daran, dass Objekte welche nahe beieinander liegen vom Gehirn als zusammengehörend identifiziert. 
+Es leuchtet daher ein, dass eine falsche Anordnung von Objekten dem Gehirn falsche Zugehörigkeiten vorgaukelt. 
+Der Mensch wird daher Objekt die logisch zusammengehören aber falsch positioniert wurden auch an den 
+falschen Stellen suchen. Würde man z.B. in einer Benutzeroberfläche, die
+Eingabe von Vor- und Nachname an weit voneinander entfernte Positionen
+schreiben, so würden die Benutzer eines der beiden Felder erst spät oder
+möglicherweise gar nicht finden. Dies würde die Arbeit mit der
+Software erschweren und sie zäh und ineffizient machen.
+
+\subsubsection{Gesetz der Gleichheit}
+
+Dieses Gesetz wirkt nicht so stark, wie das Gesetz der Nähe. Dennoch sollte es
+nicht außer acht gelassen werden. Das Gehirn gruppiert neben nah benachbarten
+Objekten auch gleichförmige und Gleichartige. So erkennt das Gehirn, dass
+Objekte gleiche Farbe in einem direkten zusammenhang stehen müssen und wird sie
+daher entsprechend logisch verknüpfen. Bei der Farb-/Formgebung ist daher darauf
+zu achten. Die Verwendung von Farbe sollte ohnehin nur mit Maß und Ziel
+umgesetzt werden. Darauf wird später näher eingegangen werden.
+
+\subsubsection{Software Ergonomie}
+
+Es gibt einige Grundsätze im Bezug auf die Ergonomie von Software. Die folgenden
+sind unter anderem Teil der ISO 9241. 
+
+\paragraph{Aufgabenangemessenheit (ISO)}
+
+Es ist wichtig, dass eine Benutzoberfläche so gestaltet ist, dass die Benutzer
+ihre Aufgaben effktiv und effizient erledigen können. D.h. die Software muss
+ihnen die benötigten Werkzeuge an die Hand geben um die Aufgaben zu erledigen 
+und obendrein müssen diese auch so einfach und intuitiv zu bedienen sein, dass
+diese Erledigung in einem zeitlich Vertretbaren Rahmen passieren kann. Die
+Software muss daher den Benutzer auf sinnvolle Art und weise unterstützen.
+Beispielen für einen solche Unterstützung wäre die Verwendung von Standardwerten
+in Textfeldern und/oder Drop-Down-Menus. 
+
+\paragraph{Selbstbeschreibungsfähigkeit (ISO)}
+
+Damit ein Benutzer die Software gut verstehen und damit auch gut bedienen kann,
+muss die Software in der Lage sein, ihre Funktionsweise selbst zu beschreiben.
+Der Benutzer sollte in die Lage versetzt werden, dass er bei jeder ausführbaren
+Funktion genau weiß, was diese bewirkt.
+
+\paragraph{Steuerbarkeit (ISO)}
+
+Im Innern fast eines jeden Menschen befindet sich der Wunsch Macht zu haben und
+bestenfalls auch auszuüben. Machtlosigkeit hingegen findet der Mensch belastend. 
+Daher sollte eine Software einem Benutzer nicht das Gefühl geben, keine
+Kontrolle über sie zu haben. Der Benutzer muss in die Lage versetzt werden,
+jeden Schritt, den er mit der Software unternimmt wieder Rückgängig machen oder
+gar vollständig abbrechen zu können. 
+
+\paragraph{Erwartungskonformität (ISO)}
+
+Der Mensch hängt, so anpassungsfähig er auch sein mag, Gewohnheiten nach. Daher
+er sollte eine Software ihn nicht verwirren indem sie altbekannte und weitgehen
+allgemeingültige Muster verändert. Dazu zählen z.B. die Menus "Datei" oder
+"Bearbeiten". Gut funktionierendes und bekanntes sollte nicht durch
+experimentelles ersetzt werden.
+
+\paragraph{Fluchtlinien}
+
+Fluchtlinien sind keine direkt sichbaren Linien, sondern treten implizit durch
+die Anordnung von Objekten auf der Benutzeroberfläche auf. Prinzipiell kann man
+sagen, dass eine Oberfläche mit sehr vielen Oberflächen "unordentlicher" und
+unübersichtlicher wirkt. Daher sollte eine Benutzeroberfläche möglichst wenige
+Fluchtlinien aufweisen. Fluchtlinien entstehen durch die Außenkanten von
+Objekten. Dies bedeutet, dass eine Anordnug bei denen die Kanten der Objekte auf 
+der gleichen Linien liegen, wenige Fluchlinien erzeugen.
+
+\paragraph{Schrift}
+
+Die Schrift sollte angemessen und gut lesbar sein. Bei langen Texten strengt
+eineine Serifenlose Schrift das Auge an. Bei Benutzeroberflächen hingegen wirken
+diese angemessener. Außerdem ist es wichtig, dass die Schrift gut lesbar ist.
+
+\paragraph{Farben}
+
+Farben sind grundsätzlich sparsam einzusetzen. Außerdem ist beim Einsatz der
+Farben zu beachten, dass diese eine Psychologische Wirkung haben. So wird rot in
+aller Regel mit Gefahr assoziiert. Man sollte diese Farbe daher auch dafür
+einsetzen. Des Weiteren ist zu vermeiden Grundfarben nebeneinander zu verwenden.
+
+\subsubsection{GUI-Bloopers}
+
+Ein Blooper bezeichnet einen Missgriff, in diesem Abschnitt geht es daher um
+Missgriffe bei der Gestaltung von Benutzeroberflächen. Einige werden im
+folgenden vorgestellt.
+
+\paragraph{Dynmamische Menus}
+
+Menus die im Verlauf der Arbeit mit der Software ihren Inhalt ändern. Dies mag
+auf den ersten sehr innovativ wirken, verwirrt den Benutzer aber nur unnötig.
+
+\paragraph{Checkboxes und Radiobuttons falsch einsetzen}
+
+Checkboxen sollten nur verwendet werden, wenn es sich bei der abgebildeten
+Funktionalität tatsächlich um eine An-/Auswahl handelt.
 
 \subsection{Autorisierung und Authentifikation}
 \begin{k}

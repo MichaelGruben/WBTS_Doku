@@ -44,83 +44,97 @@
 \contentsline {paragraph}{API-Wrapper}{19}{section*.33}
 \contentsline {paragraph}{SCORM-RTE}{20}{section*.34}
 \contentsline {subsection}{\numberline {3.2.5}Gestaltungskonzepte}{20}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Autorisierung und Authentifikation}{20}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Ruby on Rails}{20}{subsection.3.2.7}
-\contentsline {part}{\numberline {II}Konzeption der Plattform}{21}{part.2}
-\contentsline {chapter}{\numberline {4}Das zugrundeliegende Prinzip}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}Namensgebung}{22}{section.4.1}
-\contentsline {chapter}{\numberline {5}Architektur}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Erweiterbarkeit}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Aufbereiten des Dreyfus-Modells}{23}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Fachlicher Rang}{24}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{24}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Rollen f\IeC {\"u}r Anwender}{25}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Administrator}{26}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Lernender}{26}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Tutor}{26}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Dokumentation der API}{26}{section.5.4}
-\contentsline {section}{\numberline {5.5}Automatisch generierte Filterung von Ergebnissen}{27}{section.5.5}
-\contentsline {section}{\numberline {5.6}Themen}{27}{section.5.6}
-\contentsline {chapter}{\numberline {6}Anwenderseite}{28}{chapter.6}
-\contentsline {section}{\numberline {6.1}Gamification}{28}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Belohnungskriterien}{28}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Etappenweise Herausforderungen}{28}{subsection.6.1.2}
-\contentsline {subsubsection}{Neuling}{29}{section*.38}
-\contentsline {subsubsection}{Regul\IeC {\"a}rer Nutzer}{29}{section*.39}
-\contentsline {subsubsection}{Enthusiast}{30}{section*.40}
-\contentsline {section}{\numberline {6.2}Generieren von Motivation}{30}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Intrinsisch motivierende Aspekte}{30}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Weitere extrinsisch motivierende Merkmale}{31}{subsection.6.2.2}
-\contentsline {part}{\numberline {III}Implementierung}{32}{part.3}
-\contentsline {chapter}{\numberline {7}Entwurf}{33}{chapter.7}
-\contentsline {section}{\numberline {7.1}Realisierungsmethodik}{33}{section.7.1}
-\contentsline {section}{\numberline {7.2}Internationalisierung}{34}{section.7.2}
-\contentsline {section}{\numberline {7.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{34}{section.7.3}
-\contentsline {section}{\numberline {7.4}Komponenten}{34}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Durcharbeiten von WBTs}{34}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Tutorensuche}{34}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Navigation, Impressum, Kontakt}{34}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}Themen}{35}{subsection.7.4.4}
-\contentsline {chapter}{\numberline {8}Umsetzung}{36}{chapter.8}
-\contentsline {section}{\numberline {8.1}Nutzerverwaltung}{36}{section.8.1}
-\contentsline {section}{\numberline {8.2}Lokationen}{36}{section.8.2}
-\contentsline {section}{\numberline {8.3}Suche}{36}{section.8.3}
-\contentsline {section}{\numberline {8.4}SCORM}{36}{section.8.4}
-\contentsline {section}{\numberline {8.5}Lizensierung}{37}{section.8.5}
-\contentsline {section}{\numberline {8.6}Dokumentation}{37}{section.8.6}
-\contentsline {section}{\numberline {8.7}Gestaltung}{38}{section.8.7}
-\contentsline {section}{\numberline {8.8}Authentifizierung}{38}{section.8.8}
-\contentsline {section}{\numberline {8.9}Themen}{38}{section.8.9}
-\contentsline {part}{\numberline {IV}Reflexion}{39}{part.4}
-\contentsline {chapter}{\numberline {9}Zusammenfassung der Ergebnisse}{40}{chapter.9}
-\contentsline {paragraph}{Aufgetretene Probleme}{40}{section*.48}
-\contentsline {chapter}{\numberline {10}Fazit und Ausblick}{41}{chapter.10}
-\contentsline {section}{\numberline {10.1}Ideen f\IeC {\"u}r weitere Versionen}{41}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Gamification f\IeC {\"u}r Newbies}{41}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Gamification f\IeC {\"u}r Regulars}{42}{subsection.10.1.2}
-\contentsline {subsection}{\numberline {10.1.3}Gamification f\IeC {\"u}r Enthusiasten}{42}{subsection.10.1.3}
-\contentsline {subsection}{\numberline {10.1.4}Weitere M\IeC {\"o}glichkeiten f\IeC {\"u}r Gamification}{42}{subsection.10.1.4}
-\contentsline {section}{\numberline {10.2}Anschlie\IeC {\ss }ende Vorhaben}{42}{section.10.2}
-\contentsline {part}{Verzeichnisse}{43}{section*.49}
-\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.50}
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.52}
-\contentsline {chapter}{Listings}{iii}{section*.54}
-\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.56}
-\contentsline {part}{Anhang}{vi}{appendix*.58}
+\contentsline {subsubsection}{Die Sinne des Menschen}{20}{section*.36}
+\contentsline {subsubsection}{Gesetz der N\IeC {\"a}he}{21}{section*.37}
+\contentsline {subsubsection}{Gesetz der Gleichheit}{21}{section*.38}
+\contentsline {subsubsection}{Software Ergonomie}{21}{section*.39}
+\contentsline {paragraph}{Aufgabenangemessenheit (ISO)}{21}{section*.40}
+\contentsline {paragraph}{Selbstbeschreibungsf\IeC {\"a}higkeit (ISO)}{22}{section*.41}
+\contentsline {paragraph}{Steuerbarkeit (ISO)}{22}{section*.42}
+\contentsline {paragraph}{Erwartungskonformit\IeC {\"a}t (ISO)}{22}{section*.43}
+\contentsline {paragraph}{Fluchtlinien}{22}{section*.44}
+\contentsline {paragraph}{Schrift}{22}{section*.45}
+\contentsline {paragraph}{Farben}{23}{section*.46}
+\contentsline {subsubsection}{GUI-Bloopers}{23}{section*.47}
+\contentsline {paragraph}{Dynmamische Menus}{23}{section*.48}
+\contentsline {paragraph}{Checkboxes und Radiobuttons falsch einsetzen}{23}{section*.49}
+\contentsline {subsection}{\numberline {3.2.6}Autorisierung und Authentifikation}{23}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Ruby on Rails}{23}{subsection.3.2.7}
+\contentsline {part}{\numberline {II}Konzeption der Plattform}{24}{part.2}
+\contentsline {chapter}{\numberline {4}Das zugrundeliegende Prinzip}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Namensgebung}{25}{section.4.1}
+\contentsline {chapter}{\numberline {5}Architektur}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Erweiterbarkeit}{26}{section.5.1}
+\contentsline {section}{\numberline {5.2}Aufbereiten des Dreyfus-Modells}{26}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Fachlicher Rang}{27}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}R\IeC {\"a}nge f\IeC {\"u}r Tutoren}{27}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Rollen f\IeC {\"u}r Anwender}{28}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Administrator}{29}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Lernender}{29}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Tutor}{29}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Dokumentation der API}{29}{section.5.4}
+\contentsline {section}{\numberline {5.5}Automatisch generierte Filterung von Ergebnissen}{30}{section.5.5}
+\contentsline {section}{\numberline {5.6}Themen}{30}{section.5.6}
+\contentsline {chapter}{\numberline {6}Anwenderseite}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Gamification}{31}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Belohnungskriterien}{31}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Etappenweise Herausforderungen}{31}{subsection.6.1.2}
+\contentsline {subsubsection}{Neuling}{32}{section*.52}
+\contentsline {subsubsection}{Regul\IeC {\"a}rer Nutzer}{32}{section*.53}
+\contentsline {subsubsection}{Enthusiast}{33}{section*.54}
+\contentsline {section}{\numberline {6.2}Generieren von Motivation}{33}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Intrinsisch motivierende Aspekte}{33}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Weitere extrinsisch motivierende Merkmale}{34}{subsection.6.2.2}
+\contentsline {part}{\numberline {III}Implementierung}{35}{part.3}
+\contentsline {chapter}{\numberline {7}Entwurf}{36}{chapter.7}
+\contentsline {section}{\numberline {7.1}Realisierungsmethodik}{36}{section.7.1}
+\contentsline {section}{\numberline {7.2}Internationalisierung}{37}{section.7.2}
+\contentsline {section}{\numberline {7.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{37}{section.7.3}
+\contentsline {section}{\numberline {7.4}Komponenten}{37}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Durcharbeiten von WBTs}{37}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Tutorensuche}{37}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Navigation, Impressum, Kontakt}{37}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Themen}{38}{subsection.7.4.4}
+\contentsline {chapter}{\numberline {8}Umsetzung}{39}{chapter.8}
+\contentsline {section}{\numberline {8.1}Nutzerverwaltung}{39}{section.8.1}
+\contentsline {section}{\numberline {8.2}Lokationen}{39}{section.8.2}
+\contentsline {section}{\numberline {8.3}Suche}{39}{section.8.3}
+\contentsline {section}{\numberline {8.4}SCORM}{39}{section.8.4}
+\contentsline {section}{\numberline {8.5}Lizensierung}{40}{section.8.5}
+\contentsline {section}{\numberline {8.6}Dokumentation}{40}{section.8.6}
+\contentsline {section}{\numberline {8.7}Gestaltung}{41}{section.8.7}
+\contentsline {section}{\numberline {8.8}Authentifizierung}{41}{section.8.8}
+\contentsline {section}{\numberline {8.9}Themen}{41}{section.8.9}
+\contentsline {part}{\numberline {IV}Reflexion}{42}{part.4}
+\contentsline {chapter}{\numberline {9}Zusammenfassung der Ergebnisse}{43}{chapter.9}
+\contentsline {paragraph}{Aufgetretene Probleme}{43}{section*.62}
+\contentsline {chapter}{\numberline {10}Fazit und Ausblick}{44}{chapter.10}
+\contentsline {section}{\numberline {10.1}Ideen f\IeC {\"u}r weitere Versionen}{44}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Gamification f\IeC {\"u}r Newbies}{44}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Gamification f\IeC {\"u}r Regulars}{45}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Gamification f\IeC {\"u}r Enthusiasten}{45}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Weitere M\IeC {\"o}glichkeiten f\IeC {\"u}r Gamification}{45}{subsection.10.1.4}
+\contentsline {section}{\numberline {10.2}Anschlie\IeC {\ss }ende Vorhaben}{45}{section.10.2}
+\contentsline {part}{Verzeichnisse}{46}{section*.63}
+\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.64}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.66}
+\contentsline {chapter}{Listings}{iii}{section*.68}
+\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.70}
+\contentsline {part}{Anhang}{vi}{appendix*.72}
 \contentsline {chapter}{\numberline {A}Abbildungen}{vii}{appendix.A}
 \contentsline {chapter}{\numberline {B}Tabellen}{viii}{appendix.B}
 \contentsline {chapter}{\numberline {C}GNU Free Documentation License}{x}{appendix.C}
 \select@language {english}
-\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{x}{section*.59}
-\contentsline {section}{2. VERBATIM COPYING}{xii}{section*.60}
-\contentsline {section}{3. COPYING IN QUANTITY}{xiii}{section*.61}
-\contentsline {section}{4. MODIFICATIONS}{xiv}{section*.62}
-\contentsline {section}{5. COMBINING DOCUMENTS}{xvi}{section*.63}
-\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvi}{section*.64}
-\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xvii}{section*.65}
-\contentsline {section}{8. TRANSLATION}{xvii}{section*.66}
-\contentsline {section}{9. TERMINATION}{xviii}{section*.67}
-\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xviii}{section*.68}
-\contentsline {section}{11. RELICENSING}{xix}{section*.69}
-\contentsline {section}{ADDENDUM: How to use this License for your documents}{xix}{section*.70}
+\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{x}{section*.73}
+\contentsline {section}{2. VERBATIM COPYING}{xii}{section*.74}
+\contentsline {section}{3. COPYING IN QUANTITY}{xiii}{section*.75}
+\contentsline {section}{4. MODIFICATIONS}{xiv}{section*.76}
+\contentsline {section}{5. COMBINING DOCUMENTS}{xvi}{section*.77}
+\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvi}{section*.78}
+\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xvii}{section*.79}
+\contentsline {section}{8. TRANSLATION}{xvii}{section*.80}
+\contentsline {section}{9. TERMINATION}{xviii}{section*.81}
+\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xviii}{section*.82}
+\contentsline {section}{11. RELICENSING}{xix}{section*.83}
+\contentsline {section}{ADDENDUM: How to use this License for your documents}{xix}{section*.84}
 \select@language {ngerman}
