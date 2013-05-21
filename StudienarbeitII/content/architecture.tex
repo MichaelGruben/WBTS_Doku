@@ -1,4 +1,6 @@
 \chapter{Architektur}
+An dieser Stelle wird der Aufbau von Masterly Mate geschildert, welcher nicht
+unmittelbar durch einen Anwender wahrgenommen wird.
 
 \section{Erweiterbarkeit}
 Bei der Konzeption wird insbesondere darauf geachtet, dass die Anwendung einfach
@@ -47,10 +49,6 @@ freigestellt, ob er sich nun, wo er Experte in einem Fachgebiet ist, einem
 anderen Wissensgebiet widmet, um dort als Neuling von Vorn anzufangen.
 
 \subsection{Ränge für Tutoren}\label{ref:rankTeach}
-\begin{k}
-Sternverlust nach einem Quartal ohne Unterweisung -> ansonsten könnte man sich
-ja auf seinen 5 Sternen ausruhen
-\end{k}
 Als Tutor wird man von den Lernenden beurteilt, die man in einem gewissen
 Fachgebiet unterstützt hat. Im Gegensatz zu den fachlichen Rängen sind die
 didaktischen Ränge vom Fach unabhängig. Auch bleiben sie über alle fachlichen
@@ -59,9 +57,10 @@ Punkte, sondern Sterne sammelt. Jede gute Bewertung (daumen rauf) gibt einen
 Schritt in Richtung weiteren Stern. Eine schlechte Bewertung (daumen runter)
 stellt dazu einen direkten Gegensatz dar. Beide Bewertungsrichtungen verhalten
 sich ausgeglichen und es kristallisieren sich Tutoren heraus, die fachliche
-Inhalte für jedermann verständlich zu erklären wissen. So ist auch
-gewährleistet, dass sich meisterliche Tutoren nicht auf ihren vier Sternen
-"`ausruhen"'. 
+Inhalte für jedermann verständlich zu erklären wissen. Darüber hinaus kann ein
+Tutor einen Stern verlieren, wenn er in einem Quartal keine Unterweisung
+hällt. So ist gewährleistet, dass sich meisterliche Tutoren nicht auf ihren vier
+Sternen "`ausruhen"'.
 
 Meisterliche Tutoren verfügen auch über das Privileg eigene WBTs in die
 Plattform einbringen zu können. Den niederen Rängen ist dies verwehrt, da diese
@@ -119,17 +118,18 @@ erscheint er unter den Suchergebnissen für Lernende, die einen Tutor suchen. Al
 Tutor wird man von Lernenden gefunden, die Unterstützung in einem Fachgebiet
 suchen.
 
-\section{Dokumentation der API}
-\begin {k}
-mit "`rake doc:app"' lässt sich die Dokumentation erstellen
+\section{Dokumentation der API}\label{ref:archDoc}
+RoR bietet ein Werkzeug, welches automatisch eine API-Dokumentation der
+Anwendung erstellt. Mit der Kommandozeile \textit{rake doc:app} wird dies
+realisiert. Dabei ruft rake\footnote{Kurzwort für Ruby Make} im Namespace doc:
+die Funktion app auf, die neben guides und rails die Dokumentation für die
+eigene Applikation erstellt. Dabei werden die Kommentare
+aus dem Quelltext verwendet, um eine übersichliche Darstellung der
+programmierten Funktionen zu schaffen \cite{edgeGuide:2013}.
 
-Verfügbar machen mit Link auf "`doc/app/index.html"'
-
-Uebernimmt Julian?
-\end{k}
-
-\section{Automatisch generierte Filterung von Ergebnissen}
+\section{Automatisch generierte Filterung von Ergebnissen}\label{ref:autoResult}
 \begin{k}
+@Benni
 \begin{itemize}
   \item Profilinfos werden ausgelesen und zur Eingrenzung der Ergebnisse
   verwendet

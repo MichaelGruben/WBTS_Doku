@@ -39,6 +39,11 @@ Dreyfus, S.~E. \harvardand\ Dreyfus, H.~L.  \harvardyearleft
 \newblock
   \url{http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf}.
 
+\harvarditem{EdgeGuides}{2013}{edgeGuide:2013}
+EdgeGuides  \harvardyearleft 2013\harvardyearright , `{The Rails Command
+  Line}', \url{http://edgeguides.rubyonrails.org/command_line.html#doc}.
+\newblock Abgerufen am 21.05.2013.
+
 \harvarditem{Fiedling}{2000}{fiedling:2000}
 Fiedling, R.  \harvardyearleft 2000\harvardyearright , {Architectural Styles
   and the Design of Network-based Software Architectures}, Dissertation,
