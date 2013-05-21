@@ -595,8 +595,8 @@ Methoden leicht wiederverwendbar.
 \item[Convention over Configuration] RoR macht annahmen darüber, wie Ziele
 erreicht werden wollen und beugt so das schier endlose Durcharbeiten von
 Konfigurationsdateien vor.
-\item[REST] mit dem REST-Muster, mit dem eine Web-Applikation aus Ressourcen und
-standard HTML gefertigt wird, macht diese performanter
+\item[REST] mit dem \ac{REST}-Muster (siehe Abschnitt \ref{ref:basREST}), mit
+dem eine Web-Applikation aus Ressourcen und standard HTML gefertigt wird, macht diese performanter
 \item[MVC] wird in Abschnitt \ref{ref:basMVC} näher erläutert
 \end{description}
 
@@ -605,101 +605,89 @@ RoR selbst ist sehr modular aufgebaut, um die gewünschten Anforderungen
 bestmöglich erfüllen zu können. Die einzelnen Komponenten werden "`gems"'
 genannt. Jeder Interessierte kann nach belieben eine neue gem schaffen oder eine
 vorhandene verbessern. Tabelle \ref{ref:tabRoRComp} zeigt die gems aus denen RoR
-selbst besteht.
+selbst besteht \cite{railsGuides:2013}.
 
-\begin{table}[ht]
-\centering
-\caption{Ruby on Rails Komponenten\footnotemark}\label{ref:tabRoRComp}
-\begin{tabular}{|p{5cm}|p{10cm}|}\hline
-\textbf{Action Pack} mit Action Controller, Action Dispatch und Action
-View&Dieses gem realisiert das VC in MVC.\\\hline
-\textbf{Active Model}&\\\hline
-\textbf{Active Record}&\\\hline
-\textbf{Active Resource}&\\\hline
-\textbf{Active Support}&\\\hline
-\textbf{Railties}&\\\hline
-\end{tabular}
-\end{table}\footnotetext{aus (\cite{railsGuides:2013})}
+\begin{longtable}{|p{1.8cm}|p{12.5cm}|}
+\caption{Ruby on Rails Komponenten\footnotemark}\label{ref:tabRoRComp}\\\hline
 
-\begin{k}
+\endfirsthead
 
-2.2.1.1 Action Controller
+\multicolumn{2}{c}{\tablename\ \thetable{} (Fortsetzung)} \\\hline
+\endhead
 
-Action Controller is the component that manages the controllers in a Rails
-application. The Action Controller framework processes incoming requests to a
-Rails application, extracts parameters, and dispatches them to the intended
-action. Services provided by Action Controller include session management,
-template rendering, and redirect management.
+\hline \multicolumn{2}{|r|}{{Fortsetzung auf der nächsten Seite \ldots}}\\\hline
+\endfoot
 
-2.2.1.2 Action View
+\hline
+\endlastfoot
 
-Action View manages the views of your Rails application. It can create both HTML
-and XML output by default. Action View manages rendering templates, including
-nested and partial templates, and includes built-in AJAX support. View templates
-are covered in more detail in another guide called Layouts and Rendering.
+\textbf{Action Pack}&Dieses gem realisiert das VC in MVC. Es besteht aus Action
+Controller, Action Dispatch und Action View.
 
-2.2.1.3 Action Dispatch
+Der \textbf{Action Controller} verwaltet die Controller in einer Rails
+Applikation.
+Das zugehörige Framework vermittelt eingehende Anfragen zu einer Rails
+Applikation, extrahiert Parameter und sendet sie zur vorgesehenen Action. Die
+bereitgestellten Dienste des Action Controllers umfassen das Sitzungsmanagement,
+das rendern von Templates und die Verwaltung von Umleitungen.
 
-Action Dispatch handles routing of web requests and dispatches them as you want,
-either to your application or any other Rack application. Rack applications are
-a more advanced topic and are covered in a separate guide called Rails on Rack.
+\textbf{Action View} Demgegenüber ist Action View verantwortlich für die
+Verwaltung der Views der Applikation. Es ist standardmäßig in der Lage HTML und
+XML\footnotemark zugleich auszugeben. Es rendert Templates und inkludiert
+eingebettete Templateteile\footnotemark und die eingebaute
+AJAX\footnotemark-Unterstützung.
 
-2.2.2 Action Mailer
+\textbf{Action Dispatch} verwaltet das Routen von Web-Anfragen und leitet diese
+beliebig an die eigene oder eine andere Applikation weiter. \\\hline
 
-Action Mailer is a framework for building e-mail services. You can use Action
-Mailer to receive and process incoming email and send simple plain text or
-complex multipart emails based on flexible templates.
+\textbf{Active Mailer}& Dieses Framework stellt E-Mail Dienste her.
+Eingehende E-Mails können verarbeitet werden oder neue E-Mails können
+als einfacher Text oder als mehrteilige Dokumente aus flexiblen
+Templates generiert und schließlich gesendet werden.\\\hline
 
-2.2.3 Active Model
+\textbf{Active Model}&Active Model stellt ein definiertes Interface
+zwischen den Action Pack Diensten und Mapping von Objektbeziehungen
+bereit. Dieses gem erlaubt RoR die Verwendung eines alternativen
+ORM\footnotemark-Frameworks, falls dies für die Applikation benötigt
+wird.\\\hline
 
-Active Model provides a defined interface between the Action Pack gem services
-and Object Relationship Mapping gems such as Active Record. Active Model allows
-Rails to utilize other ORM frameworks in place of Active Record if your
-application needs this.
+\textbf{Active Record}&Die Basis für Models in RoR ist Active Record. Es bietet
+unter Anderem Datenbankunabhängigkeit, grundlegende
+CRUD\footnotemark-Funktionalität, erweiterte Suchmöglichkeiten und die Fähigkeit
+Relationen zwischen Models herzustellen.
+\\\hline
 
-2.2.4 Active Record
+\textbf{Active Resource}&Die Verwaltung der Verbindung zwischen Objekten
+und RESTful Webservices stellt Active Resource bereit. Es implementiert
+einen Weg webbasierte Ressourcen an lokale Objekte mittels CRUD Semantiken zu
+binden.\\\hline
 
-Active Record is the base for the models in a Rails application. It provides
-database independence, basic CRUD functionality, advanced finding capabilities,
-and the ability to relate models to one another, among other services.
+\textbf{Active Support}&Active Support ist eine umfangreiche Sammlung
+von Werkzeugklassen und standard Ruby Bibliothekserweiterungen, welche
+in RoR Verwendung finden.\\\hline
 
-2.2.5 Active Resource
+\textbf{Railties}&Railties ist der Kerncode von RoR, welcher neue
+Applikationen baut und die aufgeführten Frameworks und Plugins zu einer
+allumfassenden Applikation verbindet.\\\hline
 
-Active Resource provides a framework for managing the connection between
-business objects and RESTful web services. It implements a way to map web-based
-resources to local objects with CRUD semantics.
+\end{longtable}\footnotetext[24]{aus
+(\cite{railsGuides:2013})}\footnotetext[25]{\acl{XML}}\footnotetext[26]{genannt
+"`partials"'}\footnotetext[27]{\acl{AJAX}}\footnotetext[28]{\acl{ORM}}\footnotetext[29]{\acl{CRUD}}
 
-2.2.6 Active Support
+\subsection{REST}\label{ref:basREST}
+REST ist die Basis für eine von Roy Fiedling entworfene RESTful Architektur
+\cite{fiedling:2000}. Demnach besteht REST in Bezug auf RoR im Wesentlichen aus
+zwei Prinzipien: Es werden zum einen Identifizierungen für Ressourcen analog
+\ac{URI}s verwendet, um Ressourcen zu repräsentieren. Zum anderen werden
+Repräsentationen des Status der Ressource zwischen Systemkomponenten
+transferiert.
 
-Active Support is an extensive collection of utility classes and standard Ruby
-library extensions that are used in Rails, both by the core code and by your
-applications.
-
-2.2.7 Railties
-
-Railties is the core Rails code that builds new Rails applications and glues the
-various frameworks and plugins together in any Rails application.
-
-2.3 REST
-
-Rest stands for Representational State Transfer and is the foundation of the
-RESTful architecture. This is generally considered to be Roy Fielding’s doctoral
-thesis, Architectural Styles and the Design of Network-based Software
-Architectures. While you can read through the thesis, REST in terms of Rails
-boils down to two main principles:
-
-    Using resource identifiers such as URLs to represent resources.
-    Transferring representations of the state of that resource between system components.
-
-For example, the following HTTP request:
-
-DELETE /photos/17
-
-would be understood to refer to a photo resource with the ID of 17, and to
-indicate a desired action – deleting that resource. REST is a natural style for
-the architecture of web applications, and Rails hooks into this shielding you
-from many of the RESTful complexities and browser quirks.
-\end{k}
+Beispielsweise wird unter dem HTTP Request \textit{DELETE /photos/17}
+verstanden, dass zu einer Ressource Photo mit der ID 17 verwiesen werden soll.
+Zusätzlich wird eine gewünschte Aktion indiziert, die das Löschen der Ressource
+veranlasst. REST ist damit ein recht natürlicher Stil für die Architektur von
+Webapplikationen. RoR greift REST auf und versteckt gleichzeitig einige
+REST-Komplexitäten und Bowser Eigenarten \cite{railsGuides:2013}.
 
 \subsection{MVC Architektur}\label{ref:basMVC}
 \ac{RoR} baut auf der \ac{MVC}-Architektur, dessen Komponenten und Eigenschaften

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  21 MAY 2013 11:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  21 MAY 2013 16:32
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1128,22 +1128,22 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
  [6
 
 ] [7] [8]
-Overfull \hbox (1.3555pt too wide) detected at line 145
+Overfull \hbox (1.3555pt too wide) detected at line 147
  []\T1/ppl/m/n/12 xvii
  []
 
 
-Overfull \hbox (1.3555pt too wide) detected at line 146
+Overfull \hbox (1.3555pt too wide) detected at line 148
  []\T1/ppl/m/n/12 xvii
  []
 
 
-Overfull \hbox (4.84738pt too wide) detected at line 147
+Overfull \hbox (4.84738pt too wide) detected at line 149
  []\T1/ppl/m/n/12 xviii
  []
 
 
-Overfull \hbox (4.84738pt too wide) detected at line 148
+Overfull \hbox (4.84738pt too wide) detected at line 150
  []\T1/ppl/m/n/12 xviii
  []
 
@@ -1151,13 +1151,13 @@ Overfull \hbox (4.84738pt too wide) detected at line 148
 \tf@toc=\write9
 \openout9 = `StudienarbeitII.toc'.
 
- [9] (./ads/acronyms.tex)
+ [9] (./ads/acronyms.tex [10
+
+
+
+])
 No file StudienarbeitII.gls.
-[10
-
-
-
-] [11] (./content/introduction.tex
+[11] (./content/introduction.tex
 Kapitel 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -1179,7 +1179,7 @@ l.85 	\part{
 
 ] (./content/project.tex
 Kapitel 2.
-<images/MasterlyMateWolke.png, id=312, 605.26125pt x 345.54094pt>
+<images/MasterlyMateWolke.png, id=323, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
@@ -1198,7 +1198,7 @@ Package acronym Info: Label `acro:LMS' newly defined as it shall be overridden
 although it is yet undefined on input line 56.
  [4] [5]) (./content/theory.tex [6]
 Kapitel 3.
-<images/SPIsynapseS50.png, id=342, 481.8pt x 295.1025pt>
+<images/SPIsynapseS50.png, id=353, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
@@ -1248,7 +1248,7 @@ Package acronym Info: Label `acro:ADL' newly defined as it shall be overridden
 although it is yet undefined on input line 324.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 326.
- <images/SCORM-Components.png, id=416, 407.78348pt x 258.0039pt>
+ <images/SCORM-Components.png, id=427, 407.78348pt x 258.0039pt>
 File: images/SCORM-Components.png Graphic file (type png)
 
 <use images/SCORM-Components.png>
@@ -1270,7 +1270,7 @@ l.364
 Package acronym Info: Label `acro:CAM' newly defined as it shall be overridden
 although it is yet undefined on input line 388.
 
-<images/SCORM-Manifest.png, id=441, 292.6935pt x 325.39568pt>
+<images/SCORM-Manifest.png, id=452, 292.6935pt x 325.39568pt>
 File: images/SCORM-Manifest.png Graphic file (type png)
 
 <use images/SCORM-Manifest.png>
@@ -1281,7 +1281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--398
 [][]\T1/ppl/m/n/12 (+20) Schema der SCORM-
  []
 
-[18] <images/SCORM-API.png, id=453, 351.41287pt x 165.4983pt>
+[18] <images/SCORM-API.png, id=464, 351.41287pt x 165.4983pt>
 File: images/SCORM-API.png Graphic file (type png)
 
 <use images/SCORM-API.png>
@@ -1310,30 +1310,47 @@ l.457 \subsubsection{
  (./comment.cut [23])
 Package acronym Info: Label `acro:RoR' newly defined as it shall be overridden
 although it is yet undefined on input line 577.
+Package acronym Info: Label `acro:REST' newly defined as it shall be overridden
+
+although it is yet undefined on input line 598.
  [24]
-Underfull \hbox (badness 2564) in paragraph at lines 614--615
-[]|[]\T1/ppl/b/n/12 Action Pack \T1/ppl/m/n/12 (+20) mit Ac-ti-on
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
+[][]|\T1/ppl/b/n/12 Action
  []
 
 
-Overfull \hbox (15.02336pt too wide) in paragraph at lines 613--622
- [][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
+[][]|\T1/ppl/b/n/12 Active
  []
 
-\openout6 = `comment.cut'.
 
-(./comment.cut [25pdfTeX warning (ext4): destination with the same identifier (
-name{table.3.1}) has been already used, duplicate ignored
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[][]|\T1/ppl/b/n/12 Active
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.25 A
-      ction Mailer is a framework for building e-mail services. You can use ...
-] [26])
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--654
+[][]|\T1/ppl/b/n/12 Active
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
+[][]|\T1/ppl/b/n/12 Active
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
+[][]|\T1/ppl/b/n/12 Active
+ []
+
+[25]
+Package acronym Info: Label `acro:URI' newly defined as it shall be overridden
+although it is yet undefined on input line 681.
+ [26]
 Package acronym Info: Label `acro:MVC' newly defined as it shall be overridden
-although it is yet undefined on input line 705.
+although it is yet undefined on input line 693.
 Package acronym Info: Label `acro:DRY' newly defined as it shall be overridden
-although it is yet undefined on input line 709.
+although it is yet undefined on input line 697.
 ) [27pdfTeX warning (ext4): destination with the same identifier (name{table.3.
 2}) has been already used, duplicate ignored
 
@@ -1345,25 +1362,29 @@ l.88 	\part{
 ]
 (./content/basicPrinciple.tex
 Kapitel 4.
-\openout6 = `comment.cut'.
+Package acronym Info: Label `acro:GFDL' newly defined as it shall be overridden
 
-(./comment.cut)) (./content/architecture.tex [29
+although it is yet undefined on input line 35.
+[29
 
 ]
+\openout6 = `comment.cut'.
+
+ (./comment.cut)) (./content/architecture.tex [30]
 Kapitel 5.
-[30
+[31
 
 ]
 \openout6 = `comment.cut'.
 
- (./comment.cut) [31]
-<images/verteilungDerPunkte.png, id=553, 364.42148pt x 116.17403pt>
+ (./comment.cut) [32]
+<images/verteilungDerPunkte.png, id=578, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
 Package pdftex.def Info: images/verteilungDerPunkte.png used on input line 79.
 (pdftex.def)             Requested size: 452.96796pt x 144.40706pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1376,13 +1397,13 @@ l.102
 \openout6 = `comment.cut'.
 
  (./comment.cut
-[33])) (./content/usersView.tex [34]
+[34])) (./content/usersView.tex [35]
 Kapitel 6.
 Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
-[35
+[36
 
-] [36] [37]) [38] [39
+] [37] [38]) [39] [40
 
 ] (./content/script.tex
 Kapitel 7.
@@ -1394,16 +1415,16 @@ n
 although it is yet undefined on input line 26.
 \openout6 = `comment.cut'.
 
-(./comment.cut [40
+(./comment.cut [41
 
-]) [41] [42] [43]
+]) [42] [43] [44]
 \openout6 = `comment.cut'.
 
- (./comment.cut) [44]
+ (./comment.cut) [45]
 \openout6 = `comment.cut'.
 
  (./comment.cut))
-(./content/implementation.tex [45]
+(./content/implementation.tex [46]
 Kapitel 8.
 \openout6 = `comment.cut'.
 
@@ -1425,7 +1446,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [46
+ [47
 
 ]
 Package acronym Info: Label `acro:AGPL' newly defined as it shall be overridden
@@ -1436,27 +1457,27 @@ although it is yet undefined on input line 46.
 \openout6 = `comment.cut'.
 
  (./comment.cut)
-[47]
+[48]
 \openout6 = `comment.cut'.
 
- (./comment.cut)) [48] [49
+ (./comment.cut)) [49] [50
 
 ] (./content/conclusion.tex
 Kapitel 9.
 \openout6 = `comment.cut'.
 
-(./comment.cut)) (./content/summary.tex [50
+(./comment.cut)) (./content/summary.tex [51
 
 ]
 Kapitel 10.
 \openout6 = `comment.cut'.
 
-(./comment.cut [51
+(./comment.cut [52
 
 ])
 \openout6 = `comment.cut'.
 
- (./comment.cut [52])) [53]
+ (./comment.cut [53])) [54]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
 9.
  (./StudienarbeitII.lof)
@@ -1621,7 +1642,7 @@ Overfull \hbox (7.93642pt too wide) in paragraph at lines 5--40
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.42 \chapter{
-              GNU Free Documentation License}]
+              GNU Free Documentation License}\label{ref:gfdl}]
 Anhang C.
 (./ads/fdl13.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
@@ -1638,10 +1659,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 17816 strings out of 493499
- 265203 string characters out of 3143792
- 654057 words of memory out of 3000000
- 20165 multiletter control sequences out of 15000+200000
+ 17865 strings out of 493499
+ 265678 string characters out of 3143792
+ 657057 words of memory out of 3000000
+ 20203 multiletter control sequences out of 15000+200000
  48477 words of font info for 180 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
  59i,11n,72p,1469b,709s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1652,10 +1673,10 @@ type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (86 pages, 3323415 bytes).
+Output written on StudienarbeitII.pdf (87 pages, 3328231 bytes).
 PDF statistics:
- 1211 PDF objects out of 1440 (max. 8388607)
- 1092 compressed objects within 11 object streams
- 303 named destinations out of 1000 (max. 500000)
- 27468 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 1126 compressed objects within 12 object streams
+ 316 named destinations out of 1000 (max. 500000)
+ 27484 words of extra memory for PDF output out of 29859 (max. 10000000)
 
