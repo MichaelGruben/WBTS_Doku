@@ -114,12 +114,78 @@ Attribute gibt, welche sich nicht eindeutig User oder WBT bzw. Thema zuordnen la
 Bei der Verbindung User-Thema benötigt man ein Attribut für die Punkte, welche bisher von dem User in dem System 
 erziehlt worden sind. Außerdem muss klar sein welchen Rang ein User in dem jeweiligen Thema inne hat.
 Die Verbindung User-WBT dagegen benötigt eine Variable um zu hinterlegen ob ein User das WBT bereits einmal 
-abgeschlossen hat und wenn ja, wie viele Punkte er erreicht hat.
+abgeschlossen hat und wenn ja, wie viele Punkte er erreicht hat. Im folgenden
+wird auf die Modelle des UML-Diagrammes näher eingegangen. Dazu sei noch
+angemerkt, dass zwischen einem realen Konzept und dem des Models underschieden
+wird. D.h. wenn z.B. im Folgenden vom User die Rede ist, dann ist hierbei das
+Model oder eine Instanz der User-Klasse gemeint. Wird hingegen vom Benutzer
+gesprochen, so ist auch tatsächlich jener gemeint.
+
+\paragraph{WBT}
 Das WBT-Model verfügt über eine ID, sowie über einen Pfad zur eigentliche
 SCORM-Datei. Wie bereits erwähnt ist es einem oder mehreren Themen (Topics)
-zugeordnet.
+zugeordnet. Auf Datenbankseite bedeutet dies, dass eine Zwischenentität zwischen
+Topic und WBT eingeführt werden muss.
 \verb+\label{ref:objectWBT}+\label{ref:objectWBT}
+
+\paragraph{Topic}
+Im UML-Diagramm ist ersichtlich, dass das Model Topic eine referenz auf sich
+selbst besitzt. In dieser Referenz kann ein Topic sowohl die Rolle des Über- als
+auch des Unterthemas bekleiden. Unterthemen dienen einer genaueren Unterteilung
+der WBTs. Tobics werden mit ihrem Namen identifiziert. Dies gilt auch für die
+Übergeordneten Topics. Dies bedeutet, dass ein Unterthema die Information
+besitzt, zu welchem Topic es gehört. Diese vorgehensweise ist auch für die
+Datenbank hilfreich, da so der Maxime entsprochen wird, den Fremdschlüssel auf
+der N-Seite zu notieren.
+
+\paragraph{User}
+Das Dritte große und wahrscheinlich sogar größte Model ist der User. Er ist
+gekennzeichnet durch einen Benutzernamen, Vor- und Nachname, Passwort,
+Geburtstag und einer Email-Adresse. Der User, stellt die Benutzer im System dar.
+Er wird für die Registrierung und Authentifizierung verwendet. Des Weiteren
+werden ihm die Punkte zugeordnet, welche ein Registrierter Benutzer in einem WBT
+erzielt. Damit werden ebenso die Ränge dem Benutzer zugeordnet, von welchen er
+beliebig viele haben kann (siehe dazu Model: Ränge). 
+Ein Benutzer ist außerdem in einer oder mehrerer der möglichen Gruppen
+eingeordnet.
+Über diese wird geregelt, welche berechtigungen er im System hat. Näheres dazu ist im
+entsprechenden Abschnitt zu finden.
+Eine besondere Funktion fällt der Zuordnung eines User zu einer Location zu. Mit
+ihr ist es möglich, dass Benutzer Tutoren in der Nähe ihrer eigenen Wohnstätte
+finden können (Auch dazu, sie im entsprechenden Abschnitt).
 \end{k}
+
+\paragraph{Group}
+Die Gruppen werden zur Festlegung der Berechtigungen verwendet. Ein User
+kann in beliebig vielen Gruppen sein und diese wiederum kann beliebig viele User
+enthalten. Die Gruppen im System sind die Administratoren, welche volle Rechte
+im System besitzen. Die etwas schwächeren Tutoren können WBT hochladen und ihr
+eigenes löschen. Außerdem können sie von anderen Usern bewertet werden. Die
+Dritte vorhandene Gruppe sind die normalen User. Diese können lediglich WBTs
+durcharbeiten, Profile von anderen Usern einsehen, sowie ihr eigenes bearbeiten.
+Implizit vorhanden, jedoch nicht implementiert sein soll die Gäste-Gruppe. Diese
+umfasst alle Benutzer, welche keinen User im System besitzen.
+
+\paragraph{Location}
+Eine Location beschreibt den groben Standort an dem ein Benutzer wohnt. Daher
+verfügt dieses Model auch nicht über die kompletten Adressdaten eines Benutzers,
+sondern nur über die Stadt, die Postleitzahl sowie das Land. Da die Location
+einzig den Sinn hat, die Suche nach geeigneten Tutoren einzugrenzen ist eine
+genauere Standortsbestimmung nicht notwendig. Da es mehrere User gegen kann, die
+der gleich Location zugeordnet sind, ist wird diese auf der User-Seite durch die
+entsprechende ID der Location identifiziert.
+
+\paragraph{Assesment}
+Das Assesment bildet als Assoziationsklasse zwischen User und Topic die
+Beziehung zwischen dem User und einem Topic ab. In ihr wird gespeichert, wie
+viele Punkte er durch die Absolvierung von WBTs in einem Thema erreicht hat.
+Entsprechend zeigt das Assesment auch den Rang an, den ein Benutzer in einem
+bestimmten Thema erreicht hat. 
+
+\paragraph{Rank}
+Der Rang eines Benutzer spiegelt den Erfahrungsstand wieder, den ein Benutzer in
+einem Thema erreicht hat. Er wird bei entsprechender Punktzahl (Erspielte
+Punkte bzw. Sterne) vom System vergeben. 
 
 \section{Komponenten}
 \begin{k}
@@ -141,11 +207,46 @@ Uebernimmt Julian
 
 \subsection{Themen}
 \begin{k}
-Themen fungieren für den Benutzer zum Einen als Suchfilter bei der Suche nach
-den WBTs. Dies sorgt dafür, dass der Benutzer ohne umschweife auf WBTs zugreifen
+Themen fungieren für den Benutzer zum einen als Suchfilter bei der Suche nach
+den WBTs. Dies sorgt dafür, dass der Benutzer ohne Umschweife auf WBTs zugreifen
 kann, welche für ihn interessant sind. Außerdem dienen Themen dazu, die
 unterschiedlichen Ränge, welche ein Benutzer zur selben Zeit in Masterly Mate
 haben kann, voneinanderabzugrenzen. Jeder Benutzer kann in einem Thema nur genau
 einen Rang inne haben. Umgekehrt kann er jedoch in beliebig vielen Themen einen
-Rang haben
+Rang haben.
+Zu diskutieren ist, hierbei ob ein Benutzer jeweils in einzelnen Unterthemen
+einen Rang inne hat und auch im Oberthema oder nicht. Wenn er in jedem wirklich
+Thema einen Rang inne haben kann ist außerdem zu klären, wie sich das auf den
+Rang im Überthema auswirkt. Er könnte in diesem Falle sowohl die erzielten
+Punkte gutgeschrieben bekommen als auch in allen darüberliegenden Themen. Dann
+hätte er in dem Überthema einen Rang, welcher mindestens so hoch ist, wie der
+höchste Rang in einem der Unterthemen. 
+In einem anderen Falle, namentlich Ränge in allen Themen ohne das kaskadieren
+der Punkte, wäre es möglich, dass der Benutzer in einem Unterthema Meister sein
+könnte im Übergeordneten jedoch nur Erfahrener, da er in dem Überthema nur die
+Punkte erhält, welche direkt diesem Thema untergeordnet sind.
+Ein ganz anderer Fall hingegen wäre es, wenn der Benutzer nur in einem der
+Überthemen einen Rang haben könnte und die Unterthemen einzig und allein der
+Unterteilung dienen. In diesem Falle müsste man im Datensatz nachprüfen ob das
+Thema, zu dem das abgeschlossene WBT gehört, ein übergeordnetes Thema hat. Ist
+dies der Fall so müssten dieses Thema überprüft werden. Dieser Vorgang müsste
+solange fortgesetzt werden, bis das hierarchisch höchste Thema gefunden ist.
+In diesem Thema würden dann die Punkte dem Benutzer zugeteilt.
+
+Ein ganz anderes Problem stellt das löschen von Themen dar. Auch hier gibt es
+mehrere Möglichkeiten. So ist es denkbar, dass bei einer Löschung eines Themas,
+alle Unterthemen mit WBTs gelöscht werden. Dies sollte allerdings mit Vorsicht
+genossen werden und am besten mit einer oder eventuell zwei Abfragen hinterfragt
+und bestätigt werden.
+Eine andere, weniger gefährliche Option wäre es, die enthaltenen Unterthemen und
+WBTs dem Übergeordneten Thema des gelöschten Themas zuzuordnen. In diesem Fall
+ist es notwendig ein Root-Thema zu definieren, welches alle Themen beinhaltet.
+In diesem Falle könnte es allerdings Themen geben, die nur in dem Root-Thema
+enthalten sind. D.h. es müsste möglich sein in diesem Thema einen Rang
+zu erhalten (Man könnte sich an dieser Stelle fragen ob es nicht Sinvoll wäre,
+dort ein WBT zur ``frage nach dem Leben, dem Universum und Allem'' zu
+platzieren, weiter sei die Frage erlaubt, ob ein Meister in diesem Thema sich
+``Master of the Universe'' zu nennen habe). Alternativ könnte man abfragen ob
+ein WBT sich nur innerhalb des Root-Themas befindet und wenn dies der Fall ist,
+dem Benutzer den Zugriff verwehren.
 \end{k}
