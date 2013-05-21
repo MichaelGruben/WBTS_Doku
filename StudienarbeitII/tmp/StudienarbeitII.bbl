@@ -84,6 +84,10 @@ Korte, M.  \harvardyearleft 2009\harvardyearright , `{Wie das Lernen gelingt}',
 Koster, R.  \harvardyearleft c2005\harvardyearright , {\em {A theory of fun for
   game design}}, Paraglyph Press, Scottsdale, AZ.
 
+\harvarditem{Kreutzer}{2011}{kreutzer:2011}
+Kreutzer, T.  \harvardyearleft 2011\harvardyearright , {\em Open Content
+  Lizenzen : ein Leitfaden für die Praxis}, Deutsche Unesco-Kommission, Bonn.
+
 \harvarditem{Kröger \harvardand\ Reisky}{2004}{kroeger:2004}
 Kröger, H. \harvardand\ Reisky, A.  \harvardyearleft 2004\harvardyearright ,
   {\em {Blended Learning - Erfolgsfaktor Wissen}}, Wissen und Bildung im
@@ -98,6 +102,12 @@ Mitter, M.  \harvardyearleft 2005\harvardyearright , {Implementierung eines
 \harvarditem{Niegemann}{2004}{niegemann:2004}
 Niegemann, H.~M., ed.  \harvardyearleft 2004\harvardyearright , {\em
   {Kompendium E-Learning}}, X.media.press, Springer, Berlin.
+
+\harvarditem{RailsGuides}{2013}{railsGuides:2013}
+RailsGuides  \harvardyearleft 2013\harvardyearright , {\em {Getting Started
+  with Rails}}.
+\newblock
+  \url{http://guides.rubyonrails.org/getting_started.html#what-is-rails}.
 
 \harvarditem{Raymer}{2011}{raymer:2011}
 Raymer, R.  \harvardyearleft 2011\harvardyearright , `{Gamification: Using Game

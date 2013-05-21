@@ -253,10 +253,28 @@ als Tutor für Gleichgesinnte. Wie die Idee des Gamification in Masterly Mate
 konkret konzeptioniert wird, ist Inhalt von Abschnitt
 \ref{ref:gamificationConcept}.
 
-\begin{k}
 \subsection{freie Lizenzen}\label{ref:freeLicenses}
-hier den Sinn freier Lizenzen erläutern
-\end{k}
+Das reguläre Urheberrecht bietet Autoren wenig Freiheit in Bezug auf die
+Freigabe ihrer Werke. Daher entstand aus der Idee der freien Software das
+Kreieren einer Lizenz, die dies ermöglicht.
+
+Drei Faktoren zeichnen eine freie Lizenz aus. Autoren erhalten "`ein leicht
+handhabbares und frei verfügbares Instrument"'\cite{kreutzer:2011}. Damit können
+sie ihre Werke mehr oder weniger frei verbreiten. Nutzer erhalten "`sehr weit
+gehende Freiheiten der hierunter stehenden Werke"'\cite{kreutzer:2011}. Darüber
+hinaus "`sind die Rechte und Pflichten, die durch die Open-Content-Lizenzen
+aufgestellt werden, im Normalfall transparent und leicht zu
+verstehen"'\cite{kreutzer:2011}. 
+
+Demnach fasst eine freie Lizenz analog zum Urheberrecht Spielregeln im Umgang
+mit urheberrechtlich geschütztem Material dar. Der Unterschied bei der freien
+Lizenz liegt dennoch in einer einfacheren Handhabbarkeit und der Übergabe von
+Rechten an Nutzer.
+
+Das Projekt zur vorliegenden Studienarbeit bedient sich den Eigenschaften einer
+freien Lizenz, um es weiter wachsen zu lassen. Mit der freien Verbreitung soll
+sich das Konzept und die Qualität von Masterly Mate mit der Beteiligung
+interessierter Personen weiter fortentwickeln.
 
 \section{Konzepte und Implementierungen}
 \subsection{Learning Management System}
@@ -322,7 +340,7 @@ SCORM-Paketes\footnotemark}\label{pic:scormComponents}
 
 \paragraph{Asset}
 Assets sind elektronische Ressourcen für die Verwendung in SCOs. Beispiele sind
-Medien, Texte, Bilder, Klänge und Töne, HTML-Seiten, Assessment Objekte und
+Medien, Texte, Bilder, Klänge und Töne, \ac{HTML}-Seiten, Assessment Objekte und
 andere elementare Teile. Sie kommunizieren nicht direkt mit dem LMS und werden
 in einem SCO nur verlinkt, nicht direkt eingebunden. Assets befinden sich quasi
 in einem Lager, in dem Ressourcen für den Einsatz in einem SCO bereit liegen.
@@ -360,17 +378,11 @@ WBT und LMS bereitstellt und damit einer Komponente zur Auswertung der
 Etappen.
 
 \subsubsection{Manifest-Datei}
-\begin{wrapfigure}{r}{0.5\textwidth}
-\vspace{-15pt} 
-\includegraphics[width=0.5\textwidth]{SCORM-Manifest}
-\vspace{-20pt}
-\caption{Schema der SCORM-Manifest Datei\footnotemark}\label{pic:scormManifest}
-\vspace{-15pt} 
-\end{wrapfigure}\footnotetext{aus \cite{adl:2011}}
 Jedes SCORM-Paket ist laut Standard dazu angehalten eine Manifest-Datei mit dem
 namen \textit{imsmanifest.xml} zu enthalten. Darin sind wesentliche
 Informationen der Lerninhalte für das LMS enthalten. Es kommuniziert welche
-Inhalte wann, wie eingebunden werden sollen.
+Inhalte wann, wie eingebunden werden sollen. Das Schema der SCORM-Manifest-Datei
+ist in Abbildung \ref{pic:scormManifest} abgebildet.
 
 Die Metadaten am Kopf der Datei enthalten zusätzliche Informationen zum WBT, die
 nach dem \ac{CAM} aufgebaut sind. Da die Unterschiede zwischen
@@ -379,6 +391,13 @@ eigentlichen Schema\footnote{meistens "`ADL SCORM"'} weiterhin die Version
 mit angegeben\footnote{zum Beispiel "`2004 4th Edition"'}, um Kompatibilität zu
 gewährleisten. 
 
+\begin{wrapfigure}{r}{0.5\textwidth}
+%\vspace{-15pt} 
+\includegraphics[width=0.5\textwidth]{SCORM-Manifest}
+\vspace{-30pt}
+\caption{Schema der SCORM-Manifest Datei\footnotemark}\label{pic:scormManifest}
+\vspace{-20pt} 
+\end{wrapfigure}\footnotetext{aus \cite{adl:2011}}
 Darunter finden sich die im vorigen Abschnitt erläuterten Komponenten eines
 SCORM-Paktes wieder. Unter dem Tag \textit{organizations} wird die
 Root-Aggregation mit ihren Regelungen und der Reihenfolge der SCOs aufgeführt. Ein
@@ -402,15 +421,15 @@ Nutzerinformationen und Informationen über Lerninhalte. Daneben bietet es dem
 Lernenden einen Weg für das Erlangen von Wissen in einem Fachgebiet -- ein
 Curriculum -- an.
 
-\begin{figure}[ht]
+Technisch realisiert ist die SCORM-API mit JavaScript, einer populären
+Programmiersprache für Webanwendungen auf Clientseite. Sie besteht aus
+zwei Teilen, einen auf der Client- und einen auf der Serverseite.
+
+\begin{figure}[H]
 \centering
 \includegraphics{SCORM-API}
 \caption{SCORM-API Anbindung\footnotemark}\label{pic:scormApi}
 \end{figure}\footnotetext{aus \cite{adl:2011}}
-
-Technisch realisiert ist die SCORM-API mit JavaScript, einer populären
-Programmiersprache für Webanwendungen auf Clientseite. Sie besteht aus
-zwei Teilen, einen auf der Client- und einen auf der Serverseite.
 
 \paragraph{API-Wrapper}
 Der Client bindet für jedes SCO einen API-Wrapper ein, der die Zugehörigkeit zu
@@ -555,7 +574,161 @@ Uebernimmt Julian?
 \end{k}
 
 \subsection{Ruby on Rails}
+\ac{RoR} ist ein in der Programmiersprache Ruby programmiertes Framework für die
+einfache Enwicklung von Web-Applikationen. Das Design folgt Annahmen über
+grundlegende Voraussetzungen, welche jeder Programmierer zu Beginn benötigt.
+Darüber hinaus ist weniger Programmcode zum Erreichen von Zielen
+erforderlich \cite{railsGuides:2013}.
+
+\subsubsection{Handhabung}
+Das Erstellen einer RoR-Applikation folgt einem recht eigensinnigen Weg. Ein
+"`bester"' Weg wird als Annahme vom Framework unterstützt. Alternativen führen
+demgegenüber gelegentlich zum Gegenteil und die Implementierung wird erschwert.
+Ein Programmierer ist daher angehalten sich den "`Rails Way"' anzunehmen, um
+eine beschleunigte Produktivität im Gegensatz zu weniger produktiven
+Ergebnissen zu erreichen. Die drei folgenden Prinzipen sind in RoR fest
+eingewoben und sollten verinnerlicht werden \cite{railsGuides:2013}:
+\begin{description}
+\item[DRY] "`Don't Repeat Yourself"' empfielt es, den selben Programmcode nicht
+immer wieder erneut zu schreiben. Eine durchdachte Architektur macht Objekte und
+Methoden leicht wiederverwendbar.
+\item[Convention over Configuration] RoR macht annahmen darüber, wie Ziele
+erreicht werden wollen und beugt so das schier endlose Durcharbeiten von
+Konfigurationsdateien vor.
+\item[REST] mit dem REST-Muster, mit dem eine Web-Applikation aus Ressourcen und
+standard HTML gefertigt wird, macht diese performanter
+\item[MVC] wird in Abschnitt \ref{ref:basMVC} näher erläutert
+\end{description}
+
+\subsubsection{Komponenten}\label{ref:baseGem}
+RoR selbst ist sehr modular aufgebaut, um die gewünschten Anforderungen
+bestmöglich erfüllen zu können. Die einzelnen Komponenten werden "`gems"'
+genannt. Jeder Interessierte kann nach belieben eine neue gem schaffen oder eine
+vorhandene verbessern. Tabelle \ref{ref:tabRoRComp} zeigt die gems aus denen RoR
+selbst besteht.
+
+\begin{table}[ht]
+\centering
+\caption{Ruby on Rails Komponenten\footnotemark}\label{ref:tabRoRComp}
+\begin{tabular}{|p{5cm}|p{10cm}|}\hline
+\textbf{Action Pack} mit Action Controller, Action Dispatch und Action
+View&Dieses gem realisiert das VC in MVC.\\\hline
+\textbf{Active Model}&\\\hline
+\textbf{Active Record}&\\\hline
+\textbf{Active Resource}&\\\hline
+\textbf{Active Support}&\\\hline
+\textbf{Railties}&\\\hline
+\end{tabular}
+\end{table}\footnotetext{aus (\cite{railsGuides:2013})}
+
 \begin{k}
-\ac{RoR}
-auch Gems erklaeren\label{ref:baseGem}
+
+2.2.1.1 Action Controller
+
+Action Controller is the component that manages the controllers in a Rails
+application. The Action Controller framework processes incoming requests to a
+Rails application, extracts parameters, and dispatches them to the intended
+action. Services provided by Action Controller include session management,
+template rendering, and redirect management.
+
+2.2.1.2 Action View
+
+Action View manages the views of your Rails application. It can create both HTML
+and XML output by default. Action View manages rendering templates, including
+nested and partial templates, and includes built-in AJAX support. View templates
+are covered in more detail in another guide called Layouts and Rendering.
+
+2.2.1.3 Action Dispatch
+
+Action Dispatch handles routing of web requests and dispatches them as you want,
+either to your application or any other Rack application. Rack applications are
+a more advanced topic and are covered in a separate guide called Rails on Rack.
+
+2.2.2 Action Mailer
+
+Action Mailer is a framework for building e-mail services. You can use Action
+Mailer to receive and process incoming email and send simple plain text or
+complex multipart emails based on flexible templates.
+
+2.2.3 Active Model
+
+Active Model provides a defined interface between the Action Pack gem services
+and Object Relationship Mapping gems such as Active Record. Active Model allows
+Rails to utilize other ORM frameworks in place of Active Record if your
+application needs this.
+
+2.2.4 Active Record
+
+Active Record is the base for the models in a Rails application. It provides
+database independence, basic CRUD functionality, advanced finding capabilities,
+and the ability to relate models to one another, among other services.
+
+2.2.5 Active Resource
+
+Active Resource provides a framework for managing the connection between
+business objects and RESTful web services. It implements a way to map web-based
+resources to local objects with CRUD semantics.
+
+2.2.6 Active Support
+
+Active Support is an extensive collection of utility classes and standard Ruby
+library extensions that are used in Rails, both by the core code and by your
+applications.
+
+2.2.7 Railties
+
+Railties is the core Rails code that builds new Rails applications and glues the
+various frameworks and plugins together in any Rails application.
+
+2.3 REST
+
+Rest stands for Representational State Transfer and is the foundation of the
+RESTful architecture. This is generally considered to be Roy Fielding’s doctoral
+thesis, Architectural Styles and the Design of Network-based Software
+Architectures. While you can read through the thesis, REST in terms of Rails
+boils down to two main principles:
+
+    Using resource identifiers such as URLs to represent resources.
+    Transferring representations of the state of that resource between system components.
+
+For example, the following HTTP request:
+
+DELETE /photos/17
+
+would be understood to refer to a photo resource with the ID of 17, and to
+indicate a desired action – deleting that resource. REST is a natural style for
+the architecture of web applications, and Rails hooks into this shielding you
+from many of the RESTful complexities and browser quirks.
 \end{k}
+
+\subsection{MVC Architektur}\label{ref:basMVC}
+\ac{RoR} baut auf der \ac{MVC}-Architektur, dessen Komponenten und Eigenschaften
+in Tabelle \ref{ref:tabMVC} zu sehen sind, auf. Damit ist es möglich, die
+Programmcodes für Programmlogik und Nutzerinterface sauber zu trennen. So ist es
+einfacher Programmteile zuzuordnen, was eine einfachere Wartung garantiert.
+Darüber hinaus kann so das \ac{DRY}-Prinzip sehr einfach umgesetzt werden
+\cite{railsGuides:2013}.
+
+\begin{table}[ht] \centering \caption{Komponenten der MVC-Architektur und deren
+Eigenschaften\footnotemark}\label{ref:tabMVC}
+\begin{tabular}{|p{2cm}|p{12cm}|}\hline 
+\textbf{Model}&Ein Model repräsentiert
+die Informationen (Daten) der Applikation und die Regeln zu deren Manipulation.
+In RoR werden Models primär für die Handhabe von Regeln zur Interaktion mit der
+korrespondierenden Datenbanktabelle verwendet. Üblicherweise wird ein Model auf
+eine Datenbanktabelle abgebildet. Der Großteil der Programmlogik wird in Models
+abgebildet.\\\hline 
+
+\textbf{View}&Views repräsentieren das Nutzerinterface der
+Applikation und stellen Informationen für den Web-Browser oder andere Werkzeuge
+bereit, welche Anfragen an die Applikation stellen. In RoR sind dies meistens
+HTML-Dateien mit eingebettetem Ruby-Programmcode, der allein für das Darlegen
+von Informationen zuständig ist.\\\hline
+ 
+\textbf{Controller}&Controller sind quasi der Kleber zwischen Model und
+View. In RoR nehmen die Controller die Anfragen an den Webserver
+entgegen, sie fragen Daten aus der Datenbank bei den Models ab und
+übergeben diese an die Views zur Präsentation.\\\hline
+\end{tabular}
+\end{table}
+\footnotetext{aus \cite{railsGuides:2013}}
