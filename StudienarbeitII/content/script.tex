@@ -37,89 +37,133 @@ Uebernimmt Julian?
 
 \section{Beschreibung des Entwurfsklassendiagramms und
 Use-Case}\label{ref:classModel}
-\begin{k}
+
 \subsection{Use-Case Diagramm}
-Im obigen Use-Case Diagramm, sind die enzelnen benötigten Komponenten enthalten, wie sie die Analyse ergeben hat. 
-Zunächst einmal lassen sich Aktoren ausmachen, 
-welche in System/Software-Aktoren und menschliche Aktoren aufteilen lassen. 
-Bei den Softwareseitigen Aktoren ergab die Analyse als Aktoren den Webserver, ein 
-Einzelnes WBT (sie sollen nach Abschluss die Punkte im System eintragen), das Autorenwerkzeug und den Webbrowser. 
-Auf der Seite der Aktoren ließ sich der Lernende (Standard-User), Tutor, Autor und Admin ermitteln.
-Zu beachten ist, dass die Aufteilung der menschlichen Aktoren auch eine Berechtigungshierarchie darstellt, wobei 
-ein Lernender die geringsten und ein Admin die meisten Berechtigungen hat. 
-Die einzelnen Use Cases werden nun jeweils im folgenden kurz beschrieben. Zu beachtenn ist dabei noch, dass diese 
-Analyse sich nicht zwingend mit dem Ergebnis aus der Studienarbeit deckt, 
-da Funktionalitäten auf spätere Releases verschoben worden sind.
+Im obigen Use-Case Diagramm, sind die einzelnen benÃ¶tigten Komponenten
+enthalten, wie sie die Analyse ergeben hat. ZunÃ¤chst einmal lassen sich Aktoren
+ausmachen, welche in System/Software-Aktoren und menschliche Aktoren aufteilen
+lassen. 
 
-WBT durcharbeiten
-Agierende Aktoren: WBT, Lernender, Tutor, Autor, Admin
-Ein Benutzer startet ein WBT und schließt es erfolgreich ab bzw. scheitert oder beendet es vorzeitig. 
-Im Anschluss daran, werden die erreichten Punkte im System eingetragen.
-In der Version der Studienarbeit, wird dies noch vom Benutzer selbst durchgeführt. Später soll dies das WBT übernehmen.
-	
-Bewerten
-Agierende Aktoren: Lernender, Tutor
-Den Use Case Bewerten gibt es in zwei Ausprägungen. Die erste Ausprägung ist die Bewertung eines Tutors. 
-Hat ein Lernender oder eine anderer Tutor (im folgenden beide als "Lernende" bezeichnet) 
-von dem Betreffenden Benutzer Hilfe erhalten, so kann der Lernende im Anschluss daran diese Hilfe im System bewerten. 
-Dies kann er mit Sternen und wahlweise mit einem Kommentar tun (Kommentar noch nicht in der
-Alpha-Version).
-Die Zweite Ausprägung ist die Bewertung eines WBTs. Ein Benutzer muss das WBT dafür abgeschlossen haben. 
-Ebenso wie beim Tutor kann er dies über Sterne und Kommentare tun.
-	
-Sprache verwalen
-Agierende Aktoren: Alle menschlichen Aktoren (Ausprägung Sprache hinzufügen kann nur der Admin)
-Ebenso wie im obigen Use Case gibt es hiervon zwei Ausprägungen. Nummer Eins ist der Use Case Sprache wechseln. 
-Dieser kann von jedem Benutzer durchgeführt werden und bewirkt, dass alle Zeichenketten in MasterlyMate,
-welche in der betreffenden Sprache vorhanden sind, ausgetauscht werden.
-Use Case Nummer Zwei kann nur von einem Administrator durchgeführt werden. Und bewirkt die Erzeugung einer weiteren Sprache, 
-welche eingestellt werden kann. Gegenwärtig wird dies noch direkt durch 
-eine Änderung der Sprachdateiten getan.
+Bei den Softwareseitigen Aktoren ergab die Analyse als Aktoren den Webserver,
+ein Einzelnes WBT (sie sollen nach Abschluss die Punkte im System eintragen),
+das Autorenwerkzeug und den Webbrowser. Auf der Seite der Aktoren lieÃŸe sich der
+Lernende (Standard-User), Tutor, Autor und Admin ermitteln. Zu beachten ist,
+dass die Aufteilung der menschlichen Aktoren auch eine Berechtigungshierarchie
+darstellt, wobei ein Lernender die geringsten und ein Admin die meisten
+Berechtigungen hat.
 
-Profil verwalten
-Agierende Aktoren: Alle menschlichen Aktoren
-Auch dieser Use Case verfügt über zwei Ausprägungen. Der erste Use Case ist das bearbeiten eines Profils. 
-Dies kann nur der besitzer des jeweiligen Profils.
-Den anderen Use Case kann hingegen jeder Benutzer durchführen. Es handelt sich dabei um das Betrachten eines Profils. 
-Dies ist insbesondere für die Kontaktaufnahme eines Benutzers zu einem Tutor notwendig.
+Die einzelnen Use Cases werden nun jeweils im folgenden kurz beschrieben. Zu
+beachtenn ist dabei noch, dass diese Analyse sich nicht zwingend mit dem
+Ergebnis aus der Studienarbeit deckt, da FunktionalitÃ¤ten auf spÃ¤tere Releases
+verschoben worden sind.
 
-Suchen
-Agierende Aktoren: Alle menschlichen Aktoren
-Es können sowohl Tutoren als auch WBTs gesucht werden. Dabei wird jeweils berücksichtigt welches Themengebiet gefragt ist.
+\subsubsection{WBT durcharbeiten} 
+Agierende Aktoren: \begin{itemize}
+  \item WBT
+  \item Lernender
+  \item Tutor
+  \item Autor
+  \item Admin 
+\end{itemize}
+
+Ein Benutzer startet ein WBT und schlieÃŸt es erfolgreich ab bzw.
+scheitert oder beendet es vorzeitig. Im Anschluss daran, werden die erreichten
+Punkte im System eingetragen. In der Version der Studienarbeit, wird dies noch
+vom Benutzer selbst durchgefÃ¼hrt. SpÃ¤ter soll dies das WBT Ã¼bernehmen.
 	
-Themengebiet abfragen
-Agierende Aktoren: Webserver
-Der Webserver überprüft bei einer Suchanfrage die einzelnen Themen.
+\subsubsection{Bewerten}
+Agierende Aktoren: \begin{itemize}
+  \item Lernender
+  \item Tutor
+\end{itemize} 
+
+Den Use Case Bewerten gibt es in zwei AusprÃ¤gungen. Die erste AusprÃ¤gung ist die
+Bewertung eines Tutors. Hat ein Lernender oder eine anderer Tutor (im folgenden
+beide als "Lernende" bezeichnet) von dem Betreffenden Benutzer Hilfe erhalten,
+so kann der Lernende im Anschluss daran diese Hilfe im System bewerten.
+Dies kann er mit Sternen und wahlweise mit einem Kommentar tun (Kommentar noch
+nicht in der Alpha-Version). Die Zweite AusprÃ¤gung ist die Bewertung eines WBTs.
+Ein Benutzer muss das WBT dafÃ¼r abgeschlossen haben. Ebenso wie beim Tutor kann
+er dies Ã¼ber Sterne und Kommentare tun.
 	
-Themen verwalten
-Agierende Aktoren: Admin, Webserver
-Nur der Admin kann die beiden Ausprägungen dieses Use Cases durchführen, welche das Hinzufügen und Löschen eines 
-Themas darstellen.
+\subsubsection{Sprache verwalen}
+Agierende Aktoren: \begin{itemize}
+  \item Alle menschlichen Aktoren (AusprÃ¤gung Sprache
+hinzufÃ¼gen kann nur der Admin)
+\end{itemize}
+
+Ebenso wie im obigen Use Case gibt es hiervon zwei AusprÃ¤gungen.
+Nummer Eins ist der Use Case Sprache wechseln. Dieser kann von jedem Benutzer
+durchgefÃ¼hrt werden und bewirkt, dass alle Zeichenketten in MasterlyMate, welche
+in der betreffenden Sprache vorhanden sind, ausgetauscht werden. Use Case Nummer
+Zwei kann nur von einem Administrator durchgefÃ¼hrt werden. Und bewirkt die
+Erzeugung einer weiteren Sprache, welche eingestellt werden kann. GegenwÃ¤rtig
+wird dies noch direkt durch eine Ã„nderung der Sprachdateiten getan.
+
+\subsubsection{Profil verwalten}
+Agierende Aktoren: \begin{itemize}
+  \item Alle menschlichen Aktoren
+\end{itemize}
+
+Auch dieser Use Case verfÃ¼gt Ã¼ber zwei AusprÃ¤gungen. Der erste Use Case ist das
+bearbeiten eines Profils. Dies kann nur der besitzer des jeweiligen Profils.
+Den anderen Use Case kann hingegen jeder Benutzer durchfÃ¼hren. Es handelt sich
+dabei um das Betrachten eines Profils. Dies ist insbesondere fÃ¼r die
+Kontaktaufnahme eines Benutzers zu einem Tutor notwendig.
+
+\subsubsection{Suchen}
+Agierende Aktoren: \begin{itemize}
+  \item Alle menschlichen Aktoren
+\end{itemize}
+
+Es kÃ¶nnen sowohl Tutoren als auch WBTs gesucht werden. Dabei wird jeweils
+berÃ¼cksichtigt welches Themengebiet gefragt ist.
 	
-WBT verwalten
-Agierende Aktoren: Admin, Autor, Webserver
-Dieser Use Case besitzt drei Ausprägungen. Admin und Autor können WBTs einbinden. Es kann jedoch nur der User, 
-welcher ein WBT eingebunden hat, dieses auch wieder entfernen bzw. ersetzen. Dies gilt nicht,
-wenn der betreffende Benutzer ein Administrator ist. Dieser kann jedes WBT löschen oder ersetzen.
+\subsubsection{Themengebiet abfragen}
+Agierende Aktoren: \begin{itemize}
+  \item Webserver
+\end{itemize}
+
+Der Webserver Ã¼berprÃ¼ft bei einer Suchanfrage die einzelnen Themen.
+	
+\subsubsection{Themen verwalten}
+Agierende Aktoren: \begin{itemize}
+  \item Admin
+  \item Webserver
+\end{itemize}
+
+Nur der Admin kann die beiden AusprÃ¤gungen dieses Use Cases durchfÃ¼hren, welche
+das HinzufÃ¼gen und LÃ¶schen eines Themas darstellen.
+	
+\subsubsection{WBT verwalten}
+Agierende Aktoren: \begin{itemize}
+  \item Admin
+  \item Autor
+  \item Webserver
+\end{itemize}
+
+Dieser Use Case besitzt drei AusprÃ¤gungen. Admin und Autor kÃ¶nnen WBTs
+einbinden. Es kann jedoch nur der User, welcher ein WBT eingebunden hat, dieses
+auch wieder entfernen bzw. ersetzen. Dies gilt nicht, wenn der betreffende
+Benutzer ein Administrator ist. Dieser kann jedes WBT lÃ¶schen oder ersetzen.
 	
 
-Entwurfsklassendiagramm
-
-In dem Entwurfsklassendiagramm, sind die Models und ihre Beziehungen zueinander dargestellt. 
-Diese Modelle bilden einzelne Konzepte im System ab. 
-So stellt User ein Zentrales Modell dar, welches als Abbildung eines Benutzers im System für die Authentifizierung 
-verantwortlich trägt. Außerdem werden dem User verschiedene Themen und WBTs zugeordnet.
-Diese Verbindungen benötigen jeweils Assoziationsklassen. Dies liegt daran, dass es in dieser Verbindung 
-Attribute gibt, welche sich nicht eindeutig User oder WBT bzw. Thema zuordnen lassen.
-Bei der Verbindung User-Thema benötigt man ein Attribut für die Punkte, welche bisher von dem User in dem System 
-erziehlt worden sind. Außerdem muss klar sein welchen Rang ein User in dem jeweiligen Thema inne hat.
-Die Verbindung User-WBT dagegen benötigt eine Variable um zu hinterlegen ob ein User das WBT bereits einmal 
-abgeschlossen hat und wenn ja, wie viele Punkte er erreicht hat.
-Das WBT-Model verfügt über eine ID, sowie über einen Pfad zur eigentliche
-SCORM-Datei. Wie bereits erwähnt ist es einem oder mehreren Themen (Topics)
-zugeordnet.
-\verb+\label{ref:objectWBT}+\label{ref:objectWBT}
-\end{k}
+\subsection{Entwurfsklassendiagramm}
+In dem Entwurfsklassendiagramm, sind die Models und ihre Beziehungen zueinander
+dargestellt. Diese Modelle bilden einzelne Konzepte im System ab. So stellt User
+ein Zentrales Modell dar, welches als Abbildung eines Benutzers im System fÃ¼r
+die Authentifizierung verantwortlich trÃ¤gt. AuÃŸerdem werden dem User
+verschiedene Themen und WBTs zugeordnet. Diese Verbindungen benÃ¶tigen jeweils
+Assoziationsklassen. Dies liegt daran, dass es in dieser Verbindung Attribute
+gibt, welche sich nicht eindeutig User oder WBT bzw. Thema zuordnen lassen. Bei
+der Verbindung User-Thema benÃ¶tigt man ein Attribut fÃ¼r die Punkte, welche
+bisher von dem User in dem System erziehlt worden sind. AuÃŸerdem muss klar sein
+welchen Rang ein User in dem jeweiligen Thema inne hat. Die Verbindung User-WBT
+dagegen benÃ¶tigt eine Variable um zu hinterlegen ob ein User das WBT bereits
+einmal abgeschlossen hat und wenn ja, wie viele Punkte er erreicht hat. Das
+WBT-Model verfÃ¼gt Ã¼ber eine ID, sowie Ã¼ber einen Pfad zur eigentliche
+SCORM-Datei. Wie bereits erwÃ¤hnt ist es einem oder mehreren Themen (Topics)
+zugeordnet.\label{ref:objectWBT}
 
 \section{Komponenten}
 \begin{k}
@@ -140,12 +184,10 @@ Uebernimmt Julian
 \end{k}
 
 \subsection{Themen}
-\begin{k}
-Themen fungieren für den Benutzer zum Einen als Suchfilter bei der Suche nach
-den WBTs. Dies sorgt dafür, dass der Benutzer ohne umschweife auf WBTs zugreifen
-kann, welche für ihn interessant sind. Außerdem dienen Themen dazu, die
-unterschiedlichen Ränge, welche ein Benutzer zur selben Zeit in Masterly Mate
+Themen fungieren fÃ¼r den Benutzer zum Einen als Suchfilter bei der Suche nach
+den WBTs. Dies sorgt dafÃ¼r, dass der Benutzer ohne umschweife auf WBTs zugreifen
+kann, welche fÃ¼r ihn interessant sind. AuÃŸerdem dienen Themen dazu, die
+unterschiedlichen RÃ¤nge, welche ein Benutzer zur selben Zeit in Masterly Mate
 haben kann, voneinanderabzugrenzen. Jeder Benutzer kann in einem Thema nur genau
 einen Rang inne haben. Umgekehrt kann er jedoch in beliebig vielen Themen einen
-Rang haben
-\end{k}
+Rang haben.

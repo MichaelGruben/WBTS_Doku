@@ -93,51 +93,61 @@
 \contentsline {section}{\numberline {7.1}Realisierungsmethodik}{40}{section.7.1}
 \contentsline {section}{\numberline {7.2}Internationalisierung}{41}{section.7.2}
 \contentsline {section}{\numberline {7.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{41}{section.7.3}
-\contentsline {section}{\numberline {7.4}Komponenten}{41}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Durcharbeiten von WBTs}{41}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Tutorensuche}{41}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Navigation, Impressum, Kontakt}{41}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}Themen}{42}{subsection.7.4.4}
-\contentsline {chapter}{\numberline {8}Umsetzung}{43}{chapter.8}
-\contentsline {section}{\numberline {8.1}Nutzerverwaltung}{43}{section.8.1}
-\contentsline {section}{\numberline {8.2}Lokationen}{43}{section.8.2}
-\contentsline {section}{\numberline {8.3}Suche}{43}{section.8.3}
-\contentsline {section}{\numberline {8.4}SCORM}{43}{section.8.4}
-\contentsline {section}{\numberline {8.5}Lizensierung}{44}{section.8.5}
-\contentsline {section}{\numberline {8.6}Dokumentation}{44}{section.8.6}
-\contentsline {section}{\numberline {8.7}Gestaltung}{45}{section.8.7}
-\contentsline {section}{\numberline {8.8}Authentifizierung}{45}{section.8.8}
-\contentsline {section}{\numberline {8.9}Themen}{45}{section.8.9}
-\contentsline {part}{\numberline {IV}Reflexion}{46}{part.4}
-\contentsline {chapter}{\numberline {9}Zusammenfassung der Ergebnisse}{47}{chapter.9}
-\contentsline {paragraph}{Aufgetretene Probleme}{47}{section*.65}
-\contentsline {chapter}{\numberline {10}Fazit und Ausblick}{48}{chapter.10}
-\contentsline {section}{\numberline {10.1}Ideen f\IeC {\"u}r weitere Versionen}{48}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Gamification f\IeC {\"u}r Newbies}{48}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Gamification f\IeC {\"u}r Regulars}{49}{subsection.10.1.2}
-\contentsline {subsection}{\numberline {10.1.3}Gamification f\IeC {\"u}r Enthusiasten}{49}{subsection.10.1.3}
-\contentsline {subsection}{\numberline {10.1.4}Weitere M\IeC {\"o}glichkeiten f\IeC {\"u}r Gamification}{49}{subsection.10.1.4}
-\contentsline {section}{\numberline {10.2}Anschlie\IeC {\ss }ende Vorhaben}{49}{section.10.2}
-\contentsline {part}{Verzeichnisse}{50}{section*.66}
-\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.67}
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.69}
-\contentsline {chapter}{Listings}{iii}{section*.71}
-\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.73}
-\contentsline {part}{Anhang}{vii}{appendix*.75}
+\contentsline {subsection}{\numberline {7.3.1}Use-Case Diagramm}{41}{subsection.7.3.1}
+\contentsline {subsubsection}{WBT durcharbeiten}{41}{section*.62}
+\contentsline {subsubsection}{Bewerten}{42}{section*.63}
+\contentsline {subsubsection}{Sprache verwalen}{42}{section*.64}
+\contentsline {subsubsection}{Profil verwalten}{43}{section*.65}
+\contentsline {subsubsection}{Suchen}{43}{section*.66}
+\contentsline {subsubsection}{Themengebiet abfragen}{43}{section*.67}
+\contentsline {subsubsection}{Themen verwalten}{43}{section*.68}
+\contentsline {subsubsection}{WBT verwalten}{44}{section*.69}
+\contentsline {subsection}{\numberline {7.3.2}Entwurfsklassendiagramm}{44}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Komponenten}{45}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Durcharbeiten von WBTs}{45}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Tutorensuche}{45}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Navigation, Impressum, Kontakt}{45}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Themen}{45}{subsection.7.4.4}
+\contentsline {chapter}{\numberline {8}Umsetzung}{46}{chapter.8}
+\contentsline {section}{\numberline {8.1}Nutzerverwaltung}{46}{section.8.1}
+\contentsline {section}{\numberline {8.2}Lokationen}{46}{section.8.2}
+\contentsline {section}{\numberline {8.3}Suche}{46}{section.8.3}
+\contentsline {section}{\numberline {8.4}SCORM}{46}{section.8.4}
+\contentsline {section}{\numberline {8.5}Lizensierung}{47}{section.8.5}
+\contentsline {section}{\numberline {8.6}Dokumentation}{47}{section.8.6}
+\contentsline {section}{\numberline {8.7}Gestaltung}{48}{section.8.7}
+\contentsline {section}{\numberline {8.8}Authentifizierung}{48}{section.8.8}
+\contentsline {section}{\numberline {8.9}Themen}{48}{section.8.9}
+\contentsline {part}{\numberline {IV}Reflexion}{49}{part.4}
+\contentsline {chapter}{\numberline {9}Zusammenfassung der Ergebnisse}{50}{chapter.9}
+\contentsline {paragraph}{Aufgetretene Probleme}{50}{section*.73}
+\contentsline {chapter}{\numberline {10}Fazit und Ausblick}{51}{chapter.10}
+\contentsline {section}{\numberline {10.1}Ideen f\IeC {\"u}r weitere Versionen}{51}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Gamification f\IeC {\"u}r Newbies}{51}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Gamification f\IeC {\"u}r Regulars}{52}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Gamification f\IeC {\"u}r Enthusiasten}{52}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Weitere M\IeC {\"o}glichkeiten f\IeC {\"u}r Gamification}{52}{subsection.10.1.4}
+\contentsline {section}{\numberline {10.2}Anschlie\IeC {\ss }ende Vorhaben}{52}{section.10.2}
+\contentsline {part}{Verzeichnisse}{53}{section*.74}
+\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.75}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.77}
+\contentsline {chapter}{Listings}{iii}{section*.79}
+\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.81}
+\contentsline {part}{Anhang}{vii}{appendix*.83}
 \contentsline {chapter}{\numberline {A}Abbildungen}{viii}{appendix.A}
 \contentsline {chapter}{\numberline {B}Tabellen}{ix}{appendix.B}
 \contentsline {chapter}{\numberline {C}GNU Free Documentation License}{xi}{appendix.C}
 \select@language {english}
-\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{xi}{section*.76}
-\contentsline {section}{2. VERBATIM COPYING}{xiii}{section*.77}
-\contentsline {section}{3. COPYING IN QUANTITY}{xiv}{section*.78}
-\contentsline {section}{4. MODIFICATIONS}{xv}{section*.79}
-\contentsline {section}{5. COMBINING DOCUMENTS}{xvii}{section*.80}
-\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvii}{section*.81}
-\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xviii}{section*.82}
-\contentsline {section}{8. TRANSLATION}{xviii}{section*.83}
-\contentsline {section}{9. TERMINATION}{xix}{section*.84}
-\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xix}{section*.85}
-\contentsline {section}{11. RELICENSING}{xx}{section*.86}
-\contentsline {section}{ADDENDUM: How to use this License for your documents}{xx}{section*.87}
+\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{xi}{section*.84}
+\contentsline {section}{2. VERBATIM COPYING}{xiii}{section*.85}
+\contentsline {section}{3. COPYING IN QUANTITY}{xiv}{section*.86}
+\contentsline {section}{4. MODIFICATIONS}{xv}{section*.87}
+\contentsline {section}{5. COMBINING DOCUMENTS}{xvii}{section*.88}
+\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvii}{section*.89}
+\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xviii}{section*.90}
+\contentsline {section}{8. TRANSLATION}{xviii}{section*.91}
+\contentsline {section}{9. TERMINATION}{xix}{section*.92}
+\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xix}{section*.93}
+\contentsline {section}{11. RELICENSING}{xx}{section*.94}
+\contentsline {section}{ADDENDUM: How to use this License for your documents}{xx}{section*.95}
 \select@language {ngerman}

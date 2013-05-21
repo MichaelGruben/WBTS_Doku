@@ -135,27 +135,27 @@ Uebernimmt Julian?
   verwendet
   \item daher kein Suchfeld nÃ¶tig
 \end{itemize}
-Die Suche von WBTs wird über reine SQL-Abfragen realisiert. 
-Dies bedeutet, dass bei einem Aufruf der WBT-Liste, die Daten des betreffenden Users ausgelesen werden. 
-Entsprechend des Levels eines Users im betreffenden Themengebiet werden die Dafür 
-vorgesehenen WBTs, welche er noch nicht absolviert hat angezeigt. 
 \end{k}
+Die Suche von WBTs wird Ãœber reine SQL-Abfragen realisiert. 
+Dies bedeutet, dass bei einem Aufruf der WBT-Liste, die Daten des betreffenden Users ausgelesen werden. 
+Entsprechend des Levels eines Users im betreffenden Themengebiet werden die
+DafÃ¼r vorgesehenen WBTs, welche er noch nicht absolviert hat angezeigt. 
 
 \section{Themen}
-\begin{k}
-Die Themen (oder Topics/Themengebiete) grenzen die WBTs voneinander ab und sind neben den Leveln 
-ein Suchkriterium. Jedes WBT ist Teil mindestens eines Themengebietes. Außerdem
-sind die Ränge an die Themen gebunden. Der Benutzer kann WBTs in jedem
-Themengebiet absolvieren und im Rang aufsteigen. Dabei ist zu beachten, 
-dass ein Benutzer einen bestimmten Rang nur in einem Themengebiet haben kann.
-Das bedeutet, dass er zwar in einem Gebiet den Status eines Expertise haben kann, in einem ganz anderen jedoch ein absoluter 
-Newbie ist. Ist ein WBTs zwei (oder mehr) Themen zugeordnet, so erhält der Benutzer bei Abschluss die 
-Punkte für beide Themengebiete.
-Themen könen Unterthemen haben, daher kann ein Benutzer innerhalb eines Überthemas unterschiedliche Ränge haben. 
-So kann z.B. ein Benutzer im Thema Informatik ein Expertise sein und zugleich in den 
-Unterthemen Datenstrukturen und Algorithmen Specialist bzw. Newbie sein.
-Die Beziehung von Benutzer zu Themengebiet ist m:n, ebenso ist die Beziehung zwischen Thema und WBT m:n. 
-Die Beziehung von Themen zu ihren Unterthemen ist 1:n.
-Das hier Beschriebene ist der Stand der Alpha-Version. Eine mögliche Änderung für die Zukunft wäre, 
-dass erreichte Punkte eines Unterthemas auch im Überthema gutgeschrieben werden. 
-\end{k}
+Die Themen (oder Topics/Themengebiete) grenzen die WBTs voneinander ab und sind
+neben den Leveln ein Suchkriterium. Jedes WBT ist Teil mindestens eines
+Themengebietes. AuÃŸerdem sind die RÃ¤nge an die Themen gebunden. Der Benutzer
+kann WBTs in jedem Themengebiet absolvieren und im Rang aufsteigen. Dabei ist zu
+beachten, dass ein Benutzer einen bestimmten Rang nur in einem Themengebiet
+haben kann. Das bedeutet, dass er zwar in einem Gebiet den Status eines
+Expertise haben kann, in einem ganz anderen jedoch ein absoluter Newbie ist. Ist
+ein WBTs zwei (oder mehr) Themen zugeordnet, so erhÃ¤lt der Benutzer bei
+Abschluss die Punkte fÃ¼r beide Themengebiete. Themen kÃ¶nnen Unterthemen haben,
+daher kann ein Benutzer innerhalb eines Ãœberthemas unterschiedliche RÃ¤nge haben.
+So kann z.B. ein Benutzer im Thema Informatik ein Expertise sein und zugleich in
+den Unterthemen Datenstrukturen und Algorithmen Specialist bzw. Newbie sein.
+Die Beziehung von Benutzer zu Themengebiet ist m:n, ebenso ist die Beziehung
+zwischen Thema und WBT m:n. Die Beziehung von Themen zu ihren Unterthemen ist
+1:n. Das hier Beschriebene ist der Stand der Alpha-Version. Eine mÃ¶gliche
+Ã„nderung fÃ¼r die Zukunft wÃ¤re, dass erreichte Punkte eines Unterthemas auch im
+Ãœberthema gutgeschrieben werden.
