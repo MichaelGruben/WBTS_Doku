@@ -1,44 +1,96 @@
-\chapter{Fazit und Ausblick}\label{ref:chaptSummary}
+\chapter{Ausblick}\label{ref:chaptSummary}
+Dieses letzte Kapitel rundet die vorliegende Studienarbeit mit einem Blick in
+die Zukunft ab. Es werden Ideen für weitere Versionen präsentiert interessante
+Rückschlüsse für einen umfänglichen Umgang mit Masterly Mate vorgestellt.
 
 \section{Ideen für weitere Versionen}\label{ref:weitereIdeen}
+Es hat sich gezeigt, dass das in der Vorlesung Gamification entstandene Konzept
+bei weitem nicht umgesetzt werden konnte. Allein die Realisierung der
+grundlegenden Gedanken war in der gegebenen Zeit möglich. Daher folgt an dieser
+Stelle eine Auflistung von Ideen für weitere Versionen von Masterly Mate.
+
+\subsection{Für Anwender}
+\begin{description}
+\item[Liste absolvierter WBTs] Bisher gibt es für Lernende keine
+direkte Möglichkeit auf absolvierte Tests in WBTs zurückzusehen. Mit einer
+automatisch generierten Liste, die über die Navigation erreichbar ist, wird dies
+möglich.
+\item[Profilbild] Gewöhlich identifizieren sich die Nutzer einer Plattform
+anhand ihres Avatars oder Profilbildes. In Masterly Mate muss diese Funktion
+noch im Model für Nutzer hinzugefügt werden. Unter Umständen kann auch eine
+Abfrage auf die bekannte Avatar-Plattform gravatar.com inkludiert werden.
+\item[Jährliche Tests] Die tief im Konzept verwobenen jährlichen Tests fehlen in
+der ersten Version von Masterly Mate noch. Dies ist auch darauf zurückzuführen,
+dass bisher nur der Rahmen geschaffen wurde. Der Inhalt, wie beispielsweise
+diverse WBTs, Themen und Tests fehlen für eine umfangreiche Erfahrung.
+\item[Rangverlust für Tutoren] So fehlt im Zusammenhang mit dem
+vorangegangenen Aspekt auch der Rangverlust für Tutoren bei einem Quartal
+ohne gegebener Unterweisung.
+\item[Quickstart] Neulinge haben es derzeit noch schwer. Es fehlt an
+einem Quick-Start Guide, einer (Video-)Instruktion oder einem (Video-)Tutorial.
+So wird der Einstieg erheblich vereinfacht.
+\item[Gesamtranking] Mit einem Gesamtranking können sich
+interessierte Lernende gegenüber Anderen vergleichen. Diese Übersicht
+soll keinen Konkurrenzkampf auslösen und wurde daher bisher nicht
+berücksichtigt. Die Art der Umsetzung erfordert eine ausgeklügelte
+Konzeption.
+\item[Open-ID] Um einen Login zu vereinfachen kann ein ID-Pool, wie
+beispielsweise Open-ID abgefragt werden. So muss sich der Nutzer auf
+Masterly Mate kein extra Konto einrichten. Mit einer ID, die er auf
+diversen Plattformen nutzt kann er so auch auf Masterly Mate einfach
+sein Passwort eingeben und ist ohne explizite Registrierung
+eingeloggt.
+\item[Newsletter] Ein persönlicher Newsletter kann an
+interessierte Nutzer versendet werden. Dieser enthällt
+persönliche Statistiken oder Informationen über neu
+eingegangene oder geänderte WBTs. Die genaue Zusammenstellung kann im Rahmen
+dessen Konzeption beschlossen werden.
+\item[Realitätsnahe Tests] Mit Tests, die denen in Schulen oder Hochschulen
+ähneln können sich Lernende in Prüfungssituationen üben. Bei eventuell
+auftretenden können sie auf die bereits vermittelbaren Tutoren zurückgreifen. 
+\end{description}
+
+\subsection{Anwendungsintern}
+\begin{description}
+\item[Forum] In einem Forum können allgemeine Themen diskutiert werden. Hier
+können neue Ideen für die Strukturierung von Masterly Mate entstehen oder über
+alltägliches philosophiert werden.
+\item[Mailerfunktionalität] Der Mailer ist ein sehr akutes Thema. Nutzer
+erhalten so eine bestätigungs E-Mail für die Registrierung und andere relevante
+Informationen.
+\item[Refactorings] Für die bessere Umsetzung von DRY und KISS sollten
+gelegentlich Refactorings angebracht werden. So wird die Programmcodequalität
+verbessert und die Quelltexte werden einfacher lesbar und somit für eine
+Community an Programmierern besser zugänglich.
+\item[Tests] RoR bietet ein Unit-Test-Framework, welches aus Zeitgründen bisher
+keine Verwendung fand. Tests sollten jedoch angebracht werden, um die
+Korrektheit zu wahren und das YAGNI-Prinzip einfacher umzusetzen.
+\item[Implementierung einer SCORM RTE und eines SCORM Players] Die vollständige
+Implementierung von SCORM ist ein weiteres akutes Thema, welches in Angriff
+genommen werden sollte. Analog der Arbeit aus \cite{mitter:2005} sollte eine
+SCORM-RTE und je nach Bedarf ein SCORM-Player implementiert werden, der die
+Kommunikation zwischen Masterly Mate und den WBTs gewährleistet und so die
+Vergabe der Wertung automatisiert.
+\end{description}
+
+\subsection{Überarbeitungen für das Konzept}
 \begin{k}
-\begin{itemize}
-  \item Nutzer kann eine Liste aller WBTs sehen, die er absolviert hat
-  \item Forum
-  \item Durchführung von Refactorings für DRY KISS
-  \item Profilbild
-  \item SCORM RTE implementieren
-  \item Mailerfunktionalität
-  \item Investierte Zeit mit in das Konzept für Belohnungen einbringen
-  \item Am Ende jedes WBT eine Wertung abgeben (zu schwer/zu leicht) -> tendiert
+\begin{description}
+\item[Investierte Zeit] Investierte Zeit mit in das Konzept für Belohnungen
+einbringen
+\item[Wertung für WBTs] Am Ende jedes WBT eine Wertung abgeben (zu schwer/zu leicht) -> tendiert
   eine Wertung zu stark in eine Richtung, wird das WBT dem am nächsten passenden
   Rang zugeordnet
-  \item Adaptierung von Lerninhalten, wie in \cite{knall:2005}?
-  \item SCORM-Player \cite{mitter:2005}
-\end{itemize}
+\item[Adaptierung von Lerninhalten] Adaptierung von Lerninhalten, wie in
+\cite{knall:2005}?
+\item[Überraschungen] noch Überraschungen mit einbringen? \cite{korte:2009}.
+Unlock big equipments for the selected design. Collections of Achievements
+according to the current progression. Dynamic difficulty, i.e. riddles
+\end{description}
+\end{k}
+\begin{k}
 
-\subsection{Gamification für Newbies}
-\begin{itemize}
-    \item Quick-Start Guide (Video-)Instruction, (Video-)Tutorial
-    \item Statistical evaluation (Ranking)
-    \item Unlock big equipments for the selected design
-    \item Possibility of using a Open-ID
-    \item Newsletter-Feature
-    \item Self-assessment regarding to school grades
-  \end{itemize}
-  
- \subsection{Gamification für Regulars}
- \begin{itemize}
-    \item Collections of Achievements according to the current progression
-  \end{itemize}
-  
- \subsection{Gamification für Enthusiasten}
- \begin{itemize}
-    \item Levels
-    \item Dynamic difficulty / i.e. riddles
-  \end{itemize}
-  
- \subsection{Weitere Möglichkeiten für Gamification}
+\subsection{Weitere Möglichkeiten für Gamification}
 \begin{itemize}
 \item Design Selection (Tamagochi, Avatar)
   \item Assistance possible
@@ -55,7 +107,7 @@ Avatar oder der UI, die immer besser gestaltet werden kann?
 
 \end{k}
 
-\section{Anschließende Vorhaben}
+\section{Anschließende Rückschlüsse}\label{ref:anschlVorh}
 \begin{k}
 sehen, was wird
 \begin{itemize}
