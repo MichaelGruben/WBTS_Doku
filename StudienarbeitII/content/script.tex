@@ -28,11 +28,43 @@ zu wartendes Produkt vor.
 
 \section{Internationalisierung}\label{ref:internationalisierung}
 \begin{k}
-Keine Internationalisierung in WBTs! (WBTs brauchen Attribut: Sprache)
-Was ist die Default-Language? -> Sprache des Nutzers (User auch Attribut:
-Muttersprache oder Herkunftsland)
-
-Uebernimmt Julian?
+Die Internationalisierung gewährleistet eine Webanwendung, die möglichst
+unabhängig von natürlichen Sprachen ist. Die Internationalisierung wird
+auch bei Masterly Mate weitestgehend bereits in der ersten Version eingesetzt.
+Die RoR API bietet dafür die Klasse I18n an, mit dessen Hilfe die
+Internationalisierung durchgeführt werden kann. Die Bezeichnung I18n
+kennzeichnet den Begriff Internationalisierung als Numeronym. Die Zahl 18 steht
+für die Anzahl an Buchstaben, die zwischen den Buchstaben I und n liegen.
+Die Klasse I18n bietet neben vielen anderen Methoden eine essentielle Methode
+an, mit dessen Hilfe die Internationalisierung von Masterly Mate weitestgehend
+realisiert werden kann. Die Methode trägt die Bezeichnung t als Kurzform für
+translate. Diese Methode erwartet als einzigen Parameter eine Zeichenkette,
+welche den Pfad zu dem entsprechenden Sprachstring angibt. Bei der
+Initialisierung der RoR Anwendung Masterly Mate, werden sämtliche *.yaml Dateien
+aus dem Verzeichnis config/locales/ als Sprachdateien geladen. Der Name einer
+Sprachdatei sollte aus Konventionsgründen einer Rails Webanwendung, stets den
+Ländercode beinhalten. In der ersten Version von Masterly Mate werden die
+Sprachen Deutsch und Englisch unterstützt. Sven Fuchs bietet für sämtliche
+Sprachen auf Github
+\footnote{https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale} vorgefertigte Sprachdateien an. Diese Sprachdateien definieren für die jeweilige Sprache entsprechende Formatierungen, wie z.B.
+Datum- und Zeitangaben. Aber auch die Werte für Labels von
+Formularsteuerungskomponenten, wie z.B. die Submit-Schaltfläche, werden in
+diesen Sprachdateien festgelegt. Die anwendungsspezifischen Strings müssen
+selbstverständlich selbst in *.yaml Sprachdateien definiert und im Verzeichnis
+config/locales/ abgelegt werden. Eine RoR Sprachdatei ist hierarchisch
+aufgebaut. Die einzelnen Hierarchieebenen werden dann später beim Zugriff auf
+ein Sprachstring über ein Punkt voneinander getrennt. Grundlegend definiert man
+eine von der natürlichen Sprache unabhängige Zeichenkette dadurch, indem ein
+fester Bezeichner gefolgt von einem Doppelpunkt definiert wird. Nach dem
+Doppelpunkt folgt die sprachabhängige Zeichenkette. Im Programmcode wird an den
+Stellen, an denen eine sprachenunabhängige Zeichenkette ausgegeben werden soll,
+die Methode t der Klasse I18n eingesetzt und dieser als Parameter der Pfad zu
+dem entsprechenden Bezeichner übergeben.
+Masterly Mate ist nahezu vollständig für die Sprachen Deutsch und
+Englisch Internationalisiert. Lediglich die von den Nutzern erstellten WBTs sind
+nicht Internationalisiert. Einige WBT-Engines bieten den Mechanismus zur
+Internationalisierung nicht an. Aus diesem Grund wurde dieses Vorhaben im Rahmen
+dieser Studienarbeit vernachlässigt.
 \end{k}
 
 \section{Beschreibung des Entwurfsklassendiagramms und
@@ -204,7 +236,25 @@ Tutor mehr sein möchte.
 
 \subsubsection{Navigation, Impressum, Kontakt}
 \begin{k}
-Uebernimmt Julian
+Eine übersichtliche und nicht zu detailierte Navigation für Masterly Mate war
+ebenfalls ein Ziel dieser Studienarbeit. Die Funktionsweise eines
+Navigationsmoduls sollte nicht neu entwickelt werden. Aus diesem Grund wurden
+einige vorgefertigte Gems für die Navigation in Betracht gezogen. Das Gem,
+welches letztlich für die Navigation in Masterly Mate eingesetzt wurde, nennt
+sich Simple-Navigation \footnote{https://github.com/andi/simple-navigation}. 
+Die Handhabung dieses Gems ist sehr einfach und darüber hinaus bietet es eine
+übersichtliche Infrastruktur und somit ein Grundkonzept für die Funktionsweise
+einer Navigation. Die Elemente der Navigationsleiste werden an einer zentralen
+Stelle in der config/navigation.rb definiert. Auch das Festlegen von
+Subelementen ist möglich. Weiterhin kann man eine von mehreren 
+Darstellungsarten, wie z.B. einer ungeordneten HTML Liste, Linklisten,
+Breadcrumbs, etc. für das Navigationsmoduls auswählen. Für Masterly Mate wird
+eine entsprechend mit CSS formatierte Linkliste eingesetzt.
+Für das Impressum wurde im Rahmen dieser Studienarbeit keine eigene Seite in der
+Webanwendung vorgesehen. Dieses befindet sich daher in der Fußleiste von
+Masterly Mate. Auch ein Kontaktformular wurde in dieser Arbeit nicht vorgesehen.
+Der Kontakt erfolgt in der aktuellen Version über das Anschreiben an die
+Entwickler von Masterly Mate per E-Mail.
 \end{k}
 
 \subsubsection{Themen}

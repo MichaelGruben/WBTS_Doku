@@ -570,8 +570,73 @@ Funktionalität tatsächlich um eine An-/Auswahl handelt.
 
 \subsection{Autorisierung und Authentifikation}
 \begin{k}
-Uebernimmt Julian?
+Die Authentifikation bezeichnet den Anmeldevorgang eines Nutzers an einem
+System. Der Grundgedanke bei der Authentifikation ist, dass lediglich
+berechtigten Nutzern der Zugang zu vertraulichen Daten gewährt werden soll.
+Grundlegend unterscheidet man bei einer Authentifikation zwischen der
+Identifizierung und dem Beweis der Identifizierung. Diese beiden Schritte sind
+bei einer Authentifikation unumgänglich. Die Identifizierung leitet den ersten
+Schritt einer Authentifikation ein. Dabei wird der Nutzer darauf aufgefordert,
+seine eindeutige Benutzerkennung anzugeben. In vielen Systemen werden
+vorgegebene Standardbenutzerkennungen eingesetzt. Falls einem Angreifer eine
+Benutzerkennung bekannt ist, so muss dieser lediglich den zweiten Schritt der
+Authentifikation, nämlich dem Beweisen der Identifikation, am System
+durchführen, um Zugang zu vertraulichen Daten zu erhalten. In diesem Fall gibt
+sich der Angreifer mit einer anderen Identität aus. Man spricht dann auch von
+Impersonation. Um eine Impersonation zu vermeiden, ist es ratsam bei produktiven
+Systemen, bereits bei der Vergabe von vorgegebenen Benutzerkennungen andere zu
+verwenden, die von den häufig verwendeten Standardbenutzerkennungen abweichen.
+Eine erheblich schwierigere Hürde für einen Angreifer stellt allerdings der
+zweite Schritt der Authentifikation dar - dem Beweisen der Identifikation,
+welches auch als Authentifizierung bezeichnet wird.
+Man unterscheidet dabei mehrere Authentifizierungsverfahren, die nach den
+Aspekten Wissen, Besitz und biometrische Verfahren klassifiziert werden können.
 
+\paragraph{Wissen}
+Ein Benutzer weiß etwas, was andere Benutzer nicht wissen. Die häufigste
+Anwendung die unter diese Klassifikation fällt, ist die Verwendung von
+Passwörtern.
+
+\paragraph{Besitz}
+Der Benutzer besitzt etwas, das andere Benutzer nicht besitzen. Dies könnte z.B.
+ein Schlüssel zu einem Raum oder Gebäude sein.
+
+\paragraph{Biometrische Verfahren}
+Bei diesen Verfahren wird vorausgesetzt, das die zu verifizierenden Objekte
+untrennbar vom Benutzer sind. Das könnte z.B. ein Finger sein, der für einen
+Fingerabdruck benötigt wird.
+
+Bei der Authentifizierung besitzt der Nutzer viele Möglichkeiten, um den Zugang
+für unberechtigte Personen zu erschweren. Bei der Verwendung von Passwörtern
+kann durch die Länge und die Anzahl der genutzten Sonderzeichen eine sehr hohe
+Komplexität geschaffen werden, bei der der Angreifer eine Vielzahl an
+Kombinationen berücksichtigen müsste. Allerdings reicht dies alleine noch nicht
+für den Schutz vor Angreifern aus. Das meist in der Datenbasis hinterlegte
+Passwort darf in keinem Fall als Klartext persistiert werden. Daher entscheidet
+die Wahl eines geeigneten Verschlüsselungsverfahren im
+Wesentlichen über die Sicherheit gegen den unberechtigten Zugang. Viele Systeme
+nutzen als Verschlüsselung für Passwörter den MD5-Hash. Für eine
+wesentlich höhere Sicherheit sorgt heutzutage allerdings ein SHA-Hash.
+
+Die Autorisierung bezeichnet im Wesentlichen die Vergabe von Zugriffsrechten für
+Benutzer oder Gruppen auf bestimmte Ressourcen. Damit regelt die Autorisierung
+im Gegensatz zur Authentifizierung, welches die Zugangskontrolle festlegt, die
+Zugriffskontrolle. Für die Autorisierung können verschiedene Verfahren
+eingesetzt werden, um den Zugriff bestimmter Benutzer oder Gruppen auf
+entsprechende Ressourcen zu regeln. Die Whitelisting und Blacklisting
+Verfahren fallen dabei unter die einfachsten Zugriffsverfahren. Dabei werden
+einzelne Benutzer sogenannten Whitelisten hinzugefügt, um kenntlich zu machen,
+welche Nutzer auf die entsprechende Ressource zugreifen können. Alle Nutzer, die
+nicht in der Liste aufgeführt sind, besitzen demnach keinen Zugriff auf die
+Ressource. Im Gegensatz zum Whitelisting werden beim Blacklisting die Nutzer
+bzw. Subjekte aufgeführt, die keinen Zugriff auf eine Ressource erhalten. Alle
+anderen Nutzer, die sich nicht auf der Liste befinden, erhalten einen Zugriff.
+Das Whitelisting-Verfahren wird allerdings meist dem Blacklisting bevorzugt, da
+die Anzahl der nichtberechtigten Nutzer auf eine Ressource in den meisten
+Szenarien größer ist als die Anzahl berechtigter Nutzer. Bei Anti-Virenscannern
+wird aber z.B. eher das Blacklisting für die Filterliste eingesetzt.
+Für die Zugriffskontrolle auf Dateisystemen werden heutzutage meist 
+Matrixmodell wie z.B. ACL \footnote{Access Control List} verwendet.
 \end{k}
 
 \subsection{Ruby on Rails}
