@@ -25,8 +25,8 @@ wird das \ac{PIF} mithilfe der Funktionen aus einem
 scorm-gem\footnote{Ressource: \url{https://rubygems.org/gems/scorm}} direkt
 entpackt. Dabei ist mit der Berücksichtigung der Validierung stets ein Fehler
 aufgetreten. Für die erste Version wird daher keine Validierung unterstützt, das
-PIF wird ohne Prüfung entpackt (siehe \ref{ref:problems}). Die Fehlerursache
-liegt unter Umständen an dem Alter des gems. Eine genauere Betrachtung ist für
+PIF wird ohne Prüfung entpackt (siehe Abschnitt \ref{ref:problems}). Die
+Fehlerursache liegt unter Umständen an dem Alter des gems. Eine genauere Betrachtung ist für
 spätere Versionen von Masterly Mate angedacht. 
 
 Mit dem Hochladen und Entpacken werden die nötigen Attibute für den Start des
@@ -54,12 +54,22 @@ ein Link auf die GIT-Ressource im Footer angeboten. Zusätzlich wurde, wie bei
 allen Lizenzen nötig, in jeder Datei ein Lizenztext vorrangestellt.
 
 \section{Dokumentation}
-\begin{k}
-mit rake doc:app wurde eine API-Dokumentation erstellt, die im Footer
-referenziert wurde
+Wie in Abschnitt \ref{ref:archDoc} beschrieben, wurde mithilfe der Befehlszeile
+\textit{rake doc:app} eine Dokumentation der API erstellt und im Footer
+mit einem relativen Link auf \textit{doc/app/index.html} referenziert. Die im
+Projekt verwendete Version 10.0.2 von rake bedient sich RDoc in der Version
+2.12.2 und dem Darkfish Rdoc Generator 3.
 
-Uebernimmt Julian?
-\end{k}
+Zusammen mit den Anmerkungen im Quelltext entsteht so eine ausführliche
+Dokumentation der Fähigkeiten und Schnittstellen. In einem Index über die
+Klassen und Module kann gezielt nach bestimmten Funktionsweisen gesucht werden.
+Die dazu angebrachten Kurzbeschreibungen und Verweise bieten einen einfachen
+Überblick und verhelfen einem interessierten Anwender oder Programmierer zur
+Transparenz über die Funktionsweise von Masterly Mate.
+
+Die Dokumentation der API ist in der englischen Sprache gehalten, da diese für
+gewöhnlich nicht multilingual geführt wird und Englisch als Sprache für
+computerrelevante Themen anerkannt ist.
 
 \section{Gestaltung}
 Das Design von Masterly Mate ist in der ersten Version zunächst einmal von
