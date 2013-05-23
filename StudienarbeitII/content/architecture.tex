@@ -128,18 +128,25 @@ aus dem Quelltext verwendet, um eine übersichliche Darstellung der
 programmierten Funktionen zu schaffen \cite{edgeGuide:2013}.
 
 \section{Automatisch generierte Filterung von Ergebnissen}\label{ref:autoResult}
-\begin{k}
-@Benni
-\begin{itemize}
-  \item Profilinfos werden ausgelesen und zur Eingrenzung der Ergebnisse
-  verwendet
-  \item daher kein Suchfeld nötig
-\end{itemize}
-\end{k}
-Die Suche von WBTs wird Über reine SQL-Abfragen realisiert. 
-Dies bedeutet, dass bei einem Aufruf der WBT-Liste, die Daten des betreffenden Users ausgelesen werden. 
-Entsprechend des Levels eines Users im betreffenden Themengebiet werden die
-Dafür vorgesehenen WBTs, welche er noch nicht absolviert hat angezeigt. 
+Die Suche von WBTs wird Über reine SQL-Abfragen realisiert.
+Dies bedeutet, dass bei einem Aufruf der WBT-Liste, die Daten des betreffenden
+Users ausgelesen werden. Entsprechend des Levels eines Users im betreffenden
+Themengebiet werden die Dafür vorgesehenen WBTs, welche er noch nicht
+absolviert hat angezeigt.
+
+Alternativ können alle WBTs angezeigt werden, wobei sie nach Themen gefiltert
+werden. Bei der Suche wird im Profil des Users nach den dort hinterlegten Themen
+gefragt. Im Standardfall werden die Themen die dort aufgelistet sind für die
+Suche verwendet. So erhält ein Benutzer mit dem Thema "`Kulturgeschichte des
+Buntbarsches und seiner besonderen Bedeutung in der Deutschen Küche"' in
+diesem Falle nur WBTs aus diesem Thema. Da jedoch die wenigsten Benutzer bereits
+zu beginn ein Thema haben werden, ist es auch möglich alle Themen mit ihren WBTs
+anzuzeigen. Der Benutzer kann dann frei wählen, in welchem Thema er sich
+weiterbilden möchte. Durch diese vorgehensweise bei der Suche ist die Verwendung
+von Suchfeldern und aufwändigen Suchalgorithmen nicht notwendig. Da SQL ohnehin
+für die Abfrage von Daten geschaffen wurde ist diese Vorgehensweise außerdem
+Performanter als die meisten Suchalgorithmen, welche die Daten ohnehin erst über
+SQL beschaffen müssten.
 
 \section{Themen}
 Die Themen (oder Topics/Themengebiete) grenzen die WBTs voneinander ab und sind
@@ -150,12 +157,59 @@ beachten, dass ein Benutzer einen bestimmten Rang nur in einem Themengebiet
 haben kann. Das bedeutet, dass er zwar in einem Gebiet den Status eines
 Expertise haben kann, in einem ganz anderen jedoch ein absoluter Newbie ist. Ist
 ein WBTs zwei (oder mehr) Themen zugeordnet, so erhält der Benutzer bei
-Abschluss die Punkte für beide Themengebiete. Themen können Unterthemen haben,
-daher kann ein Benutzer innerhalb eines Überthemas unterschiedliche Ränge haben.
-So kann z.B. ein Benutzer im Thema Informatik ein Expertise sein und zugleich in
-den Unterthemen Datenstrukturen und Algorithmen Specialist bzw. Newbie sein.
+Abschluss die Punkte für beide Themengebiete. 
+
+Themen können Unterthemen haben, daher kann ein Benutzer innerhalb eines
+Überthemas unterschiedliche Ränge haben. So kann z.B. ein Benutzer im Thema
+Informatik ein Expertise sein und zugleich in den Unterthemen Datenstrukturen
+und Algorithmen Advanced bzw. Newbie sein.
+
 Die Beziehung von Benutzer zu Themengebiet ist m:n, ebenso ist die Beziehung
 zwischen Thema und WBT m:n. Die Beziehung von Themen zu ihren Unterthemen ist
-1:n. Das hier Beschriebene ist der Stand der Alpha-Version. Eine mögliche
-Änderung für die Zukunft wäre, dass erreichte Punkte eines Unterthemas auch im
-Überthema gutgeschrieben werden.
+1:n. 
+
+Das hier Beschriebene ist der Stand der Alpha-Version. Nicht verwendet wurde die
+Möglichkeit, Ränge nur in in einem Thema ohne Überthema zu besitzen zu können
+und damit Unterthemen hierfür zu sperren. Dies wurde außer acht gelassen, da es
+ein höherer Entwicklungsaufwand wäre. Obendrein sind wir zu der Ansicht
+gekommen, dass dies nicht dazu führt den Fortschritt eines Benutzers besser
+bewerten zu können. So wäre er möglicherweise durch ein einziges Unterthema zum
+Expertise in einem Überthema geworden ohne jedoch viele andere Teilaspekte zu
+beherrschen. Er wäre damit zwar in dem kleinen Bereich innerhalb des großen
+Themas sehr bewandert. Ein breites Wissen, welches seinen Rang in dem großen
+Thema rechtfertigen würde hat er jedoch nicht.
+
+Eine weitere Möglichkeit, die außer acht gelassen wurde ist das kaskadieren der
+Punkte, welche in einem Unterthema erworben wurden. Dies ist zwar eine recht
+gute Näherung an die Realtität allerdings kann auch hier sehr leicht der Fall
+auftreten, welcher oben bereits beschrieben wurde.
+
+Eine mögliche Änderung für die Zukunft wäre es jedoch, dass erreichte Punkte zu
+einem gewissen Teil dem Überthema gutgeschrieben werden. Man könnte z.B.
+die, in einem Thema enthaltenen WBTs in relation zu allen WBTs innerhalb eines
+Überthemas setzen und daraus einen Satz errechnen wie viel es für das große
+Ganze bringt. So würde z.B. ein WBT mit sehr wenigen und/oder sehr leichten WBTs
+nur zehn Prozent seiner Punkte dem Überthema gutschreiben.
+
+Um Missverständnissen vorzubeugen sei hier gesagt, das mit "`Übergeben"' oder
+"`gutschreiben"' nicht gemeint ist, dass Punkt vom Unterthema abgezogen und dem
+Benutzer im Überthema gutgeschrieben werden, sondern das diese dem Benutzer
+sozusagen zusätzlich zur Verfügung gestellt werden. Das abziehen von Punkten zu
+gunsten eines Überthemas wäre ein weiterer Punkt, welcher in der Zukunft zu
+Diskutieren wäre.
+
+Ein weiterer Punkt der beim Entwurf von Masterly Mate aufgeworfen wurde, ist die
+Frage nach der Löschung von Überthemen. Aufgrund von Zeitmangel in der ersten
+Version wurde die Löschung so geregelt, dass bei einer solchen, die Unterthemen
+und WBTs, des zu löschenden Themas in das übergeordnete Thema verschoben werden.
+Dies hat den Grund, dass bei einer solchen Aktion lediglich die Verweise auf das
+Überthema geändert werden müssen und dies ohne unnötig großen Aufwand möglich
+ist. Die weiter oben aufgeworfene Frage nach den WBTs im Root-Thema wurde in
+dieser Version nicht gelöst (Es ist daher möglich im Root-Thema Punkte zu
+sammeln und zum "`Master of the Universe"' aufzusteigen). Die Alternative nach
+welcher eine Löschung eines Überthemas die Löschung aller darin enthaltenen
+Inhalte bedeuten wurde, wurde komplett verworfen, da es Probleme mit den
+Berechtigungen der Benutzer geben würde, wenn z.B. ein Tutor ein Thema löschen
+würde in dem WBTs liegen, welche er nicht erstellt hat. In der Zukunft muss das
+Problem mit den WBTs im Root-Thema angegangen werden. Es wäre sinnvoll, WBTs
+welche im Root-Thema liegen für die Benutzung zu sperren.

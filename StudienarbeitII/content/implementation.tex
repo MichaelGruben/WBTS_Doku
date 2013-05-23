@@ -80,11 +80,20 @@ Bereichen befinden. Ebenfalls von vielen anderen Seiten bekannt, ist dass
 Konzept, die Änderung der Sprach oben rechts und damit abseits von allen anderen
 Kontrollen zu platzieren. Die Navigation ist von der Anzeige durch das Gesetz
 der Nähe und einen Sichtbaren Trennstrich getrennt. Um eine bessere
-Übersichtlichkeit auf den WBTs zu gewährleisten, werden diese Außerdem in einem
-neuen Tab geöffnet. Da Masterly Mate als gamifizierte Anwendung nicht vollkommen
-auf ein Mindestmaß an ansprechender Optik verzichten kann, ist es in einem
-warmen Orange gehalten. Die wengien anderen Farben sind so gewählt, dass sie
-nicht zu sehr in Kontrast zur Hauptfarbe stehen.
+Übersichtlichkeit auf den WBTs zu gewährleisten, werden diese außerdem in einem
+neuen Tab geöffnet. Daten wie Themen, Benutzer oder WBTs werden in Tabellenform
+präsentiert um dies übersichtlich zu gestalten. Die verwendete Schrift in
+Masterly Mate ist Serifenlos, da dies für technische Zwecke sinnvoller ist. Da
+Masterly Mate als gamifizierte Anwendung nicht vollkommen auf ein Mindestmaß an
+ansprechender Optik verzichten kann, ist es in einem warmen Orange gehalten.
+Die wengien anderen Farben sind so gewählt, dass sie nicht zu sehr in Kontrast
+zur Hauptfarbe stehen (\cite{johnson:2000};\cite{nielsen:1995}).
+
+Für die Zukunft wäre es denkbar, dem Benutzer Individualisierungsmöglichkeiten
+zuzugestehen. Er könnte z.B. die Hintergrundfarbe bzw. das Thema mit dem
+Masterly Mate dargestellt werden soll Ändern. Außerdem soll es möglich sein,
+dass der Benutzer einen Avatar erhält. Eventuell könnte der Benutzer mit diesem
+Avatar interagieren und von seinen erspielten Punkten Items für diesen erwerben. 
 
 \section{Authentifizierung}
 \begin{k}
@@ -96,3 +105,13 @@ Der Model Topic, welches die Themen abbildet verfügt über die Attribute name u
 parent\_name. Zweiteres dient zur Identifizierung des Überthemas. Die Wahl
 dieses Form der Referenz zu verwenden ist der Datenbank geschuldet. Auf diese Weise
 liegt der Fremdschlüssel jeweils auf der n-Seite der 1:n Beziehung.
+
+Wie schon erwähnt werden bei der Löschung eine Topic-Objektes alle
+darunterliedenden Themen und WBTs in das Eltern-Topic des gelöschten Themen
+geschoben. Damit bei einer Löschung das parent\_name-Attribut eines jeden
+enthaltenen Themen geändert werden. Dies bedeutet außerdem, dass kein Thema ein
+leeres parent\_name-Attribut enthält. Im Standartfall verweißt das
+Attribut parent\_name auf das Root-Thema. Diese Lösung ist für Themen vollends
+genügend und bedarf nach jetzigem Stand keiner Änderung. Dies steht im Gegensatz
+zu den WBTs, bei welchen in Zukunft noch zu klären wäre, was mit solche
+geschehen soll die im Root-Thema liegen. 

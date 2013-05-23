@@ -77,6 +77,11 @@ Jacobs, P. \harvardand\ Preuße, M.  \harvardyearleft 2010\harvardyearright ,
   {\em {Kompaktwissen AEVO in vier Handlungsfeldern}}, 1. aufl. edn,
   Bildungsverl. EINS - Stam, Troisdorf.
 
+\harvarditem{Johnson}{2000}{johnson:2000}
+Johnson, J.  \harvardyearleft 2000\harvardyearright , {\em GUI bloopers : donts
+  and dos for software developers and Web designers}, The Morgan Kaufmann
+  series in interactive technologies, Morgan Kaufmann, San Francisco [u.a.].
+
 \harvarditem{Keller}{2000}{keller:2000}
 Keller, H.~B.  \harvardyearleft 2000\harvardyearright , {\em {Maschinelle
   Intelligenz : Grundlagen, Lernverfahren, Bausteine intelligenter Systeme}},
@@ -114,6 +119,10 @@ Mitter, M.  \harvardyearleft 2005\harvardyearright , {Implementierung eines
 \harvarditem{Niegemann}{2004}{niegemann:2004}
 Niegemann, H.~M., ed.  \harvardyearleft 2004\harvardyearright , {\em
   {Kompendium E-Learning}}, X.media.press, Springer, Berlin.
+
+\harvarditem{Nielsen}{1995}{nielsen:1995}
+Nielsen, J.  \harvardyearleft 1995\harvardyearright , {\em Usability
+  engineering}, 2. [print.] edn, AP Professional, Boston, Mass. [u.a.].
 
 \harvarditem{RailsGuides}{2013}{railsGuides:2013}
 RailsGuides  \harvardyearleft 2013\harvardyearright , {\em {Getting Started

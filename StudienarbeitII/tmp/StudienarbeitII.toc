@@ -81,82 +81,89 @@
 \contentsline {section}{\numberline {5.4}Dokumentation der API}{35}{section.5.4}
 \contentsline {section}{\numberline {5.5}Automatisch generierte Filterung von Ergebnissen}{35}{section.5.5}
 \contentsline {section}{\numberline {5.6}Themen}{35}{section.5.6}
-\contentsline {chapter}{\numberline {6}Anwenderseite}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Gamification}{37}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Belohnungskriterien}{37}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Etappenweise Herausforderungen}{37}{subsection.6.1.2}
-\contentsline {subsubsection}{Neuling}{38}{section*.60}
-\contentsline {subsubsection}{Regul\IeC {\"a}rer Nutzer}{38}{section*.61}
-\contentsline {subsubsection}{Enthusiast}{39}{section*.62}
-\contentsline {section}{\numberline {6.2}Generieren von Motivation}{39}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Intrinsisch motivierende Aspekte}{39}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Weitere extrinsisch motivierende Merkmale}{40}{subsection.6.2.2}
-\contentsline {part}{\numberline {III}Implementierung}{41}{part.3}
-\contentsline {chapter}{\numberline {7}Entwurf}{42}{chapter.7}
-\contentsline {section}{\numberline {7.1}Realisierungsmethodik}{42}{section.7.1}
-\contentsline {section}{\numberline {7.2}Internationalisierung}{43}{section.7.2}
-\contentsline {section}{\numberline {7.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{43}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Use-Case Diagramm}{43}{subsection.7.3.1}
-\contentsline {subsubsection}{WBT durcharbeiten}{43}{section*.65}
-\contentsline {subsubsection}{Bewerten}{44}{section*.66}
-\contentsline {subsubsection}{Sprache verwalen}{44}{section*.67}
-\contentsline {subsubsection}{Profil verwalten}{45}{section*.68}
-\contentsline {subsubsection}{Suchen}{45}{section*.69}
-\contentsline {subsubsection}{Themengebiet abfragen}{45}{section*.70}
-\contentsline {subsubsection}{Themen verwalten}{45}{section*.71}
-\contentsline {subsubsection}{WBT verwalten}{46}{section*.72}
-\contentsline {subsection}{\numberline {7.3.2}Entwurfsklassendiagramm}{46}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Funktionalit\IeC {\"a}ten aus Nutzersicht}{47}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Masterly Mate f\IeC {\"u}r Lernende}{47}{subsection.7.4.1}
-\contentsline {subsubsection}{Registrieren und Einloggen}{47}{section*.73}
-\contentsline {subsubsection}{Durcharbeiten von WBTs}{47}{section*.74}
-\contentsline {subsubsection}{Tutorensuche}{47}{section*.75}
-\contentsline {subsubsection}{Profil administrieren}{48}{section*.76}
-\contentsline {subsubsection}{Navigation, Impressum, Kontakt}{48}{section*.77}
-\contentsline {subsubsection}{Themen}{48}{section*.78}
-\contentsline {subsection}{\numberline {7.4.2}Masterly Mate aus Sicht eines Tutors}{48}{subsection.7.4.2}
-\contentsline {subsubsection}{Lernende unterst\IeC {\"u}tzen}{48}{section*.79}
-\contentsline {subsubsection}{WBTs verbessern und hinzuf\IeC {\"u}gen}{49}{section*.80}
-\contentsline {chapter}{\numberline {8}Umsetzung}{50}{chapter.8}
-\contentsline {section}{\numberline {8.1}Nutzerverwaltung}{50}{section.8.1}
-\contentsline {section}{\numberline {8.2}Lokationen}{50}{section.8.2}
-\contentsline {section}{\numberline {8.3}Suche}{50}{section.8.3}
-\contentsline {section}{\numberline {8.4}SCORM}{50}{section.8.4}
-\contentsline {section}{\numberline {8.5}Lizensierung}{51}{section.8.5}
-\contentsline {section}{\numberline {8.6}Dokumentation}{51}{section.8.6}
-\contentsline {section}{\numberline {8.7}Gestaltung}{52}{section.8.7}
-\contentsline {section}{\numberline {8.8}Authentifizierung}{52}{section.8.8}
-\contentsline {section}{\numberline {8.9}Themen}{53}{section.8.9}
-\contentsline {part}{\numberline {IV}Reflexion}{54}{part.4}
-\contentsline {chapter}{\numberline {9}Zusammenfassung der Ergebnisse}{55}{chapter.9}
-\contentsline {paragraph}{Aufgetretene Probleme}{55}{section*.84}
-\contentsline {chapter}{\numberline {10}Ausblick}{56}{chapter.10}
-\contentsline {section}{\numberline {10.1}Ideen f\IeC {\"u}r weitere Versionen}{56}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}F\IeC {\"u}r Anwender}{56}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Anwendungsintern}{57}{subsection.10.1.2}
-\contentsline {subsection}{\numberline {10.1.3}\IeC {\"U}berarbeitungen f\IeC {\"u}r das Konzept}{58}{subsection.10.1.3}
-\contentsline {subsection}{\numberline {10.1.4}Weitere M\IeC {\"o}glichkeiten f\IeC {\"u}r Gamification}{58}{subsection.10.1.4}
-\contentsline {section}{\numberline {10.2}Anschlie\IeC {\ss }ende R\IeC {\"u}ckschl\IeC {\"u}sse}{59}{section.10.2}
-\contentsline {part}{Verzeichnisse}{59}{section*.85}
-\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.86}
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.88}
-\contentsline {chapter}{Listings}{iii}{section*.90}
-\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.92}
-\contentsline {part}{Anhang}{vii}{appendix*.94}
+\contentsline {chapter}{\numberline {6}Anwenderseite}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}Gamification}{38}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Belohnungskriterien}{38}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Etappenweise Herausforderungen}{38}{subsection.6.1.2}
+\contentsline {subsubsection}{Neuling}{39}{section*.60}
+\contentsline {subsubsection}{Regul\IeC {\"a}rer Nutzer}{39}{section*.61}
+\contentsline {subsubsection}{Enthusiast}{40}{section*.62}
+\contentsline {section}{\numberline {6.2}Generieren von Motivation}{40}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Intrinsisch motivierende Aspekte}{40}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Weitere extrinsisch motivierende Merkmale}{41}{subsection.6.2.2}
+\contentsline {part}{\numberline {III}Implementierung}{42}{part.3}
+\contentsline {chapter}{\numberline {7}Entwurf}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Realisierungsmethodik}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}Internationalisierung}{44}{section.7.2}
+\contentsline {section}{\numberline {7.3}Beschreibung des Entwurfsklassendiagramms und Use-Case}{44}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Use-Case Diagramm}{44}{subsection.7.3.1}
+\contentsline {subsubsection}{WBT durcharbeiten}{44}{section*.65}
+\contentsline {subsubsection}{Bewerten}{45}{section*.66}
+\contentsline {subsubsection}{Sprache verwalen}{45}{section*.67}
+\contentsline {subsubsection}{Profil verwalten}{46}{section*.68}
+\contentsline {subsubsection}{Suchen}{46}{section*.69}
+\contentsline {subsubsection}{Themengebiet abfragen}{46}{section*.70}
+\contentsline {subsubsection}{Themen verwalten}{46}{section*.71}
+\contentsline {subsubsection}{WBT verwalten}{47}{section*.72}
+\contentsline {subsection}{\numberline {7.3.2}Entwurfsklassendiagramm}{47}{subsection.7.3.2}
+\contentsline {subsubsection}{WBT}{48}{section*.73}
+\contentsline {subsubsection}{Topic}{48}{section*.74}
+\contentsline {subsubsection}{User}{48}{section*.75}
+\contentsline {subsubsection}{Group}{49}{section*.76}
+\contentsline {subsubsection}{Location}{49}{section*.77}
+\contentsline {subsubsection}{Assessment}{49}{section*.78}
+\contentsline {subsubsection}{Rank}{49}{section*.79}
+\contentsline {section}{\numberline {7.4}Funktionalit\IeC {\"a}ten aus Nutzersicht}{50}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Masterly Mate f\IeC {\"u}r Lernende}{50}{subsection.7.4.1}
+\contentsline {subsubsection}{Registrieren und Einloggen}{50}{section*.80}
+\contentsline {subsubsection}{Durcharbeiten von WBTs}{50}{section*.81}
+\contentsline {subsubsection}{Tutorensuche}{50}{section*.82}
+\contentsline {subsubsection}{Profil administrieren}{51}{section*.83}
+\contentsline {subsubsection}{Navigation, Impressum, Kontakt}{51}{section*.84}
+\contentsline {subsubsection}{Themen}{51}{section*.85}
+\contentsline {subsection}{\numberline {7.4.2}Masterly Mate aus Sicht eines Tutors}{52}{subsection.7.4.2}
+\contentsline {subsubsection}{Lernende unterst\IeC {\"u}tzen}{52}{section*.86}
+\contentsline {subsubsection}{WBTs verbessern und hinzuf\IeC {\"u}gen}{53}{section*.87}
+\contentsline {chapter}{\numberline {8}Umsetzung}{54}{chapter.8}
+\contentsline {section}{\numberline {8.1}Nutzerverwaltung}{54}{section.8.1}
+\contentsline {section}{\numberline {8.2}Lokationen}{54}{section.8.2}
+\contentsline {section}{\numberline {8.3}Suche}{54}{section.8.3}
+\contentsline {section}{\numberline {8.4}SCORM}{54}{section.8.4}
+\contentsline {section}{\numberline {8.5}Lizensierung}{55}{section.8.5}
+\contentsline {section}{\numberline {8.6}Dokumentation}{55}{section.8.6}
+\contentsline {section}{\numberline {8.7}Gestaltung}{56}{section.8.7}
+\contentsline {section}{\numberline {8.8}Authentifizierung}{57}{section.8.8}
+\contentsline {section}{\numberline {8.9}Themen}{57}{section.8.9}
+\contentsline {part}{\numberline {IV}Reflexion}{58}{part.4}
+\contentsline {chapter}{\numberline {9}Zusammenfassung der Ergebnisse}{59}{chapter.9}
+\contentsline {paragraph}{Aufgetretene Probleme}{59}{section*.91}
+\contentsline {chapter}{\numberline {10}Ausblick}{60}{chapter.10}
+\contentsline {section}{\numberline {10.1}Ideen f\IeC {\"u}r weitere Versionen}{60}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}F\IeC {\"u}r Anwender}{60}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Anwendungsintern}{61}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}\IeC {\"U}berarbeitungen f\IeC {\"u}r das Konzept}{62}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Weitere M\IeC {\"o}glichkeiten f\IeC {\"u}r Gamification}{62}{subsection.10.1.4}
+\contentsline {section}{\numberline {10.2}Anschlie\IeC {\ss }ende R\IeC {\"u}ckschl\IeC {\"u}sse}{63}{section.10.2}
+\contentsline {part}{Verzeichnisse}{63}{section*.92}
+\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.93}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.95}
+\contentsline {chapter}{Listings}{iii}{section*.97}
+\contentsline {chapter}{Literaturverzeichnis}{iv}{section*.99}
+\contentsline {part}{Anhang}{vii}{appendix*.101}
 \contentsline {chapter}{\numberline {A}Abbildungen}{viii}{appendix.A}
 \contentsline {chapter}{\numberline {B}Tabellen}{ix}{appendix.B}
 \contentsline {chapter}{\numberline {C}GNU Free Documentation License}{xi}{appendix.C}
 \select@language {english}
-\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{xi}{section*.95}
-\contentsline {section}{2. VERBATIM COPYING}{xiii}{section*.96}
-\contentsline {section}{3. COPYING IN QUANTITY}{xiv}{section*.97}
-\contentsline {section}{4. MODIFICATIONS}{xv}{section*.98}
-\contentsline {section}{5. COMBINING DOCUMENTS}{xvii}{section*.99}
-\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvii}{section*.100}
-\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xviii}{section*.101}
-\contentsline {section}{8. TRANSLATION}{xviii}{section*.102}
-\contentsline {section}{9. TERMINATION}{xix}{section*.103}
-\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xix}{section*.104}
-\contentsline {section}{11. RELICENSING}{xx}{section*.105}
-\contentsline {section}{ADDENDUM: How to use this License for your documents}{xx}{section*.106}
+\contentsline {section}{1. APPLICABILITY AND DEFINITIONS}{xi}{section*.102}
+\contentsline {section}{2. VERBATIM COPYING}{xiii}{section*.103}
+\contentsline {section}{3. COPYING IN QUANTITY}{xiv}{section*.104}
+\contentsline {section}{4. MODIFICATIONS}{xv}{section*.105}
+\contentsline {section}{5. COMBINING DOCUMENTS}{xvii}{section*.106}
+\contentsline {section}{6. COLLECTIONS OF DOCUMENTS}{xvii}{section*.107}
+\contentsline {section}{7. AGGREGATION WITH INDEPENDENT WORKS}{xviii}{section*.108}
+\contentsline {section}{8. TRANSLATION}{xviii}{section*.109}
+\contentsline {section}{9. TERMINATION}{xix}{section*.110}
+\contentsline {section}{10. FUTURE REVISIONS OF THIS LICENSE}{xix}{section*.111}
+\contentsline {section}{11. RELICENSING}{xx}{section*.112}
+\contentsline {section}{ADDENDUM: How to use this License for your documents}{xx}{section*.113}
 \select@language {ngerman}
