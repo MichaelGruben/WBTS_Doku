@@ -71,10 +71,16 @@ dieser Studienarbeit vernachlässigt.
 Use-Case}\label{ref:classModel}
 
 \subsection{Use-Case Diagramm}
-Im obigen Use-Case Diagramm, sind die einzelnen benötigten Komponenten
-enthalten, wie sie die Analyse ergeben hat. Zunächst einmal lassen sich Aktoren
+Im Use-Case Diagramm aus Abbildung \ref{ref:picUseCaseDia}, sind die einzelnen
+benötigten Komponenten enthalten, wie sie die Analyse ergeben hat. Zunächst einmal lassen sich Aktoren
 ausmachen, welche in System/Software-Aktoren und menschliche Aktoren aufteilen
 lassen. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{UseCaseDia.png}
+\caption{Use-Case-Diagramm von Masterly Mate}\label{ref:picUseCaseDia}
+\end{figure}
 
 Bei den Softwareseitigen Aktoren ergab die Analyse als Aktoren den Webserver,
 ein Einzelnes WBT (sie sollen nach Abschluss die Punkte im System eintragen),
@@ -181,23 +187,29 @@ Benutzer ein Administrator ist. Dieser kann jedes WBT löschen oder ersetzen.
 	
 
 \subsection{Entwurfsklassendiagramm}
-In dem Entwurfsklassendiagramm, sind die Models und ihre Beziehungen zueinander
-dargestellt. Diese Modelle bilden einzelne Konzepte im System ab. So stellt User
-ein Zentrales Modell dar, welches als Abbildung eines Benutzers im System für
-die Authentifizierung verantwortlich trägt. Außerdem werden dem User
-verschiedene Themen und WBTs zugeordnet. Diese Verbindungen benötigen jeweils
-Assoziationsklassen. Dies liegt daran, dass es in dieser Verbindung Attribute
-gibt, welche sich nicht eindeutig User oder WBT bzw. Thema zuordnen lassen. Bei
-der Verbindung User-Thema benötigt man ein Attribut für die Punkte, welche
-bisher von dem User in dem System erziehlt worden sind. Außerdem muss klar sein
-welchen Rang ein User in dem jeweiligen Thema inne hat. Die Verbindung User-WBT
-dagegen benötigt eine Variable um zu hinterlegen ob ein User das WBT bereits
-einmal abgeschlossen hat und wenn ja, wie viele Punkte er erreicht hat. Im folgenden
-wird auf die Modelle des UML-Diagrammes näher eingegangen. Dazu sei noch
-angemerkt, dass zwischen einem realen Konzept und dem des Models underschieden
-wird. D.h. wenn z.B. im Folgenden vom User die Rede ist, dann ist hierbei das
-Model oder eine Instanz der User-Klasse gemeint. Wird hingegen vom Benutzer
-gesprochen, so ist auch tatsächlich jener gemeint.  
+In dem Entwurfsklassendiagramm aus Abbildung \ref{ref:picKlassendia}, sind die
+Models und ihre Beziehungen zueinander dargestellt. Diese Modelle bilden
+einzelne Konzepte im System ab. So stellt User ein Zentrales Modell dar, welches
+als Abbildung eines Benutzers im System für die Authentifizierung verantwortlich
+trägt. Außerdem werden dem User verschiedene Themen und WBTs zugeordnet. Diese
+Verbindungen benötigen jeweils Assoziationsklassen. Dies liegt daran, dass es in
+dieser Verbindung Attribute gibt, welche sich nicht eindeutig User oder WBT bzw.
+Thema zuordnen lassen. Bei der Verbindung User-Thema benötigt man ein Attribut
+für die Punkte, welche bisher von dem User in dem System erziehlt worden sind.
+Außerdem muss klar sein welchen Rang ein User in dem jeweiligen Thema inne hat.
+Die Verbindung User-WBT dagegen benötigt eine Variable um zu hinterlegen ob ein
+User das WBT bereits einmal abgeschlossen hat und wenn ja, wie viele Punkte er
+erreicht hat. Im folgenden wird auf die Modelle des UML-Diagrammes näher
+eingegangen. Dazu sei noch angemerkt, dass zwischen einem realen Konzept und dem
+des Models underschieden wird. D.h. wenn z.B. im Folgenden vom User die Rede
+ist, dann ist hierbei das Model oder eine Instanz der User-Klasse gemeint. Wird
+hingegen vom Benutzer gesprochen, so ist auch tatsächlich jener gemeint.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Klassendiagramm.png}
+\caption{Entwurfsklassendiagramm von Masterly Mate}\label{ref:picKlassendia}
+\end{figure}
 
 \subsubsection{WBT}\label{ref:objectWBT}
 Das WBT-Model verfügt über eine ID, sowie über einen Pfad zur eigentliche

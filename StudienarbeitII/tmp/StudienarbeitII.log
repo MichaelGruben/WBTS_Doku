@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  23 MAY 2013 17:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  23 MAY 2013 17:51
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1407,33 +1407,59 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
  [45
 
-] [46] [47]
-[48] [49] [50] [51] [52] [53] [54] [55]) (./content/implementation.tex [56]
-Kapitel 8.
-[57
+] [46]
+<images/UseCaseDia.png, id=665, 775.40819pt x 510.4182pt>
+File: images/UseCaseDia.png Graphic file (type png)
 
-] [58]
+<use images/UseCaseDia.png>
+Package pdftex.def Info: images/UseCaseDia.png used on input line 81.
+(pdftex.def)             Requested size: 452.96796pt x 298.16898pt.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.97 
+      <./images/UseCaseDia.png>] [48] [49] [50]
+<images/Klassendiagramm.png, id=694, 577.15625pt x 395.4775pt>
+File: images/Klassendiagramm.png Graphic file (type png)
+
+<use images/Klassendiagramm.png>
+Package pdftex.def Info: images/Klassendiagramm.png used on input line 210.
+(pdftex.def)             Requested size: 452.96796pt x 310.39621pt.
+ [51] [52pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.7.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.256 
+       <./images/Klassendiagramm.png>] [53] [54] [55] [56])
+(./content/implementation.tex [57]
+Kapitel 8.
+[58
+
+] [59]
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
 although it is yet undefined on input line 76.
 Package acronym Info: Label `acro:PIF' newly defined as it shall be overridden
 although it is yet undefined on input line 85.
- [59]
+ [60]
 Package acronym Info: Label `acro:AGPL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 107.
 Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
 although it is yet undefined on input line 107.
- [60] [61]) [62] [63
+ [61] [62]) [63] [64
 
 ] (./content/summary.tex
 Kapitel 9.
-[64
+[65
 
-] [65] [66]) (./content/conclusion.tex [67] [68]
+] [66] [67]) (./content/conclusion.tex [68] [69]
 Kapitel 10.
-[69
+[70
 
-]) [70]
+]) [71]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
 9.
  (./StudienarbeitII.lof)
@@ -1609,10 +1635,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 17892 strings out of 493499
- 266054 string characters out of 3143792
+ 17909 strings out of 493499
+ 266416 string characters out of 3143792
  657057 words of memory out of 3000000
- 20230 multiletter control sequences out of 15000+200000
+ 20242 multiletter control sequences out of 15000+200000
  48787 words of font info for 184 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
  59i,11n,72p,1469b,709s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1623,10 +1649,10 @@ type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (102 pages, 3370057 bytes).
+Output written on StudienarbeitII.pdf (103 pages, 4041358 bytes).
 PDF statistics:
- 1336 PDF objects out of 1440 (max. 8388607)
- 1200 compressed objects within 12 object streams
- 346 named destinations out of 1000 (max. 500000)
- 27460 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1353 PDF objects out of 1440 (max. 8388607)
+ 1211 compressed objects within 13 object streams
+ 349 named destinations out of 1000 (max. 500000)
+ 27470 words of extra memory for PDF output out of 29859 (max. 10000000)
 
