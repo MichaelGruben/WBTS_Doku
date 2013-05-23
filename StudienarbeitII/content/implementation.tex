@@ -1,14 +1,73 @@
 \chapter{Umsetzung}\label{ref:chaptImplementation}
 
-\section{Nutzerverwaltung}
-\begin{k}
-Uebernimmt Julian?
-\end{k}
+\section{Nutzerverwaltung}\label{ref:sectNutzerverwaltung}
+Im Rahmen dieser Studienarbeit besitzt Masterly Mate neben der Zugangskontrolle
+einen eingebauten Mechanismus für die Zugriffskontrolle. Die registrierten
+Benutzer werden in der Datenbanktabelle users festgehalten. Diese besitzen neben
+dem Attribut Passwort und Benutzername weitere essentielle Attribute wie z.B.
+Geburtsdatum, Vorname, Nachname und Geschlecht. Näheres zur Implementierung der
+Zugangskontrolle wird im Kapitel \ref{ref:sectAuthentifizierung} erläutert.
+Für den Zugriff auf vertrauliche Ressourcen, wie z.B. das Benutzerprofil, die
+vom Benutzer durchgeführten Assessments und Examen sowie die zugänglichen WBTs
+und die Nutzerstatistik, müssen vor unberechtigten Nutzern geschützt werden.
+Für diese Autorisierungsvorgabe wurde das Gem mit dem Namen CanCan
+\footnote{\url{https://rubygems.org/gems/cancan}} eingesetzt. Dieses Gem
+ermöglicht die zentrale Zugriffsverwaltung auf beliebige Ressourcen. Die Klasse Ability des
+Gems ist dabei die einzige Klasse die für die Autorisierung von wichtiger
+Bedeutung ist. Diese befindet sich nach der Installation von CanCan im
+Verzeichnis app/models/. Die Autorisierung auf Ressourcen wird mit Hilfe der
+Methoden can? und cannot? realisiert. Diese Methoden erwarten als ersten
+Parameter ein vordefiniertes Symbol, welches die Zugriffsart festlegt. Häufige
+Zugriffsarten sind z.B. :manage, :destroy, :update, etc. Im Grunde wird hier der Name der
+Aktion angegeben, der auf diese Ressource möglich bzw. nicht möglich ist. Bei
+dem zweiten Parameter der Methoden can? und cannot? handelt es sich entweder um
+den Namen einer Ressource oder einer Instanz einer Ressource. Nutzt man den
+Namen einer Ressource, dann bezieht sich die definierte Aktion auf sämtliche
+Instanzen dieser Ressource. Im anderen Fall bezieht sich die Aktion nur auf
+diese eine Instanz. Die Autorisierung erfolgt in Masterly Mate direkt im
+Konstruktor der Ability Klasse. In Masterly Mate wird eine Gruppenbasierte
+Rechtevergabe durchgeführt. Mithilfe der Methode group?, welche in der Klasse
+des User Models definiert ist, kann man unter Angabe des Namens einer Gruppe,
+überprüfen, ob dieser Nutzer der entsprechenden Gruppe zugehört oder nicht.
+der Konstruktor der Klasse Ability erwartet eine Instanz von der Klasse
+User. Wird dem Konstruktor eine gültige User Instanz übergeben, so wird
+mit dieser Instanz weiter operiert. Andernfalls wird eine neue Instanz der
+Klasse User erzeugt und als Gastnutzer interpretiert. Dieser würde lediglich
+Zugriff auf öffentliche Ressourcen besitzen und könnte sich erst
+Authentifizieren, wenn dieser sich registriert hat. Im anderen Fall wird
+überprüft ob der aktuelle Nutzer Mitglied der vordefinierten Gruppe
+Administrator ist. Wenn dem so ist, dann besitzt der Nutzer sämtliche Rechte auf
+alle Ressourcen. Der einzige Vorgang, der auch einem Administrator verwehrt
+wird, ist das Entfernen des eigenen Kontos, da ansonsten die Gefahr
+besteht, dass kein Administrator in Masterly Mate zur Verfügung steht und das
+Entfernen von bestehenden Gruppen. Ein Nutzer der Mitglied der Gruppe Registered
+ist, hat die Möglichkeit das eigene Profil und dessen Assessments zu verwalten.
+Dabei kann dieser sämtliche Operationen, bis auf das Entfernen des eigenen Profils,
+durchführen. Weiterhin besitzen diese Nutzer lediglich einen lesenden Zugriff
+auf Themen und einen ausführenden Zugriff auf WBTs. 
 
 \section{Lokationen}
-\begin{k}
-Uebernimmt Julian?
-\end{k}
+Die Angabe von Lokationen bzw. Routen sind für REST-basierte Webanwendungen
+unumgänglich. Diese Lokationen werden in RoR in der Datei 
+config/routes.rb spezifiziert. Im Kapitel ref{ref:internationalisierung}
+wurde erwähnt, wie I18n in Masterly Mate eingesetzt wird. In diesem Kapitel wird der
+Zugriff auf eine Sprachdatei durch Lokationen erläutert. In REST-basierten
+Webanwendungen gibt es verschiedene Möglichkeiten die gewünschte Sprache über
+die URL anzugeben. Dies kann bspw. über einen Parameter in der URL oder
+aber gleich unmittelbar vor dem Wurzelverzeichnis in der URL erfolgen. In
+Masterly Mate wird letzteres bevorzugt. Für das Setzen des Ländercodes in der
+URL wird dem Nutzer ein sogenannter Languge-Switcher angeboten. Dieses wird
+durch eine Combobox repräsentiert, mit dessen Hilfe sich der Nutzer eine Sprache
+aus der Liste aussuchen kann. Nachdem der Nutzer sich eine Sprache ausgesucht
+hat, wird das onChange Event des DOM-Combobox-Elementes ausgelöst und mit Hilfe
+eines reguären Ausdrucks der vorhandene Ländercode in der URL durch den
+Ländercode der gewählten Sprache ausgetauscht. Die Klasse I18n besitzt das
+Attribut locale. Dieses Attribut beinhaltet als Wert den Ländercode der zu
+verwendenden Sprache. In der privaten Methode locale\_path des Application
+Controllers, wird dieses statische attribute gesetzt und die aktuelle URL
+entsprechend angepasst. Die Optik des Language Switchers wird in dem partiellen
+Layout unter app/views/shared/\_language\_switcher.html.erb festgelegt und kann
+somit in jedem anderen View ohne Probleme eingebunden werden.
 
 \section{Suche}
 \begin{k}
@@ -95,10 +154,36 @@ Masterly Mate dargestellt werden soll Ändern. Außerdem soll es möglich sein,
 dass der Benutzer einen Avatar erhält. Eventuell könnte der Benutzer mit diesem
 Avatar interagieren und von seinen erspielten Punkten Items für diesen erwerben. 
 
-\section{Authentifizierung}
-\begin{k}
-Uebernimmt Julian?
-\end{k}
+\section{Authentifizierung}\label{ref:sectAuthentifizierung}
+Im Abschnitt ref{ref:sectNutzerverwaltung} wurde die Umsetzung der Autorisierung
+in Masterly Mate erläutert. In diesem Kapitel wird nun die Umsetzung der
+Authentifizierung kurz beschrieben. Damit sich ein Nutzer erfolgreich bei
+Masterly Mate registrieren und im Anschluss darauf anmelden kann, wird ein
+Authentifizierungsmechanismus benötigt, welches sicher und zudem eine geringe
+Wartungskomplexität aufweist. Ein Gem, dass diese Voraussetzungen erfüllt, ist
+das Ruby eigene Gem mit dem Namen bcrypt-ruby
+\footnote{\url{http://bcrypt-ruby.rubyforge.org/}}. Dieses Gem nutzt für die
+Passwortverschlüsselung einen SHA-Hash und kann daher für den
+heutigen Stand der Technik als sicher eingestuft werden. Dieses Gem setzt
+außerdem ein User Model voraus, welches zwei String-Attribute besitzt. Eines mit
+dem Namen password\_digest und eines mit dem Namen username. Die Methode
+has\_secure\_password bildet den Authentifizierungsvorgang auf dieses Model ab
+und muss daher in der Klasse User zu Beginn aufgerufen werden. Die Abbildung auf
+dieses Model erfolgt durch Hinzugabe einer Methode mit dem Namen authenticate zu
+dieser User Klasse. Der Registrierungsvorgang wird von dem User Controller
+verwaltet. Der Authentifizierungsvorgang hingegen vom Session Controller. Der
+Session Controller ist für die Verwaltung sämtlicher Sitzungen verschiedener Nutzer
+zuständig. In der create Action des Session Controllers wird zunächst geprüft,
+ob der anfragende Nutzer alle relevanten Informationen zur Authentifizierung
+angegeben hat und ob diese Informationen korrekt sind. Diese beiden Vorgänge
+werden von der Methode authenticate, welche auf der gefundenen User
+Instanz ausgeführt wird, durchgeführt. Als Parameter erwartet diese Methode lediglich
+das vom Passwort. War die Authentifizierung erfolgreich, wird der Nutzer auf die
+Startseite weitergeleitet und die Nutzer-ID in dem
+Sitzungs-Hash zwischengespeichert. Die destroy action wird aufgerufen, sobald
+der Nutzer sich abmeldet. Dabei wird einfach die im Sitzungs-Hash gespeicherte
+Nutzer-ID auf nil \footnote{äquivalent zu NULL} gesetzt. Der Nutzer wird danach
+ebenfalls auf die Startseite weitergeleitet. 
 
 \section{Themen}
 Der Model Topic, welches die Themen abbildet verfügt über die Attribute name und
