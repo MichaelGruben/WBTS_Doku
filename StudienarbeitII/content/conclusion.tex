@@ -1,28 +1,53 @@
 \chapter{Zusammenfassung der Ergebnisse}\label{ref:chaptConclusion}
-Es hat sich gezeigt, dass \ac{RoR} sehr mächtig ist. Innerhalb kürzester Zeit
-entstehen Webapplikationen mit umfangreichen Funktionen. Für Masterly Mate
+Die in Kapitel \ref{ref:projektPlanung} vorgestellte Idee von Masterly Mate
+wurde mit Abschluss der Studienarbeit grundlegend in einer Webapplikation
+umgesetzt. Für den Zweck der Dokumentation folgten in Kapitel \ref{ref:basics}
+die Erläuterung einiger Grundlagen, die im weiteren Verlauf für die beschriebene
+Realisierung verwendet wurden. Nennenswert sind dabei insbesondere die
+Definition von Lernen, Motivation, Blended Learning, dem Dreyfus-Modell und
+Gamification, welche im Projekt eine besondere Rolle einnahmen und besonders
+häufig aufgegriffen wurden.
+
+Im zweiten großen Komplex wurde eine Konzeption erschaffen, in der die
+Grundlagen oder Teile davon zu einer Applikation gebündelt wurden, die letztlich
+ein LMS im Stil von Blended Learning bilden. Es wurde erläutert, worum es sich
+bei Masterly Mate genau handelt und wie es aufgebaut sein soll. Dabei wurde das
+Dreyfus-Modell so aufbereitet, dass es zur Idee aus dem vorangegangenen
+Abschnitt stimmig ist. Darüber hinaus wurden weitere essentielle Themen
+angesprochen, die einen einfachen Umgang und simple Erweiterungen des LMS
+möglich machen sollen. Es wurde insbesondere genaueres Augenmerk auf
+Gamification, sowie das Generieren von Motivation gelegt.
+
+Mit dem weiteren Fortschritt der Arbeit nahm das Konzept in einem
+Implementierungsteil an Form an. Es wurde ein konkreter Entwurf geschaffen, der
+Klassen und Methoden zeigt. Hinzu kamen Erläuterungen, die die fertige Anwendung
+aus Programmierer- und Nutzersicht beschreiben. Im Umsetzungsteil, dem Kapitel
+\ref{ref:chaptImplementation} geschah der Übergang von der Theorie hin zur
+Realisierung mit Ausführungen darüber, wie der Entwurf in Programmcode umgesetzt
+wurde. Es hat sich gezeigt, dass \ac{RoR} sehr mächtig ist. Innerhalb kürzester
+Zeit entstehen Webapplikationen mit umfangreichen Funktionen. Für Masterly Mate
 reichten vorhandene gems aus und es musste kein proprietärer Ruby-Code
-geschrieben werden.
+geschrieben werden. Sehr problematisch war hingegen der Umgang mit SCORM. Diese,
+recht komplexe, Spezifikation konnte längst nicht in vollem Umfang implementiert
+werden. Es war für die erste produktive Version angedacht, eine Kommunikation
+zwischen \ac{LMS} und \ac{WBT} bereitzustellen. Nach Recherchen hat sich
+gezeigt, dass dieses Vorhaben den Umfang eines eigenen Projektes beansprucht.
+Alternativ ist die Verwendung des SCORM-Players, wie in \cite{mitter:2005} und
+\cite{knall:2005} zu überdenken. Es steht auch zur Diskussion, ob das gewählte
+scorm-gem die gewünschten Ziele in Kommunikation mit einer SCORM-RTE fehlerfrei
+erfüllt. Derzeit entstehen, wie bereits in Abschnitt \ref{ref:implSCORM}
+erwähnt, Fehler bei der Validierung von PIFs.\label{ref:problems}
 
-\paragraph{Aufgetretene Probleme}\label{ref:problems}
-Sehr problematisch war hingegen der Umgang mit SCORM. Diese, recht komplexe,
-Spezifikation konnte längst nicht in vollem Umfang implementiert werden. Es
-steht auch zur Diskussion, ob das gewählte scorm-gem die gewünschten Ziele in
-Kommunikation mit einer SCORM-RTE fehlerfrei erfüllt. Derzeit entstehen, wie
-bereits in Abschnitt \ref{ref:implSCORM} erwähnt, Fehler bei der Validierung von
-PIFs.
+Mit den aufgekommenen Herausforderungen ist mit Kapitel \ref{ref:chaptSummary}
+ein Passus entstanden, in dem weitere Ideen für weitere Versionen beschrieben
+sind. Dies zeigt, dass die Idee wesentlich mehr Potential beherbergt, als in
+dieser Studienarbeit allein zeitlich realisiert werden konnte. Darüber hinaus
+sind an dieser Stelle Thesen aufgestellt, die Ausgangspunkt für weitere
+Untersuchungen sein könnten.
 
-Es war für die erste produktive Version angedacht, eine Kommunikation zwischen
-\ac{LMS} und \ac{WBT} bereitzustellen. Nach Recherchen hat sich gezeigt, dass
-dieses Vorhaben den Umfang eines eigenen Projektes beansprucht. Alternativ ist
-die Verwendung des SCORM-Players, wie in \cite{mitter:2005} und
-\cite{knall:2005} zu überdenken.
-
-\begin{k}
-ist das alles? @Julian + Benni: fällt euch hier noch was ein? Wenn ja, dann auch
-hier kommentieren oder eigenen Absatz schreiben oder irgendwie in mein
-bisheriges Zeug einflechten.
-
-Es soll ein richtiges Fazit entstehen, geht aber nur, wenn alles vollständig
-ist.
-\end{k}
+Mit der Konzeption einer Idee und der Umsetzung in eine Webapplikation wurde mit
+Masterly Mate letztlich ein Modell vorgeschlagen, welches auf spielerische Weise
+Lerninhalte nach dem Prinzip des Blended Learning vermittelt. Dazu wird ein
+passender Tutor anhand des Dreyfus-Modells gewählt. Zusammenfassend wurden
+demnach sehr moderne Lernmodelle mit klassischen in einer Lernplattform
+verknüpft.
