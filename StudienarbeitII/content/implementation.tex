@@ -49,7 +49,7 @@ auf Themen und einen ausführenden Zugriff auf WBTs.
 \section{Lokationen}
 Die Angabe von Lokationen bzw. Routen sind für REST-basierte Webanwendungen
 unumgänglich. Diese Lokationen werden in RoR in der Datei 
-config/routes.rb spezifiziert. Im Kapitel ref{ref:internationalisierung}
+config/routes.rb spezifiziert. Im Kapitel \ref{ref:internationalisierung}
 wurde erwähnt, wie I18n in Masterly Mate eingesetzt wird. In diesem Kapitel wird der
 Zugriff auf eine Sprachdatei durch Lokationen erläutert. In REST-basierten
 Webanwendungen gibt es verschiedene Möglichkeiten die gewünschte Sprache über
@@ -70,9 +70,11 @@ Layout unter app/views/shared/\_language\_switcher.html.erb festgelegt und kann
 somit in jedem anderen View ohne Probleme eingebunden werden.
 
 \section{Suche}
-\begin{k}
-Uebernimmt Julian/Benni?
-\end{k}
+Auf einen Suchalgorithmus wird bei Masterly Mate gänzlich verzichtet. Eine
+Eingrenzung von in einer Liste aufgeführten Objekten wird über die wie in
+Abschnitt \ref{ref:autoResult} beschriebenen Methodik vorgenommen. Demnach
+werden \ac{SQL}-Queries generiert, die bereits ein gefiltertes Ergebnis
+zurückliefern. Diese Aufgabe wird also an die Datenbank-Engine deligiert.
 
 \section{SCORM}\label{ref:implSCORM}
 Die SCORM-Funktionalität wird in dem Objekt "`wbt"' realisiert, welches in

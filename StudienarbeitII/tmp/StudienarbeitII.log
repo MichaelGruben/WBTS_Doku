@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  23 MAY 2013 09:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.4.8)  23 MAY 2013 10:50
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1179,7 +1179,7 @@ l.85 	\part{
 
 ] (./content/project.tex
 Kapitel 2.
-<images/MasterlyMateWolke.png, id=321, 605.26125pt x 345.54094pt>
+<images/MasterlyMateWolke.png, id=318, 605.26125pt x 345.54094pt>
 File: images/MasterlyMateWolke.png Graphic file (type png)
 
 <use images/MasterlyMateWolke.png>
@@ -1198,7 +1198,7 @@ Package acronym Info: Label `acro:LMS' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
  [4] [5]) (./content/theory.tex [6]
 Kapitel 3.
-<images/SPIsynapseS50.png, id=351, 481.8pt x 295.1025pt>
+<images/SPIsynapseS50.png, id=348, 481.8pt x 295.1025pt>
 File: images/SPIsynapseS50.png Graphic file (type png)
 
 <use images/SPIsynapseS50.png>
@@ -1248,7 +1248,7 @@ Package acronym Info: Label `acro:ADL' newly defined as it shall be overridden
 although it is yet undefined on input line 324.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 326.
- <images/SCORM-Components.png, id=425, 407.78348pt x 258.0039pt>
+ <images/SCORM-Components.png, id=422, 407.78348pt x 258.0039pt>
 File: images/SCORM-Components.png Graphic file (type png)
 
 <use images/SCORM-Components.png>
@@ -1270,7 +1270,7 @@ l.364
 Package acronym Info: Label `acro:CAM' newly defined as it shall be overridden
 although it is yet undefined on input line 388.
 
-<images/SCORM-Manifest.png, id=450, 292.6935pt x 325.39568pt>
+<images/SCORM-Manifest.png, id=447, 292.6935pt x 325.39568pt>
 File: images/SCORM-Manifest.png Graphic file (type png)
 
 <use images/SCORM-Manifest.png>
@@ -1281,7 +1281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--398
 [][]\T1/ppl/m/n/12 (+20) Schema der SCORM-
  []
 
-[18] <images/SCORM-API.png, id=462, 351.41287pt x 165.4983pt>
+[18] <images/SCORM-API.png, id=459, 351.41287pt x 165.4983pt>
 File: images/SCORM-API.png Graphic file (type png)
 
 <use images/SCORM-API.png>
@@ -1368,7 +1368,7 @@ although it is yet undefined on input line 28.
 Kapitel 5.
 [33
 
-] [34] <images/verteilungDerPunkte.png, id=589, 364.42148pt x 116.17403pt>
+] [34] <images/verteilungDerPunkte.png, id=586, 364.42148pt x 116.17403pt>
 File: images/verteilungDerPunkte.png Graphic file (type png)
 
 <use images/verteilungDerPunkte.png>
@@ -1413,17 +1413,17 @@ Kapitel 8.
 [57
 
 ] [58]
-\openout6 = `comment.cut'.
-
- (./comment.cut)
+Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
+although it is yet undefined on input line 76.
 Package acronym Info: Label `acro:PIF' newly defined as it shall be overridden
-although it is yet undefined on input line 83.
+although it is yet undefined on input line 85.
+ [59]
 Package acronym Info: Label `acro:AGPL' newly defined as it shall be overridden
 
-although it is yet undefined on input line 105.
+although it is yet undefined on input line 107.
 Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
-although it is yet undefined on input line 105.
- [59] [60] [61]) [62] [63
+although it is yet undefined on input line 107.
+ [60] [61]) [62] [63
 
 ] (./content/conclusion.tex
 Kapitel 9.
@@ -1435,20 +1435,10 @@ Kapitel 9.
 Kapitel 10.
 [65
 
-] [66]
-\openout6 = `comment.cut'.
-
- (./comment.cut)
-\openout6 = `comment.cut'.
-
- (./comment.cut [67])
-\openout6 = `comment.cut'.
-
- (./comment.cut)) [68]
+] [66] [67]) [68] [69]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
 9.
-
-(./StudienarbeitII.lof)
+ (./StudienarbeitII.lof)
 \tf@lof=\write10
 \openout10 = `StudienarbeitII.lof'.
 
@@ -1464,24 +1454,8 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 11
 \tf@lot=\write11
 \openout11 = `StudienarbeitII.lot'.
 
- [2
 
-
-
-]
-
-Class scrreprt Warning: Usage of deprecated \float@listhead!
-(scrreprt)              You should use the features of package `tocbasic'
-(scrreprt)              instead of \float@listhead.
-(scrreprt)              Definition of \float@listhead my be removed from
-(scrreprt)              `scrreprt' soon, so it should not be used  on input lin
-e 121.
-
-(./StudienarbeitII.lol)
-\tf@lol=\write12
-\openout12 = `StudienarbeitII.lol'.
-
- [3
+[2
 
 
 
@@ -1515,15 +1489,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 [][]$\T1/pcr/m/n/12 http : / / edgeguides .
  []
 
-[4
+[3
 
 
 
-] [5]) [6] (./ads/appendix.tex [7
+] [4]) [5] (./ads/appendix.tex [6
 
 ]
 Anhang A.
-[8
+[7
 
 ]
 Anhang B.
@@ -1612,10 +1586,10 @@ Overfull \hbox (7.93642pt too wide) in paragraph at lines 5--39
  [][][] 
  []
 
-[9
+[8
 
-] [10pdfTeX warning (ext4): destination with the same identifier (name{table.B.
-1}) has been already used, duplicate ignored
+] [9pdfTeX warning (ext4): destination with the same identifier (name{table.B.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1625,11 +1599,11 @@ Anhang C.
 (./ads/fdl13.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
- [11
+ [10
 
-] [12] [13] [14] [15] [16] [17] [18] [19] [20]))
+] [11] [12] [13] [14] [15] [16] [17] [18] [19]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
- [21]
+ [20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 
 (./StudienarbeitII.aux)
@@ -1637,10 +1611,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 17908 strings out of 493499
- 266274 string characters out of 3143792
+ 17897 strings out of 493499
+ 266111 string characters out of 3143792
  657057 words of memory out of 3000000
- 20231 multiletter control sequences out of 15000+200000
+ 20232 multiletter control sequences out of 15000+200000
  48787 words of font info for 184 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
  59i,11n,72p,1469b,709s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1651,10 +1625,10 @@ type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on StudienarbeitII.pdf (101 pages, 3366162 bytes).
+Output written on StudienarbeitII.pdf (101 pages, 3368065 bytes).
 PDF statistics:
- 1335 PDF objects out of 1440 (max. 8388607)
- 1200 compressed objects within 12 object streams
- 347 named destinations out of 1000 (max. 500000)
- 27476 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1329 PDF objects out of 1440 (max. 8388607)
+ 1194 compressed objects within 12 object streams
+ 346 named destinations out of 1000 (max. 500000)
+ 27460 words of extra memory for PDF output out of 29859 (max. 10000000)
 
