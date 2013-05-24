@@ -30,51 +30,55 @@ zu wartendes Produkt vor.
 Die Internationalisierung gewährleistet eine Webanwendung, die möglichst
 unabhängig von natürlichen Sprachen ist. Die Internationalisierung wird auch bei
 Masterly Mate weitestgehend bereits in der ersten Version eingesetzt.
+
 Die RoR API bietet dafür die Klasse I18n an, mit dessen Hilfe die
 Internationalisierung durchgeführt werden kann. Die Bezeichnung I18n
 kennzeichnet den Begriff Internationalisierung als Numeronym. Die Zahl 18 steht
 für die Anzahl an Buchstaben, die zwischen den Buchstaben I und n liegen.
 Die Klasse I18n bietet neben vielen anderen Methoden eine essentielle Methode
 an, mit dessen Hilfe die Internationalisierung von Masterly Mate weitestgehend
-realisiert werden kann. Die Methode trägt die Bezeichnung t als Kurzform für
+realisiert werden kann. 
+
+Die Methode trägt die Bezeichnung t als Kurzform für
 translate. Diese Methode erwartet als einzigen Parameter eine Zeichenkette,
 welche den Pfad zu dem entsprechenden Sprachstring angibt. Bei der
 Initialisierung der RoR Anwendung Masterly Mate, werden sämtliche *.yaml Dateien
-aus dem Verzeichnis config/locales/ als Sprachdateien geladen. Der Name einer
-Sprachdatei sollte aus Konventionsgründen einer Rails Webanwendung, stets den
+aus dem Verzeichnis \textit{config/locales/} als Sprachdateien geladen. Der Name
+einer Sprachdatei sollte aus Konventionsgründen einer Rails Webanwendung, stets den
 Ländercode beinhalten. In der ersten Version von Masterly Mate werden die
-Sprachen Deutsch und Englisch unterstützt. Sven Fuchs bietet für sämtliche
-Sprachen auf
-Github\footnote{\url{https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale}}
+Sprachen Deutsch und Englisch unterstützt. 
+
+Sven Fuchs bietet für sämtliche Sprachen auf
+Github\footnote{\url{https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale}} 
 vorgefertigte Sprachdateien an. Diese Sprachdateien definieren für die jeweilige
-Sprache entsprechende Formatierungen, wie z.B.
-Datum- und Zeitangaben. Aber auch die Werte für Labels von
-Formularsteuerungskomponenten, wie z.B. die Submit-Schaltfläche, werden in
+Sprache entsprechende Formatierungen, wie z.B. Datum- und Zeitangaben. Aber auch
+die Werte für Labels von Formularsteuerungskomponenten, wie z.B. die Submit-Schaltfläche, werden in
 diesen Sprachdateien festgelegt. Die anwendungsspezifischen Strings müssen
 selbstverständlich selbst in *.yaml Sprachdateien definiert und im Verzeichnis
-config/locales/ abgelegt werden. Eine RoR Sprachdatei ist hierarchisch
-aufgebaut. Die einzelnen Hierarchieebenen werden dann später beim Zugriff auf
-ein Sprachstring über ein Punkt voneinander getrennt. Grundlegend definiert man
-eine von der natürlichen Sprache unabhängige Zeichenkette dadurch, indem ein
-fester Bezeichner gefolgt von einem Doppelpunkt definiert wird. Nach dem
-Doppelpunkt folgt die sprachabhängige Zeichenkette. Im Programmcode wird an den
-Stellen, an denen eine sprachenunabhängige Zeichenkette ausgegeben werden soll,
-die Methode t der Klasse I18n eingesetzt und dieser als Parameter der Pfad zu
-dem entsprechenden Bezeichner übergeben.
-Masterly Mate ist nahezu vollständig für die Sprachen Deutsch und Englisch
-Internationalisiert. Lediglich die von den Nutzern erstellten WBTs sind nicht
-Internationalisiert. Einige WBT-Engines bieten den Mechanismus zur
-Internationalisierung nicht an. Aus diesem Grund wurde dieses Vorhaben im Rahmen
-dieser Studienarbeit vernachlässigt.
+\textit{config/locales/} abgelegt werden. 
+
+Eine RoR Sprachdatei ist hierarchisch aufgebaut. Die einzelnen Hierarchieebenen
+werden dann später beim Zugriff auf ein Sprachstring über ein Punkt voneinander
+getrennt. Grundlegend definiert man eine von der natürlichen Sprache unabhängige
+Zeichenkette dadurch, indem ein fester Bezeichner gefolgt von einem Doppelpunkt
+definiert wird. Nach dem Doppelpunkt folgt die sprachabhängige Zeichenkette. Im
+Programmcode wird an den Stellen, an denen eine sprachenunabhängige Zeichenkette
+ausgegeben werden soll, die Methode t der Klasse I18n eingesetzt und dieser als
+Parameter der Pfad zu dem entsprechenden Bezeichner übergeben.
+
+Masterly Mate ist bis auf die vom Nutzer erstellten WBTs vollständig für die
+Sprachen Deutsch und Englisch Internationalisiert. Einige WBT-Engines bieten
+den Mechanismus zur Internationalisierung nicht an. Aus diesem Grund wurde
+dieses Vorhaben im Rahmen dieser Studienarbeit vernachlässigt.
 
 \section{Beschreibung des Entwurfsklassendiagramms und
 Use-Case}\label{ref:classModel}
 
 \subsection{Use-Case Diagramm}
 Im Use-Case Diagramm aus Abbildung \ref{ref:picUseCaseDia}, sind die einzelnen
-benötigten Komponenten enthalten, wie sie die Analyse ergeben hat. Zunächst einmal lassen sich Aktoren
-ausmachen, welche in System/Software-Aktoren und menschliche Aktoren aufteilen
-lassen. 
+benötigten Komponenten enthalten, wie sie die Analyse ergeben hat. Zunächst
+lassen sich Aktoren ausmachen, welche in System/Software-Aktoren und menschliche
+Aktoren aufteilen lassen.
 
 \begin{figure}[ht]
 \centering
@@ -91,7 +95,7 @@ darstellt, wobei ein Lernender die geringsten und ein Admin die meisten
 Berechtigungen hat.
 
 Die einzelnen Use Cases werden nun jeweils im folgenden kurz beschrieben. Zu
-beachtenn ist dabei noch, dass diese Analyse sich nicht zwingend mit dem
+beachten ist dabei zusätzlich, dass diese Analyse sich nicht zwingend mit dem
 Ergebnis aus der Studienarbeit deckt, da Funktionalitäten auf spätere Releases
 verschoben worden sind.
 
@@ -108,7 +112,7 @@ Ein Benutzer startet ein WBT und schließt es erfolgreich ab bzw.
 scheitert oder beendet es vorzeitig. Im Anschluss daran, werden die erreichten
 Punkte im System eingetragen. In der Version der Studienarbeit, wird dies noch
 vom Benutzer selbst durchgeführt. Später soll dies das WBT übernehmen.
-	
+\newpage
 \subsubsection{Bewerten}
 Agierende Aktoren: \begin{itemize}
   \item Lernender
@@ -124,7 +128,7 @@ nicht in der Alpha-Version). Die Zweite Ausprägung ist die Bewertung eines WBTs
 Ein Benutzer muss das WBT dafür abgeschlossen haben. Ebenso wie beim Tutor kann
 er dies über Sterne und Kommentare tun.
 	
-\subsubsection{Sprache verwalen}
+\subsubsection{Sprachen verwalten}
 Agierende Aktoren: \begin{itemize}
   \item Alle menschlichen Aktoren (Ausprägung Sprache
 hinzufügen kann nur der Admin)
@@ -137,7 +141,7 @@ in der betreffenden Sprache vorhanden sind, ausgetauscht werden. Use Case Nummer
 Zwei kann nur von einem Administrator durchgeführt werden. Und bewirkt die
 Erzeugung einer weiteren Sprache, welche eingestellt werden kann. Gegenwärtig
 wird dies noch direkt durch eine Änderung der Sprachdateiten getan.
-
+\newpage
 \subsubsection{Profil verwalten}
 Agierende Aktoren: \begin{itemize}
   \item Alle menschlichen Aktoren
@@ -188,19 +192,25 @@ Benutzer ein Administrator ist. Dieser kann jedes WBT löschen oder ersetzen.
 
 \subsection{Entwurfsklassendiagramm}
 In dem Entwurfsklassendiagramm aus Abbildung \ref{ref:picKlassendia}, sind die
-Models und ihre Beziehungen zueinander dargestellt. Diese Modelle bilden
-einzelne Konzepte im System ab. So stellt User ein Zentrales Modell dar, welches
-als Abbildung eines Benutzers im System für die Authentifizierung verantwortlich
-trägt. Außerdem werden dem User verschiedene Themen und WBTs zugeordnet. Diese
-Verbindungen benötigen jeweils Assoziationsklassen. Dies liegt daran, dass es in
-dieser Verbindung Attribute gibt, welche sich nicht eindeutig User oder WBT bzw.
-Thema zuordnen lassen. Bei der Verbindung User-Thema benötigt man ein Attribut
-für die Punkte, welche bisher von dem User in dem System erziehlt worden sind.
-Außerdem muss klar sein welchen Rang ein User in dem jeweiligen Thema inne hat.
+Modelle und ihre Beziehungen zueinander dargestellt. Diese Modelle bilden
+einzelne Konzepte im System ab. 
+
+So stellt User ein Zentrales Modell dar, welches als Abbildung eines Benutzers
+im System für die Authentifizierung verantwortlich ist. Außerdem werden dem User
+verschiedene Themen und WBTs zugeordnet. Diese Verbindungen benötigen jeweils
+Assoziationsklassen. Dies liegt daran, dass es in dieser Verbindung Attribute
+gibt, welche sich nicht eindeutig User oder WBT bzw. Thema zuordnen lassen.
+
+Bei der Verbindung User-Thema benötigt man ein Attribut für die Punkte, welche
+bisher von dem User in dem System erziehlt worden sind. Außerdem muss klar sein
+welchen Rang ein User in dem jeweiligen Thema inne hat.
+
 Die Verbindung User-WBT dagegen benötigt eine Variable um zu hinterlegen ob ein
 User das WBT bereits einmal abgeschlossen hat und wenn ja, wie viele Punkte er
-erreicht hat. Im folgenden wird auf die Modelle des UML-Diagrammes näher
-eingegangen. Dazu sei noch angemerkt, dass zwischen einem realen Konzept und dem
+erreicht hat. 
+
+Im folgenden wird auf die Modelle des UML-Diagrammes näher
+eingegangen. Dazu sei angemerkt, dass zwischen einem realen Konzept und dem
 des Models underschieden wird. D.h. wenn z.B. im Folgenden vom User die Rede
 ist, dann ist hierbei das Model oder eine Instanz der User-Klasse gemeint. Wird
 hingegen vom Benutzer gesprochen, so ist auch tatsächlich jener gemeint.
@@ -317,19 +327,21 @@ Tutor mehr sein möchte.
 Eine übersichtliche und nicht zu detailierte Navigation für Masterly Mate war
 ebenfalls ein Ziel dieser Studienarbeit. Die Funktionsweise eines
 Navigationsmoduls sollte nicht neu entwickelt werden. Aus diesem Grund wurden
-einige vorgefertigte Gems für die Navigation in Betracht gezogen. Das Gem,
-welches letztlich für die Navigation in Masterly Mate eingesetzt wurde, nennt
-sich Simple-Navigation\footnote{\url{https://github.com/andi/simple-navigation}}.
+einige vorgefertigte Gems für die Navigation in Betracht gezogen. 
+
+Das Gem, welches letztlich für die Navigation in Masterly Mate eingesetzt wurde,
+nennt sich Simple-Navigation\footnote{\url{https://github.com/andi/simple-navigation}}.
 Die Handhabung dieses Gems ist sehr einfach und darüber hinaus bietet es eine
 übersichtliche Infrastruktur und somit ein Grundkonzept für die Funktionsweise
 einer Navigation. Die Elemente der Navigationsleiste werden an einer zentralen
 Stelle in der config/navigation.rb definiert. Auch das Festlegen von
 Subelementen ist möglich. Weiterhin kann man eine von mehreren 
 Darstellungsarten, wie z.B. einer ungeordneten HTML Liste, Linklisten,
-Breadcrumbs, etc. für das Navigationsmoduls auswählen. Für Masterly Mate wird
-eine entsprechend mit CSS formatierte Linkliste eingesetzt.
-Für das Impressum wurde im Rahmen dieser Studienarbeit keine eigene Seite in der
-Webanwendung vorgesehen. Dieses befindet sich daher in der Fußleiste von
+Breadcrumbs, etc. für das Navigationsmoduls auswählen. 
+
+Für Masterly Mate wird eine entsprechend mit CSS formatierte Linkliste
+eingesetzt. Für das Impressum wurde im Rahmen dieser Studienarbeit keine eigene
+Seite in der Webanwendung vorgesehen. Dieses befindet sich daher in der Fußleiste von
 Masterly Mate. Auch ein Kontaktformular wurde in dieser Arbeit nicht vorgesehen.
 Der Kontakt erfolgt in der aktuellen Version über das Anschreiben an die
 Entwickler von Masterly Mate per E-Mail. 
@@ -349,11 +361,13 @@ Thema einen Rang inne haben kann ist außerdem zu klären, wie sich das auf den
 Rang im Überthema auswirkt. Er könnte in diesem Falle sowohl die erzielten
 Punkte gutgeschrieben bekommen als auch in allen darüberliegenden Themen. Dann
 hätte er in dem Überthema einen Rang, welcher mindestens so hoch ist, wie der
-höchste Rang in einem der Unterthemen. 
+höchste Rang in einem der Unterthemen.
+ 
 In einem anderen Falle, namentlich Ränge in allen Themen ohne das kaskadieren
 der Punkte, wäre es möglich, dass der Benutzer in einem Unterthema Meister sein
 könnte im Übergeordneten jedoch nur Erfahrener, da er in dem Überthema nur die
 Punkte erhält, welche direkt diesem Thema untergeordnet sind.
+
 Ein ganz anderer Fall hingegen wäre es, wenn der Benutzer nur in einem der
 Überthemen einen Rang haben könnte und die Unterthemen einzig und allein der
 Unterteilung dienen. In diesem Falle müsste man im Datensatz nachprüfen ob das
@@ -367,6 +381,7 @@ mehrere Möglichkeiten. So ist es denkbar, dass bei einer Löschung eines Themas
 alle Unterthemen mit WBTs gelöscht werden. Dies sollte allerdings mit Vorsicht
 genossen werden und am besten mit einer oder eventuell zwei Abfragen hinterfragt
 und bestätigt werden.
+
 Eine andere, weniger gefährliche Option wäre es, die enthaltenen Unterthemen und
 WBTs dem übergeordneten Thema des gelöschten Themas zuzuordnen. In diesem Fall
 ist es notwendig ein Root-Thema zu definieren, welches alle Themen beinhaltet.
