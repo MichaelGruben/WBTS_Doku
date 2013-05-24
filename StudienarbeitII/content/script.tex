@@ -280,6 +280,13 @@ viele Punkte er durch die Absolvierung von WBTs in einem Thema erreicht hat.
 Entsprechend zeigt das Assesment auch den Rang an, den ein Benutzer in einem
 bestimmten Thema erreicht hat.
 
+\subsubsection{Exam}
+Die Assoziationsklasse Exam wird in der Datenbank als Mapping-Tabelle zwischen
+einem Assessment und einem WBT abgebildet. Diese wird als Assoziationsklasse
+aufgefasst, da neben den Referenzen zu einem WBT und einem Assessment die Anzahl
+an erreichten Punkten erfasst werden soll. Ein Assessment besitzt demnach
+beliebig viele Examen und ein WBT ist beliebig vielen Examen zugeordnet.
+
 \subsubsection{Rank}
 Der Rang eines Benutzer spiegelt den Erfahrungsstand wieder, den ein Benutzer in
 einem Thema erreicht hat. Er wird bei entsprechender Punktzahl (Erspielte Punkte
